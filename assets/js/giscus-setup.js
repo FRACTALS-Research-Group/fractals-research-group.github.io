@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "FRACTALS-Research-Group/fractals.github.io",
+    "data-repo": "FRACTALS-Research-Group/fractals-research-group.github.io",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
