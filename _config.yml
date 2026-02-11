@@ -7,7 +7,7 @@ first_name:
 middle_name:
 last_name:
 contact_note: >
-  For general inquiries, collaborations, or information about our research, please contact us at <a href="mailtofractals-research-group-grpunive@unive.it:">fractals-research-group-grpunive@unive.it</a>
+  For general inquiries, collaborations, or information about our research, please contact us at <a href="mailto:fractals-research-group-grpunive@unive.it">fractals-research-group-grpunive@unive.it</a>
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Fair and Responsible Algorithms for Complex Systems, Therapeutics, Astrophysics and Life-Sciences Research Group at Ca' Foscari University of Venice.
 footer_text: >
@@ -398,7 +398,7 @@ enable_google_analytics: false # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
-enable_google_verification: false # enables google site verification
+enable_google_verification: true # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_cookie_consent: false # enables GDPR-compliant cookie consent dialog (https://github.com/orestbida/cookieconsent)
 enable_masonry: true # enables automatic project cards arrangement
