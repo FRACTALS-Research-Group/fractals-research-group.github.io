@@ -5,6 +5,13 @@ layout: page
     <article>
         {% if page.profiles %}
             {% for profile in page.profiles %}
+                {% if profile.separator %}
+                <div class="institution-separator">
+                    <hr>
+                    <h2 class="text-center mt-4 mb-4">{{ profile.separator }}</h2>
+                </div>
+                {% continue %}
+                {% endif %}
                 <hr>
                 <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
                     {% if profile.image %}
@@ -20,12 +27,34 @@ layout: page
 
                     <div class="more-info">
                         {% if profile.email %}
-                            <i class="fa-solid fa-envelope"></i> <a href="mailto:{{ profile.email }}">{{ profile.email }}</a><br>
+                            <div>
+                            <i class="fa-solid fa-envelope"></i> 
+                            <a href="mailto:{{ profile.email }}">{{ profile.email }}</a>
+                            </div>
                         {% endif %}
+
                         {% if profile.website %}
-                            <i class="fa-solid fa-house"></i> <a href="{{ profile.website }}" target="_blank">Visit Website</a>
+                            <div>
+                            <i class="fa-solid fa-globe"></i>
+                            <a href="{{ profile.website }}" target="_blank">Website</a>
+                            </div>
                         {% endif %}
-                    </div>
+
+                        {% if profile.social and profile.social.linkedin %}
+                            <div>
+                            <i class="fab fa-linkedin"></i> 
+                            <a href="https://www.linkedin.com/in/{{ profile.social.linkedin }}" target="_blank">LinkedIn Profile</a>
+                            </div>
+                        {% endif %}
+
+                        {% if profile.social and profile.social.scholar %}
+                            <div>
+                            <i class="fas fa-graduation-cap"></i> 
+                            <a href="https://scholar.google.com/citations?user={{ profile.social.scholar }}" target="_blank">Google Scholar Profile</a>
+                            </div>
+                        {% endif %}
+                        </div>
+
 
                     {% if profile.more_info %}
                         <div class="more-info">{{ profile.more_info }}</div>
@@ -43,4 +72,27 @@ layout: page
             {% endfor %}
         {% endif %}
     </article>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        // select all Read more buttons
+        document.querySelectorAll(".bio-toggle").forEach(function(btn) {
+            btn.addEventListener("click", function() {
+            var container = btn.closest(".bio-container"); // find the container
+            var full = container.querySelector(".bio-full");
+            var preview = container.querySelector(".bio-preview");
+            if(full.style.display === "none") {
+                full.style.display = "block";
+                preview.style.display = "none";
+                btn.textContent = "Show less";
+            } else {
+                full.style.display = "none";
+                preview.style.display = "block";
+                btn.textContent = "Read more";
+            }
+            });
+        });
+        });
+    </script>
+
 </div>
