@@ -1,7 +1,7 @@
 <div style='text-align: justify;'>
 
 <h4><b>Marco S. Nobile</b></h4>
-<h6><i>Associate Professor @ University of Milano-Bicocca</i></h6>
+<h6><i>Associate Professor @ University of Ca' Foscari University of Venice</i></h6>
 
 <div class="bio-container">
   <div class="bio-preview">
