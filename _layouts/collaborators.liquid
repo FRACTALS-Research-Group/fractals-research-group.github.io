@@ -1,0 +1,48 @@
+---
+layout: page
+---
+<div class="post">
+  <article>
+    {{ content }}
+
+    {% if page.collaborators %}
+      {% for institution in page.collaborators %}
+        <div class="institution-block" style="margin-top: 50px;">
+          <h2 class="category" style="border-bottom: 1px solid var(--global-divider-color); padding-bottom: 10px; font-weight: 800; text-transform: uppercase;">
+            {{ institution.name }}
+          </h2>
+          
+          <div class="row">
+            {% for person in institution.people %}
+            <div class="col-6 col-sm-4 col-md-3 collab-item" style="margin-top: 30px; text-align: center;">
+              <div class="collab-card" style="padding: 15px; border-radius: 10px; border: 1px solid var(--global-divider-color); height: 100%;">
+                {% if person.image %}
+                  <img src="{{ person.image | relative_url }}" style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover; margin-bottom: 15px; filter: grayscale(100%);">
+                {% else %}
+                  <i class="fas fa-user-circle" style="font-size: 80px; opacity: 0.2; margin-bottom: 15px;"></i>
+                {% endif %}
+                
+                <h6 style="font-weight: 800; margin-bottom: 5px; font-size: 0.95rem;">{{ person.name }}</h6>
+                <p style="font-size: 0.8rem; opacity: 0.7; line-height: 1.2; margin-bottom: 10px;">{{ person.role }}</p>
+                
+                <div class="links" style="font-size: 0.9rem;">
+                  {% if person.email %}<a href="mailto:{{ person.email }}"><i class="fas fa-envelope"></i></a>{% endif %}
+                  {% if person.linkedin %}<a href="https://linkedin.com/in/{{ person.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>{% endif %}
+                  {% if person.scholar %}<a href="{{ person.scholar }}" target="_blank"><i class="fas fa-graduation-cap"></i></a>{% endif %}
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    {% endif %}
+  </article>
+</div>
+
+<style>
+  .collab-card:hover { border-color: var(--global-theme-color) !important; }
+  .collab-card img:hover { filter: grayscale(0%) !important; transition: 0.3s; }
+  .collab-card .links a { color: var(--global-text-color); margin: 0 5px; opacity: 0.6; }
+  .collab-card .links a:hover { color: var(--global-theme-color); opacity: 1; }
+</style>

@@ -1,8 +1,8 @@
 ---
 layout: profiles_advanced
 permalink: /people/
-title: People
-description: Members of the Fractals Research Group
+title: people
+description: Meet the members of the Fractals Research Group
 nav: true
 nav_order: 1
 
@@ -13,7 +13,7 @@ profiles:
     image: bio_pics/marco.png
     content: profiles/bio_marco.md
     image_circular: false # crops the image to make it circular
-    website: www.msnobile.eu
+    website: https://www.msnobile.eu
     social:
       linkedin: aresio
       scholar: Qd21Ym0AAAAJ
@@ -28,7 +28,7 @@ profiles:
   - align: left
     image: bio_pics/matteo.png
     content: profiles/bio_matteo.md
-    website: www.matteograzioso.com
+    website: https://www.matteograzioso.com
     social:
       linkedin: matteo-grazioso
       scholar: 38WygboAAAAJ
