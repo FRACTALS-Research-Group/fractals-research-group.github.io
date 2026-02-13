@@ -84,7 +84,7 @@ profiles:
       scholar: fg848IcAAAAJ
     email: daniele.papetti@unimib.it
 
-  - separator: "University of Milano-Bicocca"
+  - separator: "University of Bergamo"
   - align: right
     image: bio_pics/paolo.jpg
     content: profiles/bio_paolo.md
