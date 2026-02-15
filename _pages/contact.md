@@ -26,6 +26,9 @@ nav_order: 6
         <div style="margin-bottom: 10px;">
             <i class="fas fa-paper-plane" style="width: 20px; opacity: 0.6;"></i> <a href="mailto:fractals@unive.it" style="font-weight: 700; color: var(--global-text-color);">fractals@unive.it</a>
         </div>
+        <div style="margin-bottom: 10px;">
+            <i class="fas fa-envelope" style="width: 20px; opacity: 0.6;"></i> <a href="mailto:marco.nobile@unive.it" style="font-weight: 700; color: var(--global-text-color);">marco.nobile@unive.it</a>
+        </div>
         <div>
             <i class="fas fa-users" style="width: 20px; opacity: 0.6;"></i> <a href="mailto:fractals-research-group-grpunive@unive.it" style="font-weight: 700; color: var(--global-text-color);">fractals-research-group-grpunive@unive.it</a>
         </div>
