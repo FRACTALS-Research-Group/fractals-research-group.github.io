@@ -18,14 +18,14 @@ ninja.data = [{
           },
         },{id: "nav-publications",
           title: "publications",
-          description: "Complete list of publications by the Fractals Research Group",
+          description: "Research output of the FRACTALS Research Group",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Discover the areas of Research Interest and the innovative projects undertaken by the Fractals Research Group.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
