@@ -26,9 +26,9 @@ nav_order: 6
         <div style="margin-bottom: 10px;">
             <i class="fas fa-paper-plane" style="width: 20px; opacity: 0.6;"></i> <a href="mailto:fractals@unive.it" style="font-weight: 700; color: var(--global-text-color);">fractals@unive.it</a>
         </div>
-        <div style="margin-bottom: 10px;">
+        <!-- <div style="margin-bottom: 10px;">
             <i class="fas fa-envelope" style="width: 20px; opacity: 0.6;"></i> <a href="mailto:marco.nobile@unive.it" style="font-weight: 700; color: var(--global-text-color);">marco.nobile@unive.it</a>
-        </div>
+        </div> -->
         <div>
             <i class="fas fa-users" style="width: 20px; opacity: 0.6;"></i> <a href="mailto:fractals-research-group-grpunive@unive.it" style="font-weight: 700; color: var(--global-text-color);">fractals-research-group-grpunive@unive.it</a>
         </div>
@@ -108,11 +108,3 @@ nav_order: 6
         .row { padding: 15px !important; }
     }
 </style>
-
----
-
-<div style="text-align: center; margin-top: 30px; border-top: 1px solid var(--global-divider-color); padding-top: 30px;">
-    <p class="text-muted" style="font-family: serif; font-size: 1.2rem; font-style: italic; opacity: 0.8;">
-        "Decoding the future, one interpretable algorithm at a time."
-    </p>
-</div>

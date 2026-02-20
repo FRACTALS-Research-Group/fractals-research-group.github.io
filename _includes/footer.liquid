@@ -1,14 +1,20 @@
 {% capture footer_contents %}
-  &copy; Copyright {{ site.time | date: '%Y' }}
-  {{ site.first_name }}
-  {{ site.middle_name }}
-  {{ site.last_name }}. {{ site.footer_text }}
-  {% if site.impressum_path %}
-    <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
-  {% endif %}
-  {% if site.last_updated %}
-    Last updated: {{ 'now' | date: '%B %d, %Y' }}.
-  {% endif %}
+  <div class="footer-main">
+    <div class="footer-left">
+      <div class="footer-copyright">
+        &copy; Copyright {{ site.time | date: '%Y' }} <strong>FRACTALS</strong> Research Group.
+      </div>
+      <div class="footer-contact">
+        <i class="fas fa-envelope"></i> <a href="mailto:fractals@unive.it">fractals@unive.it</a>
+        {% if site.last_updated %}
+          <span class="last-updated">&middot; Last updated: {{ 'now' | date: '%B %d, %Y' }}</span>
+        {% endif %}
+      </div>
+    </div>
+    <div class="footer-hub">
+      Venice &middot; Milano &middot; Bergamo
+    </div>
+  </div>
 {% endcapture %}
 
 {% if site.footer_fixed %}
@@ -28,3 +34,56 @@
     </div>
   </footer>
 {% endif %}
+
+<style>
+  .footer-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    padding: 15px 0;
+  }
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .footer-copyright {
+    font-size: 1rem;
+  }
+  .footer-contact {
+    font-size: 1rem;
+    opacity: 0.8;
+  }
+  .footer-contact a {
+    color: var(--global-text-color) !important;
+    text-decoration: none;
+    border-bottom: 1px solid var(--global-theme-color);
+  }
+  .footer-contact a:hover {
+    color: var(--global-theme-color) !important;
+    text-decoration: none;
+  }
+  .footer-hub {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--global-theme-color);
+    font-size: 0.85rem;
+  }
+  .last-updated {
+    margin-left: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-main {
+      flex-direction: column;
+      text-align: center;
+    }
+    .footer-left {
+      align-items: center;
+    }
+  }
+</style>

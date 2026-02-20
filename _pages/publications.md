@@ -13,6 +13,7 @@ nav_order: 2
   <strong>Jump to:</strong> &nbsp;
   <button onclick="scrollToSection('journals')" class="btn-link">Journals</button> &nbsp;|&nbsp;
   <button onclick="scrollToSection('conferences')" class="btn-link">Conferences</button> &nbsp;|&nbsp;
+  <button onclick="scrollToSection('bookchapters')" class="btn-link">Book Chapters</button> &nbsp;|&nbsp;
   <button onclick="scrollToSection('abstracts')" class="btn-link">Abstracts & Posters</button>
 </div>
 
@@ -28,6 +29,11 @@ nav_order: 2
   {% bibliography -f {{ site.scholar.bibliography }} -q @inproceedings %}
 </div>
 
+<div id="bookchapters-section">
+  <h2 class="category">Book Chapters</h2>
+  {% bibliography -f {{ site.scholar.bibliography }} -q @incollection %}
+</div>
+
 <div id="abstracts-section">
   <h2 class="category">Abstracts & Posters</h2>
   {% bibliography -f {{ site.scholar.bibliography }} -q @unpublished %}
@@ -39,7 +45,7 @@ nav_order: 2
 function scrollToSection(id) {
   const element = document.getElementById(id + "-section");
   if (element) {
-    const headerOffset = 80; // Regola in base all'altezza della tua navbar
+    const headerOffset = 80; 
     const elementPosition = element.getBoundingClientRect().top;
     const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
@@ -53,11 +59,12 @@ function scrollToSection(id) {
 
 <style>
   .category {
-    margin-top: 2rem;
+    margin-top: 2.5rem; /* Aumentato leggermente per respiro */
     padding-bottom: 10px;
     border-bottom: 1px solid var(--global-divider-color);
     color: var(--global-theme-color);
     text-transform: uppercase;
+    font-weight: 800;
   }
 
   .btn-link {
@@ -69,9 +76,11 @@ function scrollToSection(id) {
     padding: 0;
     text-decoration: underline;
     font-size: 1rem;
+    transition: opacity 0.2s;
   }
 
   .btn-link:hover {
     color: var(--global-text-color);
+    opacity: 0.7;
   }
 </style>

@@ -8,70 +8,132 @@ nav_order: 3
 display_categories: [work, fun]
 horizontal: false
 ---
-<!-- PAGE UNDER CONSTRUCTION -->
-<div style="text-align: center; margin-top: 50px;">
-    <h2 style="font-weight: 800; color: var(--global-text-color);">Page Under Construction</h2>
-    <p style="font-size: 1.2rem; color: var(--global-text-color); opacity: 0.7;">We're working hard to bring you the latest updates on our projects. Stay tuned!</p>
+
+<div class="row mt-4 mb-5">
+  <div class="col-md-6 mb-3">
+    <a href="/funding/" class="card-impact-compact">
+      <div class="card-content">
+        <i class="fas fa-hand-holding-usd fa-2x"></i>
+        <div class="text-group">
+          <h4 class="m-0">Research Funding</h4>
+          <p class="m-0 small">Grants and supporting institutions</p>
+        </div>
+      </div>
+      <i class="fas fa-arrow-right arrow-icon"></i>
+    </a>
+  </div>
+  <div class="col-md-6 mb-3">
+    <a href="/patents/" class="card-impact-compact">
+      <div class="card-content">
+        <i class="fas fa-certificate fa-2x"></i>
+        <div class="text-group">
+          <h4 class="m-0">Patents</h4>
+          <p class="m-0 small">Technological breakthroughs</p>
+        </div>
+      </div>
+      <i class="fas fa-arrow-right arrow-icon"></i>
+    </a>
+  </div>
 </div>
 
-<!-- Interest in Joint Research Projects? Vistin contact us page-->
+<hr>
+
 <div style="text-align: center; margin-top: 50px;">
-    <h2 style="font-weight: 800; color: var(--global-text-color);">Interested in Joint Research Projects?</h2>
-    <p style="font-size: 1.2rem; color: var(--global-text-color); opacity: 0.7;">Visit our <a href="/contacts/">Contact Us</a> page to get in touch with us and explore potential collaborations!</p>
+    <h2 style="font-weight: 800; color: var(--global-text-color);">Current Research Projects</h2>
+    <p style="font-size: 1.2rem; color: var(--global-text-color); opacity: 0.7;">We're currently documenting our latest breakthroughs. Detailed project cards will appear below shortly.</p>
 </div>
 
-
-<!-- pages/projects.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
   {% endif %}
-  {% endfor %}
-
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
 </div>
+
+<div style="text-align: center; margin-top: 80px; padding: 40px; background: var(--global-code-bg-color); border-radius: 12px;">
+    <h2 style="font-weight: 800; color: var(--global-text-color);">Interested in Joint Research Projects?</h2>
+    <a href="/contacts/" class="btn btn-theme">Contact Our Research Group</a>
+</div>
+
+<style>
+  .card-impact {
+    border: 1px solid var(--global-divider-color);
+    border-radius: 12px;
+    padding: 30px;
+    height: 100%;
+    transition: all 0.3s ease;
+    background: var(--global-bg-color);
+  }
+  .card-impact:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-color: var(--global-theme-color);
+  }
+  .btn-outline-theme {
+    color: var(--global-theme-color);
+    border: 1px solid var(--global-theme-color);
+    border-radius: 50px;
+    padding: 8px 20px;
+    font-weight: 600;
+  }
+  .btn-outline-theme:hover {
+    background-color: var(--global-theme-color);
+    color: white !important;
+  }
+  .btn-theme {
+    background-color: var(--global-theme-color);
+    color: white !important;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .card-impact-compact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 10px;
+    background: var(--global-bg-color);
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+    color: var(--global-text-color) !important;
+  }
+  .card-impact-compact:hover {
+    border-color: var(--global-theme-color);
+    transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+
+  .card-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .card-content i {
+    color: var(--global-theme-color);
+    width: 40px;
+    text-align: center;
+  }
+
+  .text-group h4 {
+    font-weight: 800;
+    font-size: 1.1rem;
+  }
+
+  .text-group p {
+    opacity: 0.7;
+    font-size: 0.85rem;
+  }
+
+  .arrow-icon {
+    opacity: 0.3;
+    transition: all 0.3s ease;
+  }
+
+  .card-impact-compact:hover .arrow-icon {
+    opacity: 1;
+    transform: translateX(5px);
+    color: var(--global-theme-color);
+  }
+</style>
