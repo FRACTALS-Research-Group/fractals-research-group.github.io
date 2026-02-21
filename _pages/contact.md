@@ -1,24 +1,29 @@
 ---
 layout: page
-title: contact us
+title: Contact Us
 permalink: /contacts/
 nav: true
 nav_order: 6
 ---
 
-<div class="contact-header" style="margin-bottom: 50px; border-bottom: 2px solid var(--global-text-color); padding-bottom: 30px;">
+<header class="about-header" style="margin-bottom: 60px; padding-bottom: 40px; border-bottom: 1px solid var(--global-divider-color);">
     <h1 class="display-3" style="font-weight: 800; letter-spacing: -2px; margin-bottom: 0;">FRACTALS</h1>
     <p style="font-size: 1.1rem; text-transform: uppercase; letter-spacing: 2px; font-weight: 600; margin-bottom: 20px; color: var(--global-theme-color);">
         Research Group
     </p>
-    
-    <div style="margin-bottom: 25px;">
-        <p style="font-size: 1.4rem; line-height: 1.4; font-weight: 300; border-left: 4px solid var(--global-theme-color); padding-left: 20px;">
-            <strong>F</strong>air and <strong>R</strong>esponsible <strong>A</strong>lgorithms for <strong>C</strong>omplex-systems, <br>
-            <strong>T</strong>herapeutics, <strong>A</strong>strophysics and <strong>L</strong>ife-Sciences
-        </p>
+
+    <div style="margin-top: 30px; position: relative;">
+        <div style="font-size: 1.5rem; line-height: 1.5; font-weight: 300; border-left: 5px solid var(--global-theme-color); padding: 10px 0 10px 25px; color: var(--global-text-color);">
+            <strong style="font-weight: 800;">F</strong>air and <strong style="font-weight: 800;">R</strong>esponsible <strong style="font-weight: 800;">A</strong>lgorithms for <br>
+            <strong style="font-weight: 800;">C</strong>omplex-systems, <strong style="font-weight: 800;">T</strong>herapeutics, <br>
+            <strong style="font-weight: 800;">A</strong>strophysics and <strong style="font-weight: 800;">L</strong>ife-<strong style="font-weight: 800;">S</strong>ciences
+        </div>
     </div>
-</div>
+
+    <div style="margin-top: 25px; font-size: 0.9rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: var(--global-theme-color);">
+        <i class="fas fa-landmark"></i> Venice &middot; Milano &middot; Bergamo
+    </div>
+</header>
 
 <div class="row" style="margin-bottom: 60px; background-color: var(--global-code-bg-color); padding: 30px; border-radius: 8px;">
     <div class="col-sm-7" style="border-right: 1px solid var(--global-divider-color);">

@@ -1,7 +1,8 @@
 ---
 layout: collaborators
-title: collaborators
+title: Collaborators
 permalink: /collaborators/
+description: Explore our network of esteemed collaborators and partner institutions that drive innovation and excellence in research at the Fractals Research Group.
 nav: true
 nav_order: 5
 

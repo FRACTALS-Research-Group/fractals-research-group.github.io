@@ -1,6 +1,6 @@
 ---
 layout: page
-title: patents & intellectual property
+title: Patents & Intellectual Property
 permalink: /patents/
 description: Technological breakthroughs and certified innovations developed by the FRACTALS Research Group.
 nav: false

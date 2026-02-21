@@ -1,7 +1,7 @@
 ---
 layout: profiles_advanced
 permalink: /people/
-title: people
+title: People
 description: Meet the members of the Fractals Research Group
 nav: true
 nav_order: 1

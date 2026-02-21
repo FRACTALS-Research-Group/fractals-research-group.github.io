@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Research output of the FRACTALS Research Group
 nav: true
 nav_order: 2
