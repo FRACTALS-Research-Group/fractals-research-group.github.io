@@ -1,6 +1,6 @@
 ---
 layout: page
-title: research funding
+title: Research Funding
 permalink: /funding/
 description: Key grants and funded projects supporting the FRACTALS Research Group.
 nav: false

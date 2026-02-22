@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Medical Imaging & Signal Analysis
-permalink: /projects/medical-imaging/
+title: Therapeutics, Drug Discovery & Design
+permalink: /projects/therapeutics/
 ---
 <div class="projects">
-  {% assign projects = site.projects | where: "category", "medical-imaging" | sort: "importance" %}
+  {% assign projects = site.projects | where: "category", "therapeutics" | sort: "importance" %}
   <div class="row row-cols-1 row-cols-md-2">
     {% for project in projects %}{% include projects.liquid %}{% endfor %}
   </div>

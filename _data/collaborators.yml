@@ -43,6 +43,22 @@ institutions:
       - name: "Arjen-Kars Boer"
         role: "Associate Professor"
         interests: "Biomedical Engineering, Chemical Biology, Computational Biology"
+      - name: "Caro Fuchs"
+        role: "Former Doctoral Candidate"
+        interests: "Artificial Intelligence, Computational Intelligence, Behavioral Ecology"
+        scholar: gcPL31AAAAAJ
+      - name: "Isel Grau"
+        role: "Assistant Professor"
+        interests: "Machine learning, Interpretability, Explainable AI"
+        scholar: q6MlzO0AAAAJ
+      - name: "Francesca Grisoni"
+        role: "Associate Professor"
+        interests: "Drug Discovery, Molecular ML, Artificial Intelligence, De Novo Design, Cheminformatics"
+        scholar: qw2NmGsAAAAJ
+      - name: "Uzay Kaymak"
+        role: "Full Professor"
+        interests: "Fuzzy Logic, Business Intelligence, Soft Computing, Data Mining, Healthcare Decision Support"
+        scholar: SeNK5nAAAAAJ
 
   - name: "Ca' Foscari University of Venice"
     location: "Venice, Italy"
@@ -96,6 +112,21 @@ institutions:
         role: "Full Professor"
         interests: "General and Inorganic Chemistry"
         scholar: CO33tE4AAAAJ
+      - name: "Vanna Denti"
+        role: "Assistant Professor"
+        interests: "Mass Spectrometry, MALDI-MSI, Biochemestry"
+        scholar: B-4OydoAAAAJ
+      - name: "Claudio Ferretti"
+        role: "Associate Professor"
+        interests: "Computational Models"
+        scholar: 1tBFlxgAAAAJ
+      - name: "Stefania Galimberti"
+        role: "Full Professor"
+        interests: "Medical Statistics, Hygiene, Public Health, Nursing And Midwifery"
+        scholar: BBozOFkAAAAJ
+      - name: "Alex Graudenzi"
+        role: "Associate Professor"
+        interests: "Data Science, AI, Bioinformatics, Cancer Evolution, Complex Systems"
 
   - name: "Bocconi University"
     location: "Milan, Italy"
@@ -129,6 +160,10 @@ institutions:
       - name: "Marco Barreca"
         role: "Bioinformatician"
         interests: "Bioinformatics, Breast cancer, Oncology"
+      - name: "Luisa Lanfrancone"
+        role: "Unit Director"
+        interests: "Oncology"
+        scholar: -txWZr0AAAAJ
 
   - name: "University of Turin"
     location: "Turin, Italy"
@@ -151,6 +186,9 @@ institutions:
         role: "Medical Doctor"
         interests: "Critical Care Medicine, Emergency medicine"
         scholar: bpKT2JYAAAAJ
+      - name: "Fabrizio Gelain"
+        role: "Medical Doctor"
+        interests: "Nanomedicine, Tissue engineering, Self-assembling peptides, Neuroregeneration"
 
   - name: "Vita-Salute San Raffaele University Hospital, IRCCS"
     location: "Milan, Italy"
@@ -160,6 +198,14 @@ institutions:
         role: "Associate Professor"
         interests: "Medical Oncology, Personalized Medicine"
         scholar: 5uIiTbEAAAAJ
+      - name: "Matteo Dugo"
+        role: "Senior Bioinformatics Scientist"
+        interests: "Bioinformatics, Computational Biology, Cancer Genomics"
+        scholar: _K5RYJ4AAAAJ
+      - name: "Barbara Galbardi"
+        role: "Bioinformatician"
+        interests: "Bioinformatician, Biostatistician, Applied Mathematician"
+        scholar: Ulzj9A4AAAAJ
   
   - name: "Polytechnic of Milan"
     location: "Milan, Italy"
@@ -169,6 +215,10 @@ institutions:
         role: "Full Professor"
         interests: "Machine Learning, Human-Robot Interaction, Robot Design, Robot Entertainment, Robot and Disability"
         scholar: WgxMfwMAAAAJ
+      - name: "Marco Gribaudo"
+        role: "Associate Professor"
+        interests: "Performance Evaluation, Computer Graphics"
+        scholar: ZlnvxioAAAAJ
 
   - name: "Johns Hopkins Medical University"
     location: "Baltimore, MD, USA"
@@ -178,6 +228,14 @@ institutions:
         role: "Assistant Professor of Medicine"
         interests: "Computational Cardiology"
         scholar: n_scUcgAAAAJ
+      - name: "Henry Halperin"
+        role: "Medical Doctor"
+        interests: "Computational Cardiology"
+        scholar: Mx3401wAAAAJ
+      - name: "Sujai Jaipalli"
+        role: "Medical Doctor"
+        interests: "Computational Cardiology"
+        scholar: fF1KxeUAAAAJ
   
   - name: "Italian Auxologic Institute, IRCCS"
     location: "Milan, Italy"
@@ -196,6 +254,10 @@ institutions:
         role: "Full Professor"
         interests: "Genetic Programming, Machine Learning, Artificial Intelligence"
         scholar: 23HUHAIAAAAJ
+      - name: "Davide Farinati"
+        role: "Former Doctoral Candidate"
+        interests: "Genetic Programming, Machine Learning, Artificial Intelligence, Evolutionary Computation, Explainable AI, Biomedical AI"
+        scholar: 38WygboAAAAJ
   
   - name: "Fondazione IRCCS San Gerardo dei Tintori"
     location: "Monza, Italy"
@@ -205,6 +267,10 @@ institutions:
         role: "Medical Doctor"
         interests: "Digital Pathology"
         scholar: Ps04zMAAAAAJ
+      - name: "Vincenzo L'Imperio"
+        role: "Medical Doctor"
+        interests: "Digital Pathology, Renal Pathology, Proteomics"
+        scholar: obgf_SUAAAAJ
 
   - name: "University of British Columbia"
     location: "Vancouver, Canada"
@@ -236,3 +302,82 @@ institutions:
         role: "Full Professor"
         interests: "Computer Science, Artificial Intelligence"
         scholar: 2I7mh3IAAAAJ
+  
+  - name: "University of Bologna"
+    location: "Bologna, Italy"
+    logo: "fas fa-university"
+    people:
+      - name: "Stefano Diciotti"
+        role: "Associate Professor"
+        interests: "Biomedical Engineering, Medical Imaging, Machine Learning, Neuroimaging, Artificial Intelligence in Medicine"
+        scholar: dayYdQ0AAAAJ
+
+  - name: "Carlo Cattaneo University"
+    location: "Varese, Italy"
+    logo: "fas fa-university"
+    people:
+      - name: "Elena Falletti"
+        role: "Associate Professor"
+        interests: "Comparative Law, Technology and Law, Privacy, Artificial Intelligence"
+        scholar: RRsfCGcAAAAJ
+      - name: "Emanuela Foglia"
+        role: "Researcher"
+        interests: "Comparative Law, Technology and Law, Privacy, Artificial Intelligence"
+
+  - name: "University of Cambridge"
+    location: "Cambridge, UK"
+    logo: "fas fa-university"
+    people:
+      - name: "Alessandro Favero"
+        role: "Physics-AI Fellow"
+        interests: "Deep Learning, Machine Learning, Artificial Intelligence, Statistical Physics, Physics of Learning"
+        scholar: E0sOorcAAAAJ
+      - name: "Pietro Liò"
+        role: "Full Professor"
+        interests: "Artificial Intelligence, Computational Biology, Medicine"
+        scholar: 4YhNJBEAAAAJ
+
+  - name: "University of Vienna"
+    location: "Vienna, Austria"
+    logo: "fas fa-university"
+    people:
+      - name: "Leonida Fusani"
+        role: "Professor"
+        interests: "Courtship displays, Bird Migration, Behavioral Ecology"
+        scholar: eM3jSwYAAAAJ
+
+  - name: "Kyoto University"
+    location: "Kyoto, Japan"
+    logo: "fas fa-university"
+    people:
+      - name: "Ryuichiro Hataya"
+        role: ""
+        interests: "Machine Learning, Deep Learning, Computer vision"
+        scholar: 84l6KcEAAAAJ
+
+  - name: "Open University of the Netherlands"
+    location: "Heerlen, The Netherlands"
+    logo: "fas fa-university"
+    people:
+      - name: "Arjen Hommersom"
+        role: "Associate Professor"
+        interests: "Artificial Intelligence, Artificial Intelligence in Medicine"
+        scholar: qwYoEBUAAAAJ
+
+  - name: "National Institutes of Health"
+    location: "USA"
+    logo: "fas fa-landmark"
+    people:
+      - name: "Peter Kellman"
+        role: "Staff Scientist Emeritus"
+        interests: "Signal Processing, Image Reconstruction, MRI"
+        scholar: wpXfORUAAAAJ
+        
+  - name: "University Hospital of Padua"
+    location: "Padua, Italy"
+    logo: "fas fa-hospital"
+    people:
+      - name: "Amalia Lupi"
+        role: "Assistant Professor"
+        interests: "Cardiology, Cardiovascular imaging, Cardiovascular Magnetic Resonance"
+        scholar: HTz-l_cAAAAJ
