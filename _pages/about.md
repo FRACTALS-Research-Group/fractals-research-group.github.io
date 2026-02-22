@@ -32,11 +32,11 @@ permalink: /
 <section class="mission-section" style="margin-top: 40px; padding: 40px; background-color: var(--global-code-bg-color); border-radius: 8px; border-left: 5px solid var(--global-theme-color); margin-bottom: 50px;">
     <h3 style="font-weight: 800; margin-top: 0;">Our Mission: Decoding Complexity</h3>
     <p style="font-size: 1.1rem; color: var(--global-text-color);">
-        At the core of FRACTALS lies the study of <strong>Complex Systems</strong>. We believe that the fundamental laws governing the universe—from the stochastic nature of cosmic rays to the non-linear dynamics of biological networks—share a common mathematical language that can be mastered through <strong>Computational Intelligence</strong>.
+        At the core of FRACTALS lies the study of <strong>Complex Systems</strong>. We believe that the fundamental laws governing the universe, from the stochastic nature of cosmic rays to the non-linear dynamics of biological networks, share a common language that can be mastered through <strong>Computational Intelligence</strong>.
     </p>
     
     <p style="font-size: 1.1rem; color: var(--global-text-color); margin-bottom: 0;">
-        Our mission is to harness this complexity. By developing <strong>Fair and Responsible Algorithms</strong>, we provide the tools to navigate high-dimensional search spaces without compromising scientific rigor. We uncover the structural patterns of <strong>Astrophysics</strong> and <strong>Life-Sciences</strong>, ensuring that every discovery is grounded in the interpretable logic of <strong>Evolutionary Computation</strong> and <strong>Swarm Intelligence</strong>.
+        Our mission is to harness this complexity. By developing <strong>Fair and Responsible Algorithms</strong>, we provide the tools to navigate high-dimensional search spaces without compromising scientific rigor. We uncover the structural patterns of <strong>Life-Sciences</strong> and <strong>Astrophysics</strong>, ensuring that every discovery is grounded in the interpretable logic of <strong>Evolutionary Computation</strong> and <strong>Swarm Intelligence</strong>.
     </p>
 </section>
 
@@ -77,21 +77,9 @@ permalink: /
         </div>
         <div class="col-sm-6 mb-5">
             <h5 style="font-weight: 800; display: flex; align-items: center; gap: 10px;">
-                <i class="fas fa-pills" style="color: var(--global-theme-color);"></i> Therapeutics
+                <i class="fas fa-pills" style="color: var(--global-theme-color);"></i> Therapeutics, Drug Discovery and Design
             </h5>
-            <p style="font-size: 0.95rem; opacity: 0.85;">Exploring new frontiers in pharmacological treatments through the lens of interpretable algorithmic frameworks.</p>
-        </div>
-        <div class="col-sm-6 mb-5">
-            <h5 style="font-weight: 800; display: flex; align-items: center; gap: 10px;">
-                <i class="fas fa-vial" style="color: var(--global-theme-color);"></i> Drug Discovery & Design
-            </h5>
-            <p style="font-size: 0.95rem; opacity: 0.85;">Disrupting traditional pipelines to identify candidates and molecular targets faster and more efficiently.</p>
-        </div>
-        <div class="col-sm-6 mb-5">
-            <h5 style="font-weight: 800; display: flex; align-items: center; gap: 10px;">
-                <i class="fas fa-star" style="color: var(--global-theme-color);"></i> Astrophysics
-            </h5>
-            <p style="font-size: 0.95rem; opacity: 0.85;">Decoding the silent language of Cosmic Rays, turning chaotic high-energy data into physical insights about our universe.</p>
+            <p style="font-size: 0.95rem; opacity: 0.85;">Bridging Drug Discovery and Design through computational modeling to identify precision medicine solutions.</p>
         </div>
         <div class="col-sm-6 mb-5">
             <h5 style="font-weight: 800; display: flex; align-items: center; gap: 10px;">
@@ -101,15 +89,33 @@ permalink: /
         </div>
         <div class="col-sm-6 mb-5">
             <h5 style="font-weight: 800; display: flex; align-items: center; gap: 10px;">
-                <i class="fas fa-square-root-alt" style="color: var(--global-theme-color);"></i> Optimization Problems
+                <i class="fas fa-bolt" style="color: var(--global-theme-color);"></i> GPU-Powered Simulations
             </h5>
-            <p style="font-size: 0.95rem; opacity: 0.85;">Solving complex mathematical and algorithmic bottlenecks that govern both natural phenomena and artificial systems.</p>
+            <p style="font-size: 0.95rem; opacity: 0.85;">Accelerating massive scientific workloads using CUDA-driven architectures for real-time complex systems modeling.</p>
         </div>
         <div class="col-sm-6 mb-5">
             <h5 style="font-weight: 800; display: flex; align-items: center; gap: 10px;">
-                <i class="fas fa-balance-scale" style="color: var(--global-theme-color);"></i> Fair and Interpretable AI
+                <i class="fas fa-star" style="color: var(--global-theme-color);"></i> Astrophysics
             </h5>
-            <p style="font-size: 0.95rem; opacity: 0.85;">Ensuring algorithmic transparency and eliminating bias to create trustworthy AI for scientific and societal progress.</p>
+            <p style="font-size: 0.95rem; opacity: 0.85;">Decoding the silent language of Cosmic Rays, turning chaotic high-energy data into physical insights about our universe.</p>
+        </div>
+        <div class="col-sm-6 mb-5">
+            <h5 style="font-weight: 800; display: flex; align-items: center; gap: 10px;">
+                <i class="fas fa-square-root-alt" style="color: var(--global-theme-color);"></i> Optimization Problems
+            </h5>
+            <p style="font-size: 0.95rem; opacity: 0.85;">Solving complex mathematical and algorithmic bottlenecks that govern both natural and artificial systems.</p>
+        </div>
+        <div class="col-sm-6 mb-5">
+            <h5 style="font-weight: 800; display: flex; align-items: center; gap: 10px;">
+                <i class="fas fa-eye" style="color: var(--global-theme-color);"></i> Interpretable AI
+            </h5>
+            <p style="font-size: 0.95rem; opacity: 0.85;">Opening the <i>black box</i> of complex models to provide human-understandable insights, essential for high-stakes scientific validation.</p>
+        </div>
+        <div class="col-sm-6 mb-5">
+            <h5 style="font-weight: 800; display: flex; align-items: center; gap: 10px;">
+                <i class="fas fa-balance-scale" style="color: var(--global-theme-color);"></i> Fairness & Digital Ethics
+            </h5>
+            <p style="font-size: 0.95rem; opacity: 0.85;">Mitigating dataset and algorithmic bias to ensure equitable outcomes while aligning computational progress with robust legal, ethical, and societal standards.</p>
         </div>
     </div>
 </section>

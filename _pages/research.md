@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-permalink: /projects/
+permalink: /research/
 description: Discover the areas of Research Interest and the innovative projects undertaken by the Fractals Research Group.
 nav: true
 nav_order: 3
@@ -39,52 +39,48 @@ horizontal: false
 <hr>
 
 <div style="text-align: center; margin-top: 50px;">
-    <h2 style="font-weight: 800; color: var(--global-text-color);">Current Research Projects</h2>
-    <p style="font-size: 1.2rem; color: var(--global-text-color); opacity: 0.7;">We're currently documenting our latest breakthroughs. Detailed project cards will appear below shortly.</p>
+    <h2 style="font-weight: 800; color: var(--global-text-color);">Research Areas</h2>
+    <p style="font-size: 1.2rem; color: var(--global-text-color); opacity: 0.7;">
+      Integrating our core pillars to solve complex scientific challenges.
+    </p>
 </div>
 
 <div class="projects-grid">
   <a href="/projects/digital-health/" class="area-card">
     <i class="fas fa-microscope"></i>
-    <h3>Digital Health & Pathology</h3>
-    <p>AI-driven diagnostics and cell analysis.</p>
+    <h3>Medicine & Biological Systems</h3>
+    <p>Developing advanced clinical diagnostics while mastering the non-linear dynamics governing life, from cellular networks to systemic health interactions.</p>
   </a>
 
-  <a href="/projects/medical-imaging/" class="area-card">
-    <i class="fas fa-x-ray"></i>
-    <h3>Medical Imaging</h3>
-    <p>Advanced signal and image processing.</p>
-  </a>
-
-  <a href="/projects/interpretable-ai/" class="area-card">
-    <i class="fas fa-brain"></i>
-    <h3>Interpretable AI and Fairness</h3>
-    <p>Transparent algorithms.</p>
+  <a href="/projects/therapeutics/" class="area-card">
+    <i class="fas fa-pills"></i>
+    <h3>Therapeutics, Drug Discovery & Design</h3>
+    <p>Bridging Drug Discovery and Design through computational modeling to identify precision medicine solutions and life-saving outcomes.</p>
   </a>
 
   <a href="/projects/hpc/" class="area-card">
     <i class="fas fa-microchip"></i>
-    <h3>HPC & GPU Computing</h3>
-    <p>Massively parallel simulations.</p>
+    <h3>High Performance Computing & GPU Simulations</h3>
+    <p>Leveraging massive computational power and CUDA-driven architectures to push the boundaries of data processing and real-time complex systems modeling.</p>
   </a>
 
   <a href="/projects/complex-systems/" class="area-card">
     <i class="fas fa-atom"></i>
-    <h3>Complex Systems</h3>
-    <p>Astrophysics and behavioral ecology.</p>
+    <h3>Astrophysics & Complex Systems</h3>
+    <p>Decoding the silent language of Cosmic Rays and multi-scale natural systems, turning chaotic high-energy data into physical insights.</p>
   </a>
 
   <a href="/projects/optimization/" class="area-card">
     <i class="fas fa-vial"></i>
-    <h3>Optimization & Stochastic Algorithms</h3>
-    <p>Novel methods for complex optimization.</p>
+    <h3>Optimization & Computational Intelligence</h3>
+    <p>Solving complex mathematical bottlenecks by advancing Swarm Intelligence, Evolutionary Algorithms, and Fuzzy Logic.</p>
   </a>
-</div>
 
-
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  {% endif %}
+  <a href="/projects/interpretable-ai/" class="area-card">
+    <i class="fas fa-brain"></i>
+    <h3>Interpretable AI, Fairness & Ethics</h3>
+    <p>Opening the "black box" of complex models to provide human-understandable insights while ensuring equitable outcomes and robust digital ethics.</p>
+  </a>
 </div>
 
 <div style="text-align: center; margin-top: 80px; padding: 40px; background: var(--global-code-bg-color); border-radius: 12px;">
@@ -95,19 +91,23 @@ horizontal: false
 <style>
   .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
     margin-top: 40px;
   }
   .area-card {
     background: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
-    padding: 30px;
+    padding: 35px 25px;
     border-radius: 15px;
     text-align: center;
     text-decoration: none !important;
     transition: all 0.3s ease;
     color: var(--global-text-color) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 300px;
   }
   .area-card:hover {
     transform: translateY(-10px);
@@ -115,37 +115,13 @@ horizontal: false
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
   }
   .area-card i {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: var(--global-theme-color);
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
-  .area-card h3 { font-weight: 800; margin-bottom: 10px; }
-  .area-card p { font-size: 0.9rem; opacity: 0.8; }
+  .area-card h3 { font-weight: 800; margin-bottom: 15px; font-size: 1.3rem; }
+  .area-card p { font-size: 0.95rem; opacity: 0.8; line-height: 1.5; }
 
-  .card-impact {
-    border: 1px solid var(--global-divider-color);
-    border-radius: 12px;
-    padding: 30px;
-    height: 100%;
-    transition: all 0.3s ease;
-    background: var(--global-bg-color);
-  }
-  .card-impact:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-    border-color: var(--global-theme-color);
-  }
-  .btn-outline-theme {
-    color: var(--global-theme-color);
-    border: 1px solid var(--global-theme-color);
-    border-radius: 50px;
-    padding: 8px 20px;
-    font-weight: 600;
-  }
-  .btn-outline-theme:hover {
-    background-color: var(--global-theme-color);
-    color: white !important;
-  }
   .btn-theme {
     background-color: var(--global-theme-color);
     color: white !important;
@@ -171,37 +147,18 @@ horizontal: false
     transform: translateX(5px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);
   }
-
   .card-content {
     display: flex;
     align-items: center;
     gap: 20px;
   }
-
   .card-content i {
     color: var(--global-theme-color);
     width: 40px;
     text-align: center;
   }
-
-  .text-group h4 {
-    font-weight: 800;
-    font-size: 1.1rem;
-  }
-
-  .text-group p {
-    opacity: 0.7;
-    font-size: 0.85rem;
-  }
-
-  .arrow-icon {
-    opacity: 0.3;
-    transition: all 0.3s ease;
-  }
-
-  .card-impact-compact:hover .arrow-icon {
-    opacity: 1;
-    transform: translateX(5px);
-    color: var(--global-theme-color);
-  }
+  .text-group h4 { font-weight: 800; font-size: 1.1rem; }
+  .text-group p { opacity: 0.7; font-size: 0.85rem; }
+  .arrow-icon { opacity: 0.3; transition: all 0.3s ease; }
+  .card-impact-compact:hover .arrow-icon { opacity: 1; transform: translateX(5px); color: var(--global-theme-color); }
 </style>
