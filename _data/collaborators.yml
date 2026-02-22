@@ -1,0 +1,238 @@
+institutions:
+  - name: "Tilburg University"
+    location: "Tilburg, The Netherlands"
+    logo: "fas fa-gavel"
+    people:
+      - name: "Chiara Gallese"
+        role: "Researcher"
+        interests: "AI & Law, ML Fairness, Data Law, AI Ethics, Health Law"
+        image: assets/img/bio_pics/collaborators/gallesechiara.png
+        linkedin: chiaragallesephd
+        scholar: Vmoen8UAAAAJ
+        website: https://aiandlaw.eu/
+
+  - name: "National Institute of Nuclear Physics (INFN)"
+    location: "Milano Bicocca, Italy"
+    logo: "fas fa-atom"
+    people:
+      - name: "Stefano Della Torre"
+        role: "First Researcher"
+        interests: "Astrophysics, Computational Physics"
+      - name: "Massimo Gervasi"
+        role: "Associate Professor"
+        interests: "Astrophysics, Experimental Physics of Fundamental Interactions and Applications"
+      - name: "Giuseppe La Vacca"
+        role: "Technologist"
+        interests: "Astrophysics, Experimental Physics of Fundamental Interactions and Applications"
+
+  - name: "Eindhoven University of Technology"
+    location: "Eindhoven, The Netherlands"
+    logo: "fas fa-university"
+    people:
+      - name: "Mohsen Abbaspour Onari"
+        role: "Former Doctoral Candidate"
+        interests: "Artificial Intelligence, Machine Learning, Explainable AI, Decision Science, Game Theory"
+        scholar: l3eRtVAAAAAJ
+      - name: "Emma Laure Ambags"
+        role: "Former Master Candidate"
+        interests: "Interpretable AI, Fuzzy Logic"
+      - name: "Gregor Baer"
+        role: "Doctoral Candidate"
+        interests: "Explainable AI, Human-centric AI"
+        scholar: bhR-GboAAAAJ
+      - name: "Arjen-Kars Boer"
+        role: "Associate Professor"
+        interests: "Biomedical Engineering, Chemical Biology, Computational Biology"
+
+  - name: "Ca' Foscari University of Venice"
+    location: "Venice, Italy"
+    logo: "fas fa-university"
+    people:
+      - name: "Achille Giacometti"
+        role: "Full Professor"
+        interests: "Statistical Physics, Soft Matter, Theoretical physics of matter, models, mathematical methods and applications"
+        scholar: KE2-DQoAAAAJ
+      - name: "Alessandro Angelini"
+        role: "Associate Professor"
+        interests: "Biochemistry, Medicinal Chemistry, Molecular Biosciences, Bioinformatics"
+        scholar: Cx9X9YgAAAAJ
+
+  - name: "University of Milano-Bicocca"
+    location: "Milan, Italy"
+    logo: "fas fa-university"
+    people:
+      - name: "Cristina Airoldi"
+        role: "Researcher"
+        interests: "Bioorganic Chemistry, Medicinal Chemistry, Molecular Recognition, Metabolomics, Nuclear Magnetic Resonance"
+        scholar: pdXGnVoAAAAJ
+      - name: "Lilia Alberghina"
+        role: "Emeritus Professor"
+        interests: "Biochemistry"
+        scholar: eM8SVasAAAAJ
+      - name: "Marco Antoniotti"
+        role: "Full Professor"
+        interests: "Computational Biology, Bioinformatics, Computer Science, Machine Learning"
+        scholar: te55y94AAAAJ
+      - name: "Luigi Badano"
+        role: "Professor"
+        interests: "Cardiovascular Diseases and Respiratory Diseases"
+        scholar: ZGa0F7gAAAAJ
+      - name: "Giulia Capitoli"
+        role: "Assistant Professor"
+        interests: "Medical Statistics, Hygiene, Public Health, Nursing And Midwifery"
+      - name: "Sonia Colombo"
+        role: "Associate Professor"
+        interests: "Molecular Biology"
+        scholar: yo-Z6h8AAAAJ
+      - name: "Ferdinando Chiaradonna"
+        role: "Full Professor"
+        interests: "Biochemistry"
+        scholar: 2anq0igAAAAJ
+      - name: "Chiara Damiani"
+        role: "Assistant Professor"
+        interests: "Computational Systems Biology, Metabolic Network modeling, Omics data integration"
+        scholar: w2_3YJcAAAAJ
+      - name: "Luca De Gioia"
+        role: "Full Professor"
+        interests: "General and Inorganic Chemistry"
+        scholar: CO33tE4AAAAJ
+
+  - name: "Bocconi University"
+    location: "Milan, Italy"
+    logo: "fas fa-university"
+    people:
+      - name: "Andrea Tangherloni"
+        role: "Assistant Professor"
+        interests: "Bioinformatics, Systems Biology, Artificial Intelligence, Soft Computing, HPC"
+        scholar: YZk27IkAAAAJ
+      - name: "Francesca Buffa"
+        role: "Full Professor"
+        interests: "Bioinformatics, Systems Biology, Artificial Intelligence, Genomics"
+        scholar: abd1LXcAAAAJ
+
+  - name: "University College of London, Barts Heart Centre"
+    location: "London, UK"
+    logo: "fas fa-hospital"
+    people:
+      - name: "Jessica Artico"
+        role: "Clinical Research Fellow"
+        interests: "Cardiology, Cardiovascular imaging, Cardiovascular Magnetic Resonance, Cardio-oncology"
+        scholar: SB7soDcAAAAJ
+
+  - name: "European Institute of Oncology IRCCS (IEO)"
+    location: "Milan, Italy"
+    logo: "fas fa-microscope"
+    people:
+      - name: "Massimo Barberis"
+        role: "Medical Doctor"
+        interests: "Advance Molecular Diagnostic, Molecular Pathology"
+      - name: "Marco Barreca"
+        role: "Bioinformatician"
+        interests: "Bioinformatics, Breast cancer, Oncology"
+
+  - name: "University of Turin"
+    location: "Turin, Italy"
+    logo: "fas fa-university"
+    people:
+      - name: "Marco Beccuti"
+        role: "Associate Professor"
+        interests: "Computational Modelling, Systems Biology, Personalised Medicine"
+        scholar: zAs0OVoAAAAJ
+
+  - name: "Niguarda Medical Center"
+    location: "Milan, Italy"
+    logo: "fas fa-hospital"
+    people:
+      - name: "Andrea Bianchi"
+        role: "Full Professor"
+        interests: "Medical Oncology, Personalized Medicine"
+        scholar: vt4PQjEAAAAJ
+      - name: "Riccardo Colombo"
+        role: "Medical Doctor"
+        interests: "Critical Care Medicine, Emergency medicine"
+        scholar: bpKT2JYAAAAJ
+
+  - name: "Vita-Salute San Raffaele University Hospital, IRCCS"
+    location: "Milan, Italy"
+    logo: "fas fa-hospital"
+    people:
+      - name: "Giampaolo Bianchini"
+        role: "Associate Professor"
+        interests: "Medical Oncology, Personalized Medicine"
+        scholar: 5uIiTbEAAAAJ
+  
+  - name: "Polytechnic of Milan"
+    location: "Milan, Italy"
+    logo: "fas fa-university"
+    people:
+      - name: "Andrea Bonarini"
+        role: "Full Professor"
+        interests: "Machine Learning, Human-Robot Interaction, Robot Design, Robot Entertainment, Robot and Disability"
+        scholar: WgxMfwMAAAAJ
+
+  - name: "Johns Hopkins Medical University"
+    location: "Baltimore, MD, USA"
+    logo: "fas fa-hospital"
+    people:
+      - name: "Richard Carrick"
+        role: "Assistant Professor of Medicine"
+        interests: "Computational Cardiology"
+        scholar: n_scUcgAAAAJ
+  
+  - name: "Italian Auxologic Institute, IRCCS"
+    location: "Milan, Italy"
+    logo: "fas fa-hospital"
+    people:
+      - name: "Silvia Castelletti"
+        role: "Medical Doctor"
+        interests: "Sports Cardiology, Cardiology, Cardiac Magnetic Resonance, Genetics"
+        scholar: x--ywGAAAAAJ
+  
+  - name: "Universidade Nova de Lisboa"
+    location: "Lisbon, Portugal"
+    logo: "fas fa-university"
+    people:
+      - name: "Mauro Castelli"
+        role: "Full Professor"
+        interests: "Genetic Programming, Machine Learning, Artificial Intelligence"
+        scholar: 23HUHAIAAAAJ
+  
+  - name: "Fondazione IRCCS San Gerardo dei Tintori"
+    location: "Monza, Italy"
+    logo: "fas fa-hospital"
+    people:
+      - name: "Giorgio Cazzaniga"
+        role: "Medical Doctor"
+        interests: "Digital Pathology"
+        scholar: Ps04zMAAAAAJ
+
+  - name: "University of British Columbia"
+    location: "Vancouver, Canada"
+    logo: "fas fa-university"
+    people:
+      - name: "Cristina Conati"
+        role: "Full Professor"
+        interests: "Artificial Intelligence, Human-Centred AI, User Modeling, AI-driven personalization, Affective Computing"
+        scholar: Ytp9oFQAAAAJ
+  
+  - name: "University of Trieste"
+    location: "Trieste, Italy"
+    logo: "fas fa-university"
+    people:
+      - name: "Marco Confalonieri"
+        role: "Medical Doctor, Associate Professor"
+        interests: "Molecular Biomedicine, Respiratory Diseases, Pulmonary Fibrosis, Critical Care"
+        scholar: pifGG2IAAAA
+      - name: "Alberto D'Onofrio"
+        role: "Associate Professor"
+        interests: "Theoretical Biophysics, Biomathematics, Nonlinear Physics, Mathematical Epidemiology"
+        scholar: cWPJoXkAAAAJ
+
+  - name: "University of Salamanca"
+    location: "Salamanca, Spain"
+    logo: "fas fa-university"
+    people:
+      - name: "Juan Manuel Corchado"
+        role: "Full Professor"
+        interests: "Computer Science, Artificial Intelligence"
+        scholar: 2I7mh3IAAAAJ
