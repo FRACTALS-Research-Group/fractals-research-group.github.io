@@ -72,6 +72,14 @@ institutions:
         role: "Associate Professor"
         interests: "Biochemistry, Medicinal Chemistry, Molecular Biosciences, Bioinformatics"
         scholar: Cx9X9YgAAAAJ
+      - name: "Sabina Rossi"
+        role: "Full Professor"
+        interests: "Maths, Performance Evaluation, Program Verification, Process Algebra"
+        scholar: -uoMMrIAAAAJ
+      - name: "Marta Simeoni"
+        role: "Researcher"
+        interests: "Computer Science, Computational Biology, Systems Biology"
+        scholar: LDcAPxIAAAAJ
 
   - name: "University of Milano-Bicocca"
     location: "Milan, Italy"
@@ -127,6 +135,30 @@ institutions:
       - name: "Alex Graudenzi"
         role: "Associate Professor"
         interests: "Data Science, AI, Bioinformatics, Cancer Evolution, Complex Systems"
+      - name: "Mario Marino"
+        role: "PhD Student"
+        interests: "Evolutionary Computation"
+        scholar: TPgqwD0AAAAJ
+      - name: "Enzo Martegani"
+        role: "Full Professor"
+        interests: "Health, Aging Diseases, Neurodegenerative and neurological diseases, Systems biology"
+        scholar: ctLlDZIAAAAJ
+      - name: "Gabriella Pasi"
+        role: "Full Professor"
+        interests: "Information Retrieval, NLP, Artificial Intelligence, Data Science, Fuzzy Logic"
+        scholar: 5KWMh6wAAAAJ
+      - name: "Daniele Ramazzotti"
+        role: "Associate Professor"
+        interests: "Translational Bioinformatics"
+        scholar: wd38_50AAAAJ
+      - name: "Fabio Stella"
+        role: "Full Professor"
+        interests: "Data Science, Artificial Intelligence, Machine Learning, Bayesian networks, Causal networks"
+        scholar: 6XnEuqQAAAAJ
+      - name: "Mario Urso"
+        role: "PhD Student"
+        interests: "Cytopathology"
+        scholar: qlfXVRMAAAAJ
 
   - name: "Bocconi University"
     location: "Milan, Italy"
@@ -164,6 +196,17 @@ institutions:
         role: "Unit Director"
         interests: "Oncology"
         scholar: -txWZr0AAAAJ
+      - name: "Pier Giuseppe Pelicci"
+        role: "Director"
+        interests: "Oncology"
+      - name: "Giuseppe Viale"
+        role: "Medical Doctor"
+        interests: "Oncology"
+        scholar: xfxtkgcAAAAJ
+      - name: "Thalia Vlachou"
+        role: "Postdoc"
+        interests: "Molecular Oncology"
+        scholar: L6oQC9sAAAAJ
 
   - name: "University of Turin"
     location: "Turin, Italy"
@@ -206,6 +249,9 @@ institutions:
         role: "Bioinformatician"
         interests: "Bioinformatician, Biostatistician, Applied Mathematician"
         scholar: Ulzj9A4AAAAJ
+      - name: "Marco Mariani"
+        role: "Medical Doctor"
+        interests: "Medical Oncology, Personalized Medicine"
   
   - name: "Polytechnic of Milan"
     location: "Milan, Italy"
@@ -236,6 +282,10 @@ institutions:
         role: "Medical Doctor"
         interests: "Computational Cardiology"
         scholar: fF1KxeUAAAAJ
+      - name: "Luca Neri"
+        role: "Medical Device Engineer"
+        interests: "Biomedical Engineering, Medical Devices, Cardiology, Wearables AI"
+        scholar: xj2UJxkAAAAJ
   
   - name: "Italian Auxologic Institute, IRCCS"
     location: "Milan, Italy"
@@ -245,6 +295,10 @@ institutions:
         role: "Medical Doctor"
         interests: "Sports Cardiology, Cardiology, Cardiac Magnetic Resonance, Genetics"
         scholar: x--ywGAAAAAJ
+      - name: "Camilla Torlasco"
+        role: "Medical Doctor"
+        interests: "Sports Cardiology, Cardiology, Cardiac Magnetic Resonance, Genetics"
+        scholar: rWa-UmgAAAAJ
   
   - name: "Universidade Nova de Lisboa"
     location: "Lisbon, Portugal"
@@ -258,6 +312,10 @@ institutions:
         role: "Former Doctoral Candidate"
         interests: "Genetic Programming, Machine Learning, Artificial Intelligence, Evolutionary Computation, Explainable AI, Biomedical AI"
         scholar: 38WygboAAAAJ
+      - name: "Leonardo Vanneschi"
+        role: "Full Professor"
+        interests: "Evolutionary Computation, Genetic Programming, Particle Swarm Optimization, Artificial Intelligence, Machine Learning"
+        scholar: uR5K07QAAAAJ
   
   - name: "Fondazione IRCCS San Gerardo dei Tintori"
     location: "Monza, Italy"
@@ -293,6 +351,13 @@ institutions:
         role: "Associate Professor"
         interests: "Theoretical Biophysics, Biomathematics, Nonlinear Physics, Mathematical Epidemiology"
         scholar: cWPJoXkAAAAJ
+      - name: "Luca Manzoni"
+        role: "Assistant Professor"
+        interests: "Evolutionary Computation, Genetic Programming, Cellular Automata, Natural Computing"
+        scholar: ufJKQegAAAAJ
+      - name: "Teresa Scantamburlo"
+        role: "Assistant Professor"
+        interests: "AI Ethics, AI Education, Digital and AI Literacy, Human-Computer Interaction"
 
   - name: "University of Salamanca"
     location: "Salamanca, Spain"
@@ -381,3 +446,68 @@ institutions:
         role: "Assistant Professor"
         interests: "Cardiology, Cardiovascular imaging, Cardiovascular Magnetic Resonance"
         scholar: HTz-l_cAAAAJ
+      - name: "Alessia Pepe"
+        role: "Associate Professor"
+        interests: "Cardiology, Cardiovascular imaging, Cardiovascular Magnetic Resonance"
+        scholar: XxrB8usAAAAJ
+      - name: "Emilio Quaia"
+        role: "Full Professor"
+        interests: "Cardiology, Cardiovascular imaging, Cardiovascular Magnetic Resonance"
+        scholar: b-uq5jIAAAAJ
+  
+  - name: "University of Twente"
+    location: "Enschede, The Netherlands"
+    logo: "fas fa-university"
+    people:
+      - name: "Luca Mariot"
+        role: "Assistant Professor"
+        interests: "Symmetric Cryptography, Evolutionary Computation, Cellular Automata, Machine Learning, Boolean Functions"
+        scholar: I8Vq5WQAAAAJ
+  
+  - name: "Università degli Studi di Milano"
+    location: "Milan, Italy"
+    logo: "fas fa-university"
+    people:
+      - name: "Angelica Mazzolari"
+        role: "Assistant Professor"
+        interests: "Medicinal Chemistry"
+        scholar: 7uqMvKgAAAAJ
+  
+  - name: "National Research Council of Italy (CNR)"
+    location: "Milan, Italy"
+    logo: "fas fa-microscope"
+    people:
+      - name: "Ivan Merelli"
+        role: "Scientist"
+        interests: "Bioinformatics, Computational Biology, Gene Therapy, High Performance Computing, Machine Learning"
+        scholar: XZYQpp0AAAAJ
+      - name: "Carmelo Militello"
+        role: "Scientist"
+        interests: "Artificial Intelligence, Image and Signal Analysis"
+        scholar: MWyYjUAAAAAJ
+  
+  - name: "Max Planck Institute for Animal Behaviour"
+    location: "Konstanz, Germany"
+    logo: "fas fa-dove"
+    people:
+      - name: "Elisa Perinot"
+        role: "Postdoc"
+        interests: "Courtship behaviour, Leks, Formation Flight, Migration, Biologging"
+        scholar: YFZmLwkAAAAJ
+  
+  - name: "University of Oxford"
+    location: "Oxford, UK"
+    logo: "fas fa-university"
+    people:
+      - name: "Simone G. Riva"
+        role: "Senior Computational and Machine Learning Scientist in Genomics"
+        interests: "Genomics, Machine Learning"
+        scholar: uNSQiTcAAAAJ
+  
+  - name: "University of Salerno"
+    location: "Salerno, Italy"
+    logo: "fas fa-university"
+    people:
+      - name: "Leonardo Rundo"
+        role: "Associate Professor"
+        interests: "Medical Image Analysis, Machine Learning, Computational Intelligence, Soft Computing, Radiomics"

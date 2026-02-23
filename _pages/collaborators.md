@@ -42,7 +42,7 @@ nav_order: 5
     </div>
   </div>
 
-  <div class="wip-container">
+  <!-- <div class="wip-container">
       <div class="wip-content">
           <div class="wip-icon-wrapper">
               <i class="fas fa-person-digging wip-main-icon"></i>
@@ -52,7 +52,7 @@ nav_order: 5
           <p class="wip-text">We are currently documenting our global network. Detailed profiles appear below shortly.</p>
           <div class="wip-progress-bar"><div class="wip-progress-fill"></div></div>
       </div>
-  </div>
+  </div> -->
 
   <hr class="mb-5">
 
