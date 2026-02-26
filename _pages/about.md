@@ -127,24 +127,20 @@ permalink: /
             FRACTALS is more than a Research Group; it is a collaborative ecosystem. We have established a unique <strong>research corridor</strong> by uniting the specialized expertise of three leading institutions:
         </p>
     </div>
-
     <div class="hub-cards" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
-        <div class="uni-card" style="width: 280px; padding: 30px; border: 1px solid var(--global-divider-color); border-radius: 15px; background-color: var(--global-code-bg-color); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <div class="uni-card" style="width: 280px; padding: 30px; border: 1px solid var(--global-divider-color); border-radius: 15px; background-color: rgb(255, 255, 255); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: all 0.3s ease;">
             <img src="{{ '/assets/img/uni-logos/unive.png' | relative_url }}" alt="Ca' Foscari Logo" style="height: 80px; width: auto; margin-bottom: 20px; opacity: 1; transition: all 0.3s ease;">
-            <h6 style="font-weight: 800; margin: 0; font-size: 1.2rem; line-height: 1.3;">Ca' Foscari University <br> of Venice</h6>
+            <h6 style="font-weight: 800; margin: 0; font-size: 1.2rem; line-height: 1.3; color: var(--global-theme-color);">Ca' Foscari University <br> of Venice</h6>
         </div>
-
-        <div class="uni-card" style="width: 280px; padding: 30px; border: 1px solid var(--global-divider-color); border-radius: 15px; background-color: var(--global-code-bg-color); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <div class="uni-card" style="width: 280px; padding: 30px; border: 1px solid var(--global-divider-color); border-radius: 15px; background-color: rgb(255, 255, 255); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: all 0.3s ease;">
             <img src="{{ '/assets/img/uni-logos/unimib.png' | relative_url }}" alt="Bicocca Logo" style="height: 80px; width: auto; margin-bottom: 20px; opacity: 1; transition: all 0.3s ease;">
-            <h6 style="font-weight: 800; margin: 0; font-size: 1.2rem; line-height: 1.3;">University of <br> Milano-Bicocca</h6>
+            <h6 style="font-weight: 800; margin: 0; font-size: 1.2rem; line-height: 1.3; color: var(--global-theme-color);">University of <br> Milano-Bicocca</h6>
         </div>
-
-        <div class="uni-card" style="width: 280px; padding: 30px; border: 1px solid var(--global-divider-color); border-radius: 15px; background-color: var(--global-code-bg-color); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: all 0.3s ease;">
+        <div class="uni-card" style="width: 280px; padding: 30px; border: 1px solid var(--global-divider-color); border-radius: 15px; background-color: rgb(255, 255, 255); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: all 0.3s ease;">
             <img src="{{ '/assets/img/uni-logos/unibg.png' | relative_url }}" alt="Bergamo Logo" style="height: 80px; width: auto; margin-bottom: 20px; opacity: 1; transition: all 0.3s ease;">
-            <h6 style="font-weight: 800; margin: 0; font-size: 1.2rem; line-height: 1.3;">University of <br> Bergamo</h6>
+            <h6 style="font-weight: 800; margin: 0; font-size: 1.2rem; line-height: 1.3; color: var(--global-theme-color);">University of <br> Bergamo</h6>
         </div>
     </div>
-
     <div style="margin-top: 50px; text-align: center;">
         <p style="font-size: 1.1rem; line-height: 1.7; max-width: 900px; margin: 0 auto; font-weight: 300;">
             <i class="fas fa-globe-europe" style="color: var(--global-theme-color); margin-right: 8px;"></i>
