@@ -8,27 +8,35 @@ nav: false
 
 <div class="funding-container">
 
+  
+
   <div class="funding-card">
     <div class="funding-header">
-      <span class="funding-badge">PNRR Cascade Funding</span>
-      <h3 class="funding-title">ALLIANCE</h3>
+      <span class="funding-badge airc">My First AIRC Grant</span>
+      <h3 class="funding-title">AIThyroid</h3>
     </div>
-    <p class="funding-subtitle">A novel integrated cyclic peptide-based platform for precision delivery of nucleic acid-based therapeutics</p>
+    <p class="funding-subtitle">AI-Guided Image Recognition and Multiomic Integration for Thyroid Cancer Diagnosis</p>
     
     <div class="funding-details">
       <div class="detail-item">
-        <strong>Institution:</strong> National Center for Gene Therapy and Drugs based on RNA Technology (CN RNA & Gene Therapy)
+        <strong>Institution:</strong> Fondazione AIRC per la ricerca sul cancro / University of Milano-Bicocca
       </div>
       <div class="detail-item">
-        <strong>Role:</strong> Work Package 2: "Computational development and characterization of cyclic peptide binders"
+        <strong>Goal:</strong> Reducing unnecessary surgeries by combining AI-driven digital pathology (MALDI imaging) with multiomic data for thyroid nodule classification.
       </div>
       <div class="detail-item">
-        <strong>PI:</strong> Prof. Alessandro Angelini (Ca’ Foscari University of Venice)
+        <strong>PI:</strong> Dr. Giulia Capitoli
       </div>
     </div>
     
+    <div class="funding-links mt-3">
+      <a href="https://www.unimib.it/news/airc-sostiene-ricerca-sul-cancro-delluniversita-milano-bicocca-giulia-capitoli-un-my-first-airc-grant-500-mila-euro" target="_blank" class="btn-link-sm">
+        <i class="fas fa-newspaper"></i> Press Release
+      </a>
+    </div>
+
     <div class="funding-footer">
-      <div class="amount-tag">EUR 715,800</div>
+      <div class="amount-tag">EUR 500,000</div>
     </div>
   </div>
 
@@ -85,6 +93,31 @@ nav: false
     </div>
   </div>
 
+  <div class="funding-card">
+    <div class="funding-header">
+      <span class="funding-badge">PNRR Cascade Funding</span>
+      <h3 class="funding-title">ALLIANCE</h3>
+    </div>
+    <p class="funding-subtitle">A novel integrated cyclic peptide-based platform for precision delivery of nucleic acid-based therapeutics</p>
+    
+    <div class="funding-details">
+      <div class="detail-item">
+        <strong>Institution:</strong> National Center for Gene Therapy and Drugs based on RNA Technology (CN RNA & Gene Therapy)
+      </div>
+      <div class="detail-item">
+        <strong>Role:</strong> Work Package 2: "Computational development and characterization of cyclic peptide binders"
+      </div>
+      <div class="detail-item">
+        <strong>PI:</strong> Prof. Alessandro Angelini (Ca’ Foscari University of Venice)
+      </div>
+    </div>
+    
+    <div class="funding-footer">
+      <div class="amount-tag">EUR 715,800</div>
+    </div>
+  </div>
+
+
 </div>
 
 <style>
@@ -131,6 +164,10 @@ nav: false
     border-radius: 50px;
     text-transform: uppercase;
     font-weight: bold;
+  }
+
+  .funding-badge.airc {
+    background: #e30613; /* AIRC Institutional Red/Pink */
   }
 
   .funding-badge.gold {

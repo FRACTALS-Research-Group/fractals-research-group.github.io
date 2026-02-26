@@ -9,6 +9,10 @@ nav_order: 1
 profiles:
   # if you want to include more than one profile, just replicate the following block
   # and create one content file for each profile inside _pages/
+  
+
+  - separator: "Ca' Foscari University of Venice"
+  
   - align: right
     image: bio_pics/marco.png
     content: profiles/bio_marco.md
@@ -22,17 +26,6 @@ profiles:
       <p>Ca' Foscari University of Venice, Italy</p>
       <p>Department of Environmental Sciences, Informatics and Statistics (DAIS)</p>
       <p>Venezia-Mestre, Scientific Campus, Alfa Building, Room 514</p>
-
-  - separator: "Ca' Foscari University of Venice"
-  
-  - align: left
-    image: bio_pics/leone.jpg
-    content: profiles/bio_leone.md
-    email: leone.bacciu@unive.it
-    social:
-      linkedin: leone-bacciu
-      scholar: MXhDcRcAAAAJ
-    image_circular: false # crops the image to make it circular
 
   - align: left
     image: bio_pics/silvia.png
@@ -88,6 +81,15 @@ profiles:
       scholar: fg848IcAAAAJ
     email: daniele.papetti@unimib.it
 
+  - align: left
+    image: bio_pics/giulia.png
+    content: profiles/bio_giulia.md
+    website: https://www.giuliacapitoli.com
+    social:
+      linkedin: giulia-capitoli-ba049635b
+      scholar: b_n8TGoAAAAJ
+    email: giulia.capitoli@unimib.it
+
   - separator: "University of Bergamo"
   - align: right
     image: bio_pics/paolo.jpg
@@ -102,4 +104,13 @@ profiles:
       <p>University of Bergamo, Italy</p>
       <p>Department of Human and Social Sciences</p>
       <p>Bergamo, Sede di Sant'Agostino, Via Sant'Agostino 2, Room 6</p>
+  
+  - align: left
+    image: bio_pics/leone.jpg
+    content: profiles/bio_leone.md
+    email: leone.bacciu@unive.it
+    social:
+      linkedin: leone-bacciu
+      scholar: MXhDcRcAAAAJ
+    image_circular: false # crops the image to make it circular
 ---
