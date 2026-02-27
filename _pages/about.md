@@ -19,7 +19,7 @@ permalink: /
     </div>
 
     <div style="margin-top: 25px; font-size: 0.9rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: var(--global-theme-color);">
-        <i class="fas fa-landmark"></i> Venice &middot; Milano &middot; Bergamo
+        <i class="fas fa-landmark"></i> Venice &middot; Milan &middot; Bergamo
     </div>
 </header>
 
