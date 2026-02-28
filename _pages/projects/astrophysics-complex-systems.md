@@ -1,15 +1,13 @@
 ---
 layout: page
-title: Digital Health & Computational Pathology
-permalink: /projects/digital-health/
+title: Astrophysics & Complex Systems
+description: Decoding the silent language of Cosmic Rays and multi-scale natural systems, turning chaotic high-energy data into physical insights.
+permalink: /projects/astrophysics-complex-systems/
 ---
-
 <div class="projects">
-  {% assign projects = site.projects | where: "category", "digital-health" %}
+  {% assign projects = site.projects | where: "category", "astrophysics-complex-systems" | sort: "importance" %}
   <div class="row row-cols-1 row-cols-md-2">
-    {% for project in projects %}
-      {% include projects.liquid %}
-    {% endfor %}
+    {% for project in projects %}{% include projects.liquid %}{% endfor %}
   </div>
 </div>
 
@@ -118,7 +116,6 @@ permalink: /projects/digital-health/
         flex-direction: column;
         gap: 10px;
     }
-
     .skeleton-line {
         height: 8px;
         background: linear-gradient(90deg, var(--global-divider-color) 25%, var(--global-code-bg-color) 50%, var(--global-divider-color) 75%);

@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Complex Systems & Astrophysics
-permalink: /projects/complex-systems/
+title: High Performance Computing & GPU Simulations
+description: Leveraging massive computational power and CUDA-driven architectures to push the boundaries of data processing and real-time complex systems modeling.
+permalink: /projects/hpc-gpu-simulations/
 ---
 <div class="projects">
-  {% assign projects = site.projects | where: "category", "complex-systems" | sort: "importance" %}
+  {% assign projects = site.projects | where: "category", "hpc" | sort: "importance" %}
   <div class="row row-cols-1 row-cols-md-2">
     {% for project in projects %}{% include projects.liquid %}{% endfor %}
   </div>
@@ -115,6 +116,7 @@ permalink: /projects/complex-systems/
         flex-direction: column;
         gap: 10px;
     }
+
     .skeleton-line {
         height: 8px;
         background: linear-gradient(90deg, var(--global-divider-color) 25%, var(--global-code-bg-color) 50%, var(--global-divider-color) 75%);

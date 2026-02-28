@@ -1,15 +1,9 @@
 ---
 layout: page
-title: Interpretable AI, Fuzzy Systems and Fairness
-permalink: /projects/interpretable-ai/
+title: Interpretable AI, Fairness & Ethics
+permalink: /projects/interpretable-ai-fairness-ethics/
+description: Opening the "black box" of complex models to provide human-understandable insights while ensuring equitable outcomes and robust digital ethics.
 ---
-<div class="projects">
-  {% assign projects = site.projects | where: "category", "interpretable-ai" | sort: "importance" %}
-  <div class="row row-cols-1 row-cols-md-2">
-    {% for project in projects %}{% include projects.liquid %}{% endfor %}
-  </div>
-</div>
-
 <div class="project-wip-card">
     <div class="wip-visual">
         <div class="icon-stack">
@@ -33,6 +27,13 @@ permalink: /projects/interpretable-ai/
             <div class="skeleton-line short"></div>
         </div>
     </div>
+</div>
+
+<div class="projects">
+  {% assign projects = site.projects | where: "category", "interpretable-ai" | sort: "importance" %}
+  <div class="row row-cols-1 row-cols-md-2">
+    {% for project in projects %}{% include projects.liquid %}{% endfor %}
+  </div>
 </div>
 
 <style>

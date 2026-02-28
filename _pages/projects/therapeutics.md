@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Therapeutics, Drug Discovery & Design
+description: Bridging Drug Discovery and Design through computational modeling to identify precision medicine solutions and life-saving outcomes.
 permalink: /projects/therapeutics/
 ---
 <div class="projects">
