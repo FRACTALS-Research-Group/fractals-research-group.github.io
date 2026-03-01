@@ -9,11 +9,6 @@ description: Opening the "black box" of complex models to provide human-understa
         <i class="fas fa-chevron-left"></i> All Research Pillars
     </a>
 </div>
-<div class="back-nav mb-5" style="text-align: right;">
-    <a href="/research/" class="back-link">
-        <i class="fas fa-chevron-left"></i> All Research Pillars
-    </a>
-</div>
 
 <div class="projects">
   {% assign projects = site.projects | where: "category", "interpretable-ai" | sort: "importance" %}
