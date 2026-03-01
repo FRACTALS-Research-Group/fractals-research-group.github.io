@@ -2,7 +2,7 @@
 layout: page
 title: pyFUME
 description: A Python package for automatic Fuzzy Model Estimation from data.
-img: assets/img/projects/pyfume.png
+img: assets/img/projects/pyfume-logo.png
 importance: 1
 category: interpretable-ai
 ---
@@ -13,8 +13,8 @@ category: interpretable-ai
             <p class="lead">
                 <strong>pyFUME</strong> is a comprehensive Python library designed to automate the estimation of 
                 Takagi-Sugeno fuzzy models directly from data. By integrating seamless model building with the 
-                Simpful library, it enables 
-                researchers to transform raw datasets into interpretable, executable fuzzy systems.
+                Simpful library, it enables researchers to transform raw datasets into interpretable, executable fuzzy systems.
+                Simpful is another of our project: check it out <a href="/projects/simpful/">here</a>.
             </p>
             <div class="repository-badges">
                 <a href="https://github.com/CaroFuchs/pyFUME" target="_blank"><img src="https://img.shields.io/github/stars/CaroFuchs/pyFUME?style=social" alt="GitHub stars"></a>
@@ -24,7 +24,7 @@ category: interpretable-ai
         </div>
         <div class="col-md-4 text-center">
             <!-- <i class="fas fa-microchip fa-8x" style="color: var(--global-theme-color); opacity: 0.2;"></i> -->
-            <img src="{{ site.baseurl }}/assets/img/projects/pyfume.png" alt="pyFUME Logo" class="img-fluid">
+            <img src="{{ site.baseurl }}/assets/img/projects/pyfume-logo.png" alt="pyFUME Logo" class="img-fluid">
         </div>
     </div>
 </div>
@@ -43,7 +43,7 @@ category: interpretable-ai
 
 Getting started with `pyFUME` is as simple as:
 
-```bash
+```python
 pip install pyfume
 from pyfume import pyFUME
 
@@ -61,39 +61,44 @@ model.set_variable('Cement', 300.0)
 print(model.Sugeno_inference(['OUTPUT']))
 ```
 
-<div class="row mt-4">
-    <div class="col-sm-4">
-    <div class="card p-3 text-center h-100">
-    <i class="fas fa-project-diagram mb-3" style="font-size: 2rem; color: var(--global-theme-color);"></i>
-    <h5>Clustering</h5>
-    <p class="small">Uses Fuzzy C-Means (FCM) to identify data structures in input-output space.</p>
-    </div>
-    </div>
-    <div class="col-sm-4">
-    <div class="card p-3 text-center h-100">
-    <i class="fas fa-sliders-h mb-3" style="font-size: 2rem; color: var(--global-theme-color);"></i>
-    <h5>Estimation</h5>
-    <p class="small">Automatically determines membership function shapes (Gaussian/Triangular).</p>
-    </div>
-    </div>
-    <div class="col-sm-4">
-    <div class="card p-3 text-center h-100">
-    <i class="fas fa-code-branch mb-3" style="font-size: 2rem; color: var(--global-theme-color);"></i>
-    <h5>Synthesis</h5>
-    <p class="small">Generates 'Simpful_code.py' for immediate deployment in production.</p>
-    </div>
+<!-- A div to say Techincal Features -->
+<div>
+    <h3 class="mt-5">Technical Highlights</h3>
+    <div class="row mt-4">
+        <div class="col-sm-4">
+        <div class="card p-3 text-center h-100">
+        <i class="fas fa-project-diagram mb-3" style="font-size: 2rem; color: var(--global-theme-color);"></i>
+        <h5>Clustering</h5>
+        <p class="small">Uses Fuzzy C-Means (FCM) to identify data structures in input-output space.</p>
+        </div>
+        </div>
+        <div class="col-sm-4">
+        <div class="card p-3 text-center h-100">
+        <i class="fas fa-sliders-h mb-3" style="font-size: 2rem; color: var(--global-theme-color);"></i>
+        <h5>Estimation</h5>
+        <p class="small">Automatically determines membership function shapes (Gaussian/Triangular).</p>
+        </div>
+        </div>
+        <div class="col-sm-4">
+        <div class="card p-3 text-center h-100">
+        <i class="fas fa-code-branch mb-3" style="font-size: 2rem; color: var(--global-theme-color);"></i>
+        <h5>Synthesis</h5>
+        <p class="small">Generates 'Simpful_code.py' for immediate deployment in production.</p>
+        </div>
+        </div>
     </div>
 </div>
+
+<div class="mt-5 text-center">
+<a href="https://github.com/CaroFuchs/pyFUME" class="btn btn-theme">View on GitHub</a>
+<a href="https://pyfume.readthedocs.io/" class="btn btn-outline-secondary ml-2">Read Full Documentation</a>
+</div>
+
 <div class="publications">
   <h3 class="mt-5">Related Publications</h3>
   <div class="publication-list">
     {% bibliography --query @*[key=fuchs2020pyfume || key=bacciu2024our || key=papetti2023estimation] --order descending --sort year %}
   </div>
-</div>
-
-<div class="mt-5 text-center">
-<a href="https://github.com/CaroFuchs/pyFUME" class="btn btn-theme">View on GitHub</a>
-<a href="https://pyfume.readthedocs.io/" class="btn btn-outline-secondary ml-2">Full Documentation</a>
 </div>
 
 <style>

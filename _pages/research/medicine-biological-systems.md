@@ -4,6 +4,18 @@ title: Medicine & Biological Systems
 permalink: /research/medicine-biological-systems/
 description: Developing advanced clinical diagnostics while mastering the non-linear dynamics governing life, from cellular networks to systemic health interactions.
 ---
+<div class="back-nav mb-5" style="text-align: right;">
+    <a href="/research/" class="back-link">
+        <i class="fas fa-chevron-left"></i> All Research Pillars
+    </a>
+</div>
+
+<div class="projects">
+  {% assign projects = site.projects | where: "category", "bio-med" | sort: "importance" %}
+  <div class="row row-cols-1 row-cols-md-2">
+    {% for project in projects %}{% include projects.liquid %}{% endfor %}
+  </div>
+</div>
 
 <div class="project-wip-card">
     <div class="wip-visual">
@@ -30,12 +42,6 @@ description: Developing advanced clinical diagnostics while mastering the non-li
     </div>
 </div>
 
-<div class="projects">
-  {% assign projects = site.projects | where: "category", "bio-med" | sort: "importance" %}
-  <div class="row row-cols-1 row-cols-md-2">
-    {% for project in projects %}{% include projects.liquid %}{% endfor %}
-  </div>
-</div>
 
 <style>
     .project-wip-card {
@@ -129,4 +135,30 @@ description: Developing advanced clinical diagnostics while mastering the non-li
     @keyframes shimmer {
         0% { background-position: 200% 0; }
         100% { background-position: -200% 0; }
+    }
+    .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        color: var(--global-text-color) !important;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 8px 16px;
+        background: var(--global-card-bg-color);
+        border: 1px solid var(--global-divider-color);
+        border-radius: 50px;
+        transition: all 0.2s ease;
+        font-size: 0.9rem;
+    }
+
+    .back-link:hover {
+        border-color: var(--global-theme-color);
+        color: var(--global-theme-color) !important;
+        transform: translateX(-3px);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+
+    .back-link i {
+        color: var(--global-theme-color);
+        font-size: 0.8rem;
     }

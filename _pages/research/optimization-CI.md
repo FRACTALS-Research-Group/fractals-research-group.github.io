@@ -4,6 +4,7 @@ title: Optimization & Computational Intelligence
 description: Solving complex mathematical bottlenecks by advancing Swarm Intelligence, Evolutionary Algorithms, and Fuzzy Logic.
 permalink: /research/optimization-CI/
 ---
+
 <div class="projects">
   {% assign projects = site.projects | where: "category", "optimization" | sort: "importance" %}
   <div class="row row-cols-1 row-cols-md-2">
@@ -123,4 +124,30 @@ permalink: /research/optimization-CI/
         background-size: 200% 100%;
         animation: shimmer 1.5s infinite;
         border-radius: 4px;
+    }
+    .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        color: var(--global-text-color) !important;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 8px 16px;
+        background: var(--global-card-bg-color);
+        border: 1px solid var(--global-divider-color);
+        border-radius: 50px;
+        transition: all 0.2s ease;
+        font-size: 0.9rem;
+    }
+
+    .back-link:hover {
+        border-color: var(--global-theme-color);
+        color: var(--global-theme-color) !important;
+        transform: translateX(-3px);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+
+    .back-link i {
+        color: var(--global-theme-color);
+        font-size: 0.8rem;
     }

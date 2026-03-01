@@ -4,6 +4,24 @@ title: Interpretable AI, Fairness & Ethics
 permalink: /research/interpretable-ai-fairness-ethics/
 description: Opening the "black box" of complex models to provide human-understandable insights while ensuring equitable outcomes and robust digital ethics.
 ---
+<div class="back-nav mb-5" style="text-align: right;">
+    <a href="/research/" class="back-link">
+        <i class="fas fa-chevron-left"></i> All Research Pillars
+    </a>
+</div>
+<div class="back-nav mb-5" style="text-align: right;">
+    <a href="/research/" class="back-link">
+        <i class="fas fa-chevron-left"></i> All Research Pillars
+    </a>
+</div>
+
+<div class="projects">
+  {% assign projects = site.projects | where: "category", "interpretable-ai" | sort: "importance" %}
+  <div class="row row-cols-1 row-cols-md-2">
+    {% for project in projects %}{% include projects.liquid %}{% endfor %}
+  </div>
+</div>
+
 <div class="project-wip-card">
     <div class="wip-visual">
         <div class="icon-stack">
@@ -27,13 +45,6 @@ description: Opening the "black box" of complex models to provide human-understa
             <div class="skeleton-line short"></div>
         </div>
     </div>
-</div>
-
-<div class="projects">
-  {% assign projects = site.projects | where: "category", "interpretable-ai" | sort: "importance" %}
-  <div class="row row-cols-1 row-cols-md-2">
-    {% for project in projects %}{% include projects.liquid %}{% endfor %}
-  </div>
 </div>
 
 <style>
@@ -123,4 +134,31 @@ description: Opening the "black box" of complex models to provide human-understa
         background-size: 200% 100%;
         animation: shimmer 1.5s infinite;
         border-radius: 4px;
+    }
+
+    .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        color: var(--global-text-color) !important;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 8px 16px;
+        background: var(--global-card-bg-color);
+        border: 1px solid var(--global-divider-color);
+        border-radius: 50px;
+        transition: all 0.2s ease;
+        font-size: 0.9rem;
+    }
+
+    .back-link:hover {
+        border-color: var(--global-theme-color);
+        color: var(--global-theme-color) !important;
+        transform: translateX(-3px);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    }
+
+    .back-link i {
+        color: var(--global-theme-color);
+        font-size: 0.8rem;
     }
