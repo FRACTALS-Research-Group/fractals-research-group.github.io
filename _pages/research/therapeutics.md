@@ -1,9 +1,16 @@
 ---
 layout: page
-title: Interpretable AI, Fairness & Ethics
-permalink: /projects/interpretable-ai-fairness-ethics/
-description: Opening the "black box" of complex models to provide human-understandable insights while ensuring equitable outcomes and robust digital ethics.
+title: Therapeutics, Drug Discovery & Design
+description: Bridging Drug Discovery and Design through computational modeling to identify precision medicine solutions and life-saving outcomes.
+permalink: /research/therapeutics/
 ---
+<div class="projects">
+  {% assign projects = site.projects | where: "category", "therapeutics" | sort: "importance" %}
+  <div class="row row-cols-1 row-cols-md-2">
+    {% for project in projects %}{% include projects.liquid %}{% endfor %}
+  </div>
+</div>
+
 <div class="project-wip-card">
     <div class="wip-visual">
         <div class="icon-stack">
@@ -27,13 +34,6 @@ description: Opening the "black box" of complex models to provide human-understa
             <div class="skeleton-line short"></div>
         </div>
     </div>
-</div>
-
-<div class="projects">
-  {% assign projects = site.projects | where: "category", "interpretable-ai" | sort: "importance" %}
-  <div class="row row-cols-1 row-cols-md-2">
-    {% for project in projects %}{% include projects.liquid %}{% endfor %}
-  </div>
 </div>
 
 <style>

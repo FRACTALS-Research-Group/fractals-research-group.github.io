@@ -2,7 +2,7 @@
 layout: page
 title: High Performance Computing & GPU Simulations
 description: Leveraging massive computational power and CUDA-driven architectures to push the boundaries of data processing and real-time complex systems modeling.
-permalink: /projects/hpc-gpu-simulations/
+permalink: /research/hpc-gpu-simulations/
 ---
 <div class="projects">
   {% assign projects = site.projects | where: "category", "hpc" | sort: "importance" %}

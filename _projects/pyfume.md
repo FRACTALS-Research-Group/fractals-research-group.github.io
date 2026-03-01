@@ -23,7 +23,8 @@ category: interpretable-ai
             </div>
         </div>
         <div class="col-md-4 text-center">
-            <i class="fas fa-microchip fa-8x" style="color: var(--global-theme-color); opacity: 0.2;"></i>
+            <!-- <i class="fas fa-microchip fa-8x" style="color: var(--global-theme-color); opacity: 0.2;"></i> -->
+            <img src="{{ site.baseurl }}/assets/img/projects/pyfume.png" alt="pyFUME Logo" class="img-fluid">
         </div>
     </div>
 </div>

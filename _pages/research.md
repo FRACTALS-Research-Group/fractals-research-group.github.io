@@ -46,37 +46,37 @@ horizontal: false
 </div>
 
 <div class="projects-grid">
-  <a href="/projects/medicine-biological-systems/" class="area-card">
+  <a href="/research/medicine-biological-systems/" class="area-card">
     <i class="fas fa-microscope"></i>
     <h3>Medicine & Biological Systems</h3>
     <p>Developing advanced clinical diagnostics while mastering the non-linear dynamics governing life, from cellular networks to systemic health interactions.</p>
   </a>
 
-  <a href="/projects/therapeutics/" class="area-card">
+  <a href="/research/therapeutics/" class="area-card">
     <i class="fas fa-pills"></i>
     <h3>Therapeutics, Drug Discovery & Design</h3>
     <p>Bridging Drug Discovery and Design through computational modeling to identify precision medicine solutions and life-saving outcomes.</p>
   </a>
 
-  <a href="/projects/hpc-gpu-simulations/" class="area-card">
+  <a href="/research/hpc-gpu-simulations/" class="area-card">
     <i class="fas fa-microchip"></i>
     <h3>High Performance Computing & GPU Simulations</h3>
     <p>Leveraging massive computational power and CUDA-driven architectures to push the boundaries of data processing and real-time complex systems modeling.</p>
   </a>
 
-  <a href="/projects/astrophysics-complex-systems/" class="area-card">
+  <a href="/research/astrophysics-complex-systems/" class="area-card">
     <i class="fas fa-atom"></i>
     <h3>Astrophysics & Complex Systems</h3>
     <p>Decoding the silent language of Cosmic Rays and multi-scale natural systems, turning chaotic high-energy data into physical insights.</p>
   </a>
 
-  <a href="/projects/optimization-CI/" class="area-card">
+  <a href="/research/optimization-CI/" class="area-card">
     <i class="fas fa-vial"></i>
     <h3>Optimization & Computational Intelligence</h3>
     <p>Solving complex mathematical bottlenecks by advancing Swarm Intelligence, Evolutionary Algorithms, and Fuzzy Logic.</p>
   </a>
 
-  <a href="/projects/interpretable-ai-fairness-ethics/" class="area-card">
+  <a href="/research/interpretable-ai-fairness-ethics/" class="area-card">
     <i class="fas fa-brain"></i>
     <h3>Interpretable AI, Fairness & Ethics</h3>
     <p>Opening the "black box" of complex models to provide human-understandable insights while ensuring equitable outcomes and robust digital ethics.</p>

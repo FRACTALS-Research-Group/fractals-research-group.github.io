@@ -1,15 +1,9 @@
 ---
 layout: page
-title: Therapeutics, Drug Discovery & Design
-description: Bridging Drug Discovery and Design through computational modeling to identify precision medicine solutions and life-saving outcomes.
-permalink: /projects/therapeutics/
+title: Medicine & Biological Systems
+permalink: /research/medicine-biological-systems/
+description: Developing advanced clinical diagnostics while mastering the non-linear dynamics governing life, from cellular networks to systemic health interactions.
 ---
-<div class="projects">
-  {% assign projects = site.projects | where: "category", "therapeutics" | sort: "importance" %}
-  <div class="row row-cols-1 row-cols-md-2">
-    {% for project in projects %}{% include projects.liquid %}{% endfor %}
-  </div>
-</div>
 
 <div class="project-wip-card">
     <div class="wip-visual">
@@ -34,6 +28,13 @@ permalink: /projects/therapeutics/
             <div class="skeleton-line short"></div>
         </div>
     </div>
+</div>
+
+<div class="projects">
+  {% assign projects = site.projects | where: "category", "bio-med" | sort: "importance" %}
+  <div class="row row-cols-1 row-cols-md-2">
+    {% for project in projects %}{% include projects.liquid %}{% endfor %}
+  </div>
 </div>
 
 <style>
@@ -123,4 +124,9 @@ permalink: /projects/therapeutics/
         background-size: 200% 100%;
         animation: shimmer 1.5s infinite;
         border-radius: 4px;
+    }
+
+    @keyframes shimmer {
+        0% { background-position: 200% 0; }
+        100% { background-position: -200% 0; }
     }

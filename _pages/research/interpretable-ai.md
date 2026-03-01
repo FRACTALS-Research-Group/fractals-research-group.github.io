@@ -1,16 +1,9 @@
 ---
 layout: page
-title: Astrophysics & Complex Systems
-description: Decoding the silent language of Cosmic Rays and multi-scale natural systems, turning chaotic high-energy data into physical insights.
-permalink: /projects/astrophysics-complex-systems/
+title: Interpretable AI, Fairness & Ethics
+permalink: /research/interpretable-ai-fairness-ethics/
+description: Opening the "black box" of complex models to provide human-understandable insights while ensuring equitable outcomes and robust digital ethics.
 ---
-<div class="projects">
-  {% assign projects = site.projects | where: "category", "astrophysics-complex-systems" | sort: "importance" %}
-  <div class="row row-cols-1 row-cols-md-2">
-    {% for project in projects %}{% include projects.liquid %}{% endfor %}
-  </div>
-</div>
-
 <div class="project-wip-card">
     <div class="wip-visual">
         <div class="icon-stack">
@@ -34,6 +27,13 @@ permalink: /projects/astrophysics-complex-systems/
             <div class="skeleton-line short"></div>
         </div>
     </div>
+</div>
+
+<div class="projects">
+  {% assign projects = site.projects | where: "category", "interpretable-ai" | sort: "importance" %}
+  <div class="row row-cols-1 row-cols-md-2">
+    {% for project in projects %}{% include projects.liquid %}{% endfor %}
+  </div>
 </div>
 
 <style>
@@ -116,6 +116,7 @@ permalink: /projects/astrophysics-complex-systems/
         flex-direction: column;
         gap: 10px;
     }
+
     .skeleton-line {
         height: 8px;
         background: linear-gradient(90deg, var(--global-divider-color) 25%, var(--global-code-bg-color) 50%, var(--global-divider-color) 75%);

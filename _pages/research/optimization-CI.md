@@ -2,7 +2,7 @@
 layout: page
 title: Optimization & Computational Intelligence
 description: Solving complex mathematical bottlenecks by advancing Swarm Intelligence, Evolutionary Algorithms, and Fuzzy Logic.
-permalink: /projects/optimization-CI/
+permalink: /research/optimization-CI/
 ---
 <div class="projects">
   {% assign projects = site.projects | where: "category", "optimization" | sort: "importance" %}
