@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-collaborators",
           title: "Collaborators",
-          description: "A global network of excellence bridging computational intelligence and scientific discovery.",
+          description: "A global network of excellence.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/collaborators/";
