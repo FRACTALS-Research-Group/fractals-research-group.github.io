@@ -2,6 +2,9 @@ institutions:
   - name: "Tilburg University"
     location: "Tilburg, The Netherlands"
     logo: "fas fa-gavel"
+    coordinates:
+      lat: 51.5623
+      lon: 5.0450
     people:
       - name: "Chiara Gallese"
         role: "Researcher"
@@ -14,6 +17,9 @@ institutions:
   - name: "National Institute of Nuclear Physics (INFN)"
     location: "Milano Bicocca, Italy"
     logo: "fas fa-atom"
+    coordinates:
+      lat: 45.5173
+      lon: 9.2136
     people:
       - name: "Stefano Della Torre"
         role: "First Researcher"
@@ -28,6 +34,9 @@ institutions:
   - name: "Eindhoven University of Technology"
     location: "Eindhoven, The Netherlands"
     logo: "fas fa-university"
+    coordinates:
+      lat: 51.4486
+      lon: 5.4907
     people:
       - name: "Mohsen Abbaspour Onari"
         role: "Former Doctoral Candidate"
@@ -63,6 +72,9 @@ institutions:
   - name: "Ca' Foscari University of Venice"
     location: "Venice, Italy"
     logo: "fas fa-university"
+    coordinates:
+      lat: 45.4344
+      lon: 12.3267
     people:
       - name: "Achille Giacometti"
         role: "Full Professor"
@@ -84,6 +96,9 @@ institutions:
   - name: "University of Milano-Bicocca"
     location: "Milan, Italy"
     logo: "fas fa-university"
+    coordinates:
+      lat: 45.5170
+      lon: 9.2130
     people:
       - name: "Cristina Airoldi"
         role: "Researcher"
@@ -160,6 +175,9 @@ institutions:
   - name: "Bocconi University"
     location: "Milan, Italy"
     logo: "fas fa-university"
+    coordinates:
+      lat: 45.4485
+      lon: 9.1895
     people:
       - name: "Andrea Tangherloni"
         role: "Assistant Professor"
@@ -173,6 +191,9 @@ institutions:
   - name: "University College of London, Barts Heart Centre"
     location: "London, UK"
     logo: "fas fa-hospital"
+    coordinates:
+      lat: 51.5233
+      lon: -0.1330
     people:
       - name: "Jessica Artico"
         role: "Clinical Research Fellow"
@@ -182,6 +203,9 @@ institutions:
   - name: "European Institute of Oncology IRCCS (IEO)"
     location: "Milan, Italy"
     logo: "fas fa-microscope"
+    coordinates:
+      lat: 45.4093
+      lon: 9.2023
     people:
       - name: "Massimo Barberis"
         role: "Medical Doctor"
@@ -208,6 +232,9 @@ institutions:
   - name: "University of Turin"
     location: "Turin, Italy"
     logo: "fas fa-university"
+    coordinates:
+      lat: 45.0683
+      lon: 7.6833
     people:
       - name: "Marco Beccuti"
         role: "Associate Professor"
@@ -217,6 +244,9 @@ institutions:
   - name: "Niguarda Medical Center"
     location: "Milan, Italy"
     logo: "fas fa-hospital"
+    coordinates:
+      lat: 45.5085
+      lon: 9.1887
     people:
       - name: "Andrea Bianchi"
         role: "Full Professor"
@@ -233,6 +263,9 @@ institutions:
   - name: "Vita-Salute San Raffaele University Hospital, IRCCS"
     location: "Milan, Italy"
     logo: "fas fa-hospital"
+    coordinates:
+      lat: 45.5050
+      lon: 9.2660
     people:
       - name: "Giampaolo Bianchini"
         role: "Associate Professor"
@@ -253,6 +286,9 @@ institutions:
   - name: "Polytechnic of Milan"
     location: "Milan, Italy"
     logo: "fas fa-university"
+    coordinates:
+      lat: 45.4781
+      lon: 9.2272
     people:
       - name: "Andrea Bonarini"
         role: "Full Professor"
@@ -266,6 +302,9 @@ institutions:
   - name: "Johns Hopkins Medical University"
     location: "Baltimore, MD, USA"
     logo: "fas fa-hospital"
+    coordinates:
+      lat: 39.2964
+      lon: -76.5927
     people:
       - name: "Richard Carrick"
         role: "Assistant Professor of Medicine"
@@ -287,6 +326,9 @@ institutions:
   - name: "Italian Auxologic Institute, IRCCS"
     location: "Milan, Italy"
     logo: "fas fa-hospital"
+    coordinates:
+      lat: 45.4674
+      lon: 9.1678
     people:
       - name: "Silvia Castelletti"
         role: "Medical Doctor"
@@ -300,6 +342,9 @@ institutions:
   - name: "Universidade Nova de Lisboa"
     location: "Lisbon, Portugal"
     logo: "fas fa-university"
+    coordinates:
+      lat: 38.7340
+      lon: -9.1600
     people:
       - name: "Mauro Castelli"
         role: "Full Professor"
@@ -317,6 +362,9 @@ institutions:
   - name: "Fondazione IRCCS San Gerardo dei Tintori"
     location: "Monza, Italy"
     logo: "fas fa-hospital"
+    coordinates:
+      lat: 45.5926
+      lon: 9.2736
     people:
       - name: "Giorgio Cazzaniga"
         role: "Medical Doctor"
@@ -330,6 +378,9 @@ institutions:
   - name: "University of British Columbia"
     location: "Vancouver, Canada"
     logo: "fas fa-university"
+    coordinates:
+      lat: 49.2606
+      lon: -123.2460
     people:
       - name: "Cristina Conati"
         role: "Full Professor"
@@ -339,6 +390,9 @@ institutions:
   - name: "University of Trieste"
     location: "Trieste, Italy"
     logo: "fas fa-university"
+    coordinates:
+      lat: 45.6587
+      lon: 13.7933
     people:
       - name: "Marco Confalonieri"
         role: "Medical Doctor, Associate Professor"
@@ -359,6 +413,9 @@ institutions:
   - name: "University of Salamanca"
     location: "Salamanca, Spain"
     logo: "fas fa-university"
+    coordinates:
+      lat: 40.9620
+      lon: -5.6660
     people:
       - name: "Juan Manuel Corchado"
         role: "Full Professor"
@@ -368,6 +425,9 @@ institutions:
   - name: "University of Bologna"
     location: "Bologna, Italy"
     logo: "fas fa-university"
+    coordinates:
+      lat: 44.4968
+      lon: 11.3534
     people:
       - name: "Stefano Diciotti"
         role: "Associate Professor"
@@ -377,6 +437,9 @@ institutions:
   - name: "Carlo Cattaneo University"
     location: "Varese, Italy"
     logo: "fas fa-university"
+    coordinates:
+      lat: 45.5975
+      lon: 8.8600
     people:
       - name: "Elena Falletti"
         role: "Associate Professor"
@@ -389,6 +452,9 @@ institutions:
   - name: "University of Cambridge"
     location: "Cambridge, UK"
     logo: "fas fa-university"
+    coordinates:
+      lat: 52.2043
+      lon: 0.1149
     people:
       - name: "Alessandro Favero"
         role: "Physics-AI Fellow"
@@ -402,6 +468,9 @@ institutions:
   - name: "University of Vienna"
     location: "Vienna, Austria"
     logo: "fas fa-university"
+    coordinates:
+      lat: 48.2130
+      lon: 16.3597
     people:
       - name: "Leonida Fusani"
         role: "Professor"
@@ -411,6 +480,9 @@ institutions:
   - name: "Kyoto University"
     location: "Kyoto, Japan"
     logo: "fas fa-university"
+    coordinates:
+      lat: 35.0262
+      lon: 135.7808
     people:
       - name: "Ryuichiro Hataya"
         role: ""
@@ -420,6 +492,9 @@ institutions:
   - name: "Open University of the Netherlands"
     location: "Heerlen, The Netherlands"
     logo: "fas fa-university"
+    coordinates:
+      lat: 50.8785
+      lon: 5.9580
     people:
       - name: "Arjen Hommersom"
         role: "Associate Professor"
@@ -427,8 +502,11 @@ institutions:
         scholar: qwYoEBUAAAAJ
 
   - name: "National Institutes of Health"
-    location: "USA"
+    location: "Bethesda, MD, USA"
     logo: "fas fa-landmark"
+    coordinates:
+      lat: 38.9958
+      lon: -77.1010
     people:
       - name: "Peter Kellman"
         role: "Staff Scientist Emeritus"
@@ -438,6 +516,9 @@ institutions:
   - name: "University Hospital of Padua"
     location: "Padua, Italy"
     logo: "fas fa-hospital"
+    coordinates:
+      lat: 45.4030
+      lon: 11.8845
     people:
       - name: "Amalia Lupi"
         role: "Assistant Professor"
@@ -455,6 +536,9 @@ institutions:
   - name: "University of Twente"
     location: "Enschede, The Netherlands"
     logo: "fas fa-university"
+    coordinates:
+      lat: 52.2381
+      lon: 6.8550
     people:
       - name: "Luca Mariot"
         role: "Assistant Professor"
@@ -464,6 +548,9 @@ institutions:
   - name: "Università degli Studi di Milano"
     location: "Milan, Italy"
     logo: "fas fa-university"
+    coordinates:
+      lat: 45.4597
+      lon: 9.1915
     people:
       - name: "Angelica Mazzolari"
         role: "Assistant Professor"
@@ -473,6 +560,9 @@ institutions:
   - name: "National Research Council of Italy (CNR)"
     location: "Milan, Italy"
     logo: "fas fa-microscope"
+    coordinates:
+      lat: 45.5180
+      lon: 9.2135
     people:
       - name: "Ivan Merelli"
         role: "Scientist"
@@ -486,6 +576,9 @@ institutions:
   - name: "Max Planck Institute for Animal Behaviour"
     location: "Konstanz, Germany"
     logo: "fas fa-dove"
+    coordinates:
+      lat: 47.6740
+      lon: 9.1760
     people:
       - name: "Elisa Perinot"
         role: "Postdoc"
@@ -495,6 +588,9 @@ institutions:
   - name: "University of Oxford"
     location: "Oxford, UK"
     logo: "fas fa-university"
+    coordinates:
+      lat: 51.7548
+      lon: -1.2544
     people:
       - name: "Simone G. Riva"
         role: "Senior Computational and Machine Learning Scientist in Genomics"
@@ -504,6 +600,9 @@ institutions:
   - name: "University of Salerno"
     location: "Salerno, Italy"
     logo: "fas fa-university"
+    coordinates:
+      lat: 40.7711
+      lon: 14.7892
     people:
       - name: "Leonardo Rundo"
         role: "Associate Professor"
