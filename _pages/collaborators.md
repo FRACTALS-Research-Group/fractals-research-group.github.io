@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Collaborators
-permalink: /collaborators/
-description: A global network of excellence.
+title: Network
+permalink: /network/
+description: Explore our global network of collaborators and institutions driving innovation across disciplines.
 nav: true
 nav_order: 5
 ---

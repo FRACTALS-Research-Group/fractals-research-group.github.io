@@ -3,10 +3,9 @@
 <h4><b>Leone Bacciu</b></h4>
 <h6><i>Research Grant Holder @ University of Bergamo</i></h6>
 <h6><i>Research Fellow @ Ca’ Foscari University of Venice</i></h6>
-Master’s student in Computer Science and Engineering at Politecnico di Milano with a BSc in Computer Science (completed 1
-year ahead of schedule) and an outstanding academic record, complemented by over five years of full-stack development
+Master’s student in Computer Science and Engineering at Politecnico di Milano with a BSc in Computer Science and an outstanding academic record, complemented by over five years of full-stack development
 experience. Recently completed a one year research grant at Ca’ Foscari University of Venice on a Computational Astrophysics
-high performance computing (HPC) project in collaboration with ICSC, INAF, and INFN.
+High Performance Computing (HPC) project in collaboration with ICSC, INAF, and INFN and now is a Research Grant Holder at University of Bergamo.
 Recently obtained a research grant at the University of Bergamo, where I am currently working on a project focused on evaluating the effectiveness of personalized rehabilitation protocols through biomechanical and physiological analysis.
 Research focuses on Computational Intelligence (fuzzy logic, genetic programming, evolutionary computation, swarm intelligence, multi-objective optimization, and
 neural networks) with applications in AI/ML. Authored seven peer-reviewed papers (five as first author), including published work

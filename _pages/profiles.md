@@ -109,8 +109,35 @@ profiles:
     image: bio_pics/leone.jpg
     content: profiles/bio_leone.md
     email: leone.bacciu@unive.it
+    email2: leone.bacciu@unibg.it
     social:
       linkedin: leone-bacciu
       scholar: MXhDcRcAAAAJ
     image_circular: false # crops the image to make it circular
+
+  - separator: "External Members"
+
+  - name: "Chiara Gallese"
+    category: external # This triggers the new visual style
+    image: bio_pics/gallesechiara.png
+    institution: "University of Tilburg"
+    role: "Postdoctoral Researcher"
+    content: profiles/bio_chiara.md
+    website: https://aiandlaw.eu/
+    social:
+      linkedin: chiaragallesephd
+      scholar: Vmoen8UAAAAJ
+    email: C.Gallese@tilburguniversity.edu
+  
+  - name: "Stefano Della Torre"
+    category: external # This triggers the new visual style
+    image: bio_pics/stefano.png
+    institution: "National Institute of Nuclear Physics (INFN), Milano-Bicocca Division"
+    role: "First Researcher"
+    # content: profiles/bio_chiara.md
+    # website: https://aiandlaw.eu/
+    social:
+      # linkedin: chiaragallesephd
+      scholar: oPeRKBIAAAAJ
+    # email: C.Gallese@tilburguniversity.edu
 ---
