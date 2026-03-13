@@ -30,12 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/research/";
           },
-        },{id: "nav-collaborators",
-          title: "Collaborators",
-          description: "A global network of excellence.",
+        },{id: "nav-network",
+          title: "Network",
+          description: "Explore our global network of collaborators and institutions driving innovation across disciplines.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/collaborators/";
+            window.location.href = "/network/";
           },
         },{id: "nav-contact-us",
           title: "Contact Us",
