@@ -68,6 +68,14 @@ institutions:
         role: "Full Professor"
         interests: "Fuzzy Logic, Business Intelligence, Soft Computing, Data Mining, Healthcare Decision Support"
         scholar: SeNK5nAAAAAJ
+      - name: "Yaoxin Wu"
+        role: "Assistant Professor"
+        interests: "Deep learning, Combinatorial optimization, Integer programming, LLM for optimization"
+        scholar: 0qRnmK8AAAAJ
+      - name: "Yingqian Zhang"
+        role: "Associate Professor of AI for Decision-Making"
+        interests: "Artificial Intelligence, Data-Driven Optimization, Deep RL, Social-aware Algorithms"
+        scholar: 7sTIWeYAAAAJ
 
   - name: "Ca' Foscari University of Venice"
     location: "Venice, Italy"
@@ -92,6 +100,19 @@ institutions:
         role: "Researcher"
         interests: "Computer Science, Computational Biology, Systems Biology"
         scholar: LDcAPxIAAAAJ
+      - name: "Andrea Albarelli"
+        role: "Associate Professor"
+        interests: "Computer Vision, Artificial Intelligence, Pattern Recognition"
+        scholar: Y_zlfmoAAAAJ&hl
+      - name: "Flavio Romano"
+        role: "Associate Professor"
+        interests: "Soft Matter, Chemical Physics, Physical Chemistry"
+        scholar: tdVX0P4AAAAJ
+      - name: "Claudio Lucchese"
+        role: "Full Professor"
+        interests: "Data Mining, Information Retrieval, Explainable AI"
+        scholar: bdoG6ScAAAAJ
+
 
   - name: "University of Milano-Bicocca"
     location: "Milan, Italy"
@@ -171,6 +192,18 @@ institutions:
         role: "PhD Student"
         interests: "Cytopathology"
         scholar: qlfXVRMAAAAJ
+      - name: "Giancarlo Mauri"
+        role: "Professor Emeritus"
+        interests: "Computer Sciences, Natural Computing, Bioinformatics, Systems Biology"
+        scholar: ak78d9oAAAAJ
+      - name: "Dario Pescini"
+        role: "Associate Professor"
+        interests: "Systems Biology, Modelling, Omics"
+        scholar: rVfbClUAAAAJ
+      - name: "Renata Tisi"
+        role: "Associate Professor"
+        interests: "Molecular Biology, Yeast Biotechnology, Signal Transduction, GPCRs, Biosensors"
+        scholar: VHeOFJcAAAAJ
 
   - name: "Bocconi University"
     location: "Milan, Italy"
@@ -228,6 +261,10 @@ institutions:
         role: "Postdoc"
         interests: "Molecular Oncology"
         scholar: L6oQC9sAAAAJ
+      - name: "Nicola Fusco"
+        role: "Medical Doctor"
+        interests: "Breast Cancer, Molecular pathology, Immunopathology"
+        scholar: 9n2sH8oAAAAJ
 
   - name: "University of Turin"
     location: "Turin, Italy"
@@ -240,6 +277,10 @@ institutions:
         role: "Associate Professor"
         interests: "Computational Modelling, Systems Biology, Personalised Medicine"
         scholar: zAs0OVoAAAAJ
+      - name: "Simone Pernice"
+        role: "Assistant Professor"
+        interests: "Mathematical modeling, Systems biology, Petri Nets, Bioinformatics, Computer science"
+        scholar: K_e4Xk8AAAAJ
 
   - name: "Niguarda Medical Center"
     location: "Milan, Italy"
@@ -433,6 +474,14 @@ institutions:
         role: "Associate Professor"
         interests: "Biomedical Engineering, Medical Imaging, Machine Learning, Neuroimaging, Artificial Intelligence in Medicine"
         scholar: dayYdQ0AAAAJ
+      - name: "Marco Malferrari"
+        role: "Researcher (Tenure Track)"
+        interests: "Biophysics, Biochemistry, Bioelectrochemistry"
+        scholar: z4whT50AAAAJ
+      - name: "Stefania Rapino"
+        role: "Associate Professor"
+        interests: "Physical Chemistry of Biological Systems, Nanomedicine, Cancer, Carbon nano-materials, Scanning electrochemical microscopy"
+        scholar: NCATUy8AAAAJ
 
   - name: "Carlo Cattaneo University"
     location: "Varese, Italy"
@@ -464,6 +513,10 @@ institutions:
         role: "Full Professor"
         interests: "Artificial Intelligence, Computational Biology, Medicine"
         scholar: 4YhNJBEAAAAJ
+      - name: "Lucie Charlotte Magister"
+        role: "PhD Candidate"
+        interests: "Explainable Artificial Intelligence, Graph Neural Networks, Concept-based Interpretability"
+        scholar: lX2M_mEAAAAJ
 
   - name: "University of Vienna"
     location: "Vienna, Austria"
@@ -476,6 +529,10 @@ institutions:
         role: "Professor"
         interests: "Courtship displays, Bird Migration, Behavioral Ecology"
         scholar: eM3jSwYAAAAJ
+      - name: "Ortal Rewald"
+        role: "Postdoctoral Researcher"
+        interests: "Ecophysiology, Migration, Energy Consumption, Cryobiology, Cryopreservation"
+        scholar: hN1M96oAAAAJ
 
   - name: "Kyoto University"
     location: "Kyoto, Japan"
@@ -512,6 +569,9 @@ institutions:
         role: "Staff Scientist Emeritus"
         interests: "Signal Processing, Image Reconstruction, MRI"
         scholar: wpXfORUAAAAJ
+      - name: "Hui Xue"
+        role: "Principal Researcher"
+        interests: "Imaging AI, Signal processing, Machine Learning, Cardiac MR, Deep Learning for vision" 
         
   - name: "University Hospital of Padua"
     location: "Padua, Italy"
@@ -607,3 +667,463 @@ institutions:
       - name: "Leonardo Rundo"
         role: "Associate Professor"
         interests: "Medical Image Analysis, Machine Learning, Computational Intelligence, Soft Computing, Radiomics"
+
+  - name: "University of Guelph"
+    location: "Guelph, Ontario, Canada"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 43.5327
+      lon: -80.2262
+    people:
+      - name: "Daniel Ashlock"
+        role: "Full Professor"
+        interests: "Artificial Intelligence, Computing in Mathematics, Natural Science, Engineering and Medicine, Data Mining"
+
+  - name: "Pázmány Péter Catholic University"
+    location: "Budapest, Hungary"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 47.4917
+      lon: 19.0662
+    people:
+      - name: "Gábor Egressy"
+        role: "Senior Lecturer"
+        interests: "Systems biology, mathematical biologycell cycle, cell signalling, computational systems biology"
+        scholar: 8_91c4wAAAAJ
+  
+  - name: "Blankenberg Lab, Center for Computational Life Sciences"
+    location: "Cleveland, Ohio, USA"
+    logo: "fas fa-microscope"
+    coordinates:
+      lat: 41.5019
+      lon: -81.6212
+    people:
+      - name: "Fabio Cumbo"
+        role: "Postdoctoral Researcher "
+        interests: "Bioinformatics, Metagenomics, Vector Symbolic Architectures, Hyperdimensional Computing"
+        scholar: DJWJY7EAAAAJ
+  
+  - name: "University of Gothenburg"
+    location: "Gothenburg, Sweden"
+    logo: "fas fa-calculator"
+    coordinates:
+      lat: 57.6891
+      lon: 11.9723
+    people:
+      - name: "Marija Cvijovic"
+        role: "Associate Professor"
+        interests: "Mathematical Biology, Computational Biology, Systems Biology, Evolutionary Dynamics"
+        scholar: LQLAT1wut6QC
+  
+  - name: "University of L'Aquila"
+    location: "L'Aquila, Italy"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 42.3678
+      lon: 13.3517
+    people:
+      - name: "Antinisca Di Marco"
+        role: "Associate Professor"
+        interests: "Software Quality Engineering, AI Fairness, Data Science, Bioinformatics"
+        scholar: QVzuSyIAAAAJ
+  
+  - name: "Adam Mickiewicz University"
+    location: "Poznań, Poland"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 52.4643
+      lon: 16.9252
+    people:
+      - name: "Krzysztof Dyczkowski"
+        role: "Associate Professor"
+        interests: "Fuzzy sets, Intelligent Systems, Soft Computing, Ovarian Tumor Diagnosis, Cardinality of Fuzzy Sets"
+        scholar: R9MjCMgAAAAJ
+  
+  - name: "Università degli Studi di Bergamo"
+    location: "Bergamo, Italy"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 45.6946
+      lon: 9.6554
+    people:
+      - name: "Stefano D'Ambrosio"
+        role: "Researcher"
+        interests: "Education, Teaching, E-learning, Graphic Facilitation"
+        scholar: QLUEkwwAAAAJ
+      - name: "Antonella Gilardoni"
+        role: "PhD Student"
+        interests: "Adult disability, Social inclusion, Aging with disability"
+        scholar: gZGSGBwAAAAJ
+      - name: "Mabel Giraldo"
+        role: "Assistant Professor"
+        interests: "Inclusion, Disability, Residential services, Self-determination, De-institutionalisation"
+        scholar: K-Ak4SYAAAAJ
+  
+  - name: "Università di Udine"
+    location: "Udine, Italy"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 46.0645
+      lon: 13.2386
+    people:
+      - name: "Simone Giannerini"
+        role: "Full Professor"
+        interests: "Time series analysis, Nonlinear dynamics, Statistics, Mathematical modelling of genetic information"
+        scholar: 0Wa8MUoAAAAJ
+
+  - name: "Center for Applied Medical Research (CIMA)"
+    location: "Pamplona, Spain"
+    logo: "fas fa-microscope"
+    coordinates:
+      lat: 42.8015
+      lon: -1.6622
+    people:
+      - name: "Ibai Goicoechea"
+        role: "Postdoctoral Researcher"
+        interests: "Cancer Research, Hematology, Multiple Myeloma"
+        scholar: zGHSag0AAAAJ
+  
+  - name: "The University of Tokyo"
+    location: "Tokyo, Japan"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 35.7138
+      lon: 139.7615
+    people:
+      - name: "Changhee Han"
+        role: "Researcher"
+        interests: "Machine Learning, Deep Learning, Medical Imaging, Bioinformatics"
+        scholar: 0KAZPdgAAAAJ
+      - name: "Hitoshi Iba"
+        role: "Professor"
+        interests: "Artificial intelligence, Evolutionary systems, Complex systems"
+        scholar: A0kxZCAAAAAJ
+
+  - name: "University of Arkansas"
+    location: "Fayetteville, Arkansas, USA"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 36.0645
+      lon: -94.1718
+    people:
+      - name: "Leonard A. Harris"
+        role: "Assistant Professor"
+        interests: "Systems Biology, Computational Biology, Cancer, Tumor Heterogeneity, Intracellular Signaling"
+        scholar: JKq1RvoAAAAJ
+
+  - name: "Kansai Medical University"
+    location: "Hirakata, Osaka, Japan"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 34.8152
+      lon: 135.6394
+    people:
+      - name: "Giuseppe Pezzotti"
+        role: "Professor"
+        interests: "Raman Spectroscopy, Bioceramics, Orthopaedics, Materials Science, Bio-nanotechnology"
+        scholar: CR5bQPAAAAAJ
+  
+  - name: "German Cancer Research Center (DKFZ)"
+    location: "Heidelberg, Germany"
+    logo: "fas fa-microscope"
+    coordinates:
+      lat: 49.4144
+      lon: 8.6726
+    people:
+      - name: "Thomas Höfer"
+        role: "Division Head & Professor"
+        interests: "Systems Immunology, Quantitative Immunology, Systems Biology, Theoretical Immunology"
+        scholar: jouW2EUAAAAJ
+  
+  - name: "Università degli Studi della Campania 'Luigi Vanvitelli'"
+    location: "Caserta, Italy"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 41.0772
+      lon: 14.3268
+    people:
+      - name: "Mauro Iacono"
+        role: "Associate Professor"
+        interests: "Performance evaluation, complex computer-based systems, multiformalism modeling, privacy, XAI"
+        scholar: Y3jOKOYAAAAJ
+  
+  - name: "University of Eastern Finland"
+    location: "Kuopio, Finland"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 62.8925
+      lon: 27.6783
+    people:
+      - name: "Mariia Ivanova"
+        role: "Doctoral Researcher"
+        interests: "Molecular biology, Neurophysiology, Applied physics, Bio imaging"
+        scholar: Uwgk7-gAAAAJ
+  
+  - name: "Tomas Bata University in Zlín"
+    location: "Zlín, Czech Republic"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 49.2319
+      lon: 17.6534
+    people:
+      - name: "Tomas Kadavy"
+        role: "Senior Lecturer / Researcher"
+        interests: "Evolutionary algorithms, Swarm algorithms, Artificial intelligence"
+        scholar: 5gGkkFQAAAAJ
+  
+  - name: "University of Rzeszów"
+    location: "Rzeszów, Poland"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 50.0294
+      lon: 22.0152
+    people:
+      - name: "Dawid Kosior"
+        role: "Researcher"
+        interests: "Interval-Value Fuzzy Sets, Interval-Valued Fuzzy Relations, Decision Making, Artificial Intelligence"
+        scholar: uOXC4FUAAAAJ
+      - name: "Barbara Pękala"
+        role: "Associate Professor / Head of Department"
+        interests: "Fuzzy sets, Decision making, Interval-valued fuzzy relations, Intuitionistic fuzzy relations"
+        scholar: NWEtaq4AAAAJ
+  
+  - name: "Cracow University of Economics"
+    location: "Kraków, Poland"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 50.0687
+      lon: 19.9538
+    people:
+      - name: "Wojciech Kozioł"
+        role: "Assistant Professor"
+        interests: "Human capital, Fair wages, Bonus salaries, Income inequality"
+        scholar: FNN11tgAAAAJ
+  
+  - name: "Maastricht UMC+"
+    location: "Maastricht, Netherlands"
+    logo: "fas fa-hospital"
+    coordinates:
+      lat: 50.8351
+      lon: 5.7145
+    people:
+      - name: "Pieter Kubben"
+        role: "Neurosurgeon & Associate Professor"
+        interests: "Neuroimaging, Computational neuroscience, Functional neurosurgery, Brain computer interface, Neuroprosthetics"
+        scholar: qJ8121AAAAAJ
+
+  - name: "Center for Genomic Science, Italian Institute of Technology"
+    location: "Milan, Italy"
+    logo: "fas fa-dna"
+    coordinates:
+      lat: 45.4284
+      lon: 9.1953
+    people:
+      - name: "Tommaso Leonardi"
+        role: "Researcher / Group Leader"
+        interests: "Genomics, Genetics, ncRNAs, Bioinformatics, Computational Biology"
+        scholar: z9KVwLoAAAAJ
+
+  - name: "Center for Human Genetics, University of Marburg"
+    location: "Marburg, Germany"
+    logo: "fas fa-dna"
+    coordinates:
+      lat: 50.8145
+      lon: 8.8034
+    people:
+      - name: "Carlo Maj"
+        role: "Head of Bioinformatics"
+        interests: "Statistical Genetics, Polygenic Risk Scores, Complex Multifactorial Traits, Genetic Epidemiology"
+        scholar: aRGhvcUAAAAJ
+
+  - name: "University of Pisa"
+    location: "Pisa, Italy"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 43.7224
+      lon: 10.3927
+    people:
+      - name: "Stefano Masi"
+        role: "Associate Professor"
+        interests: "Inflammation, Cardiovascular Disease, Ageing, Internal Medicine"
+        scholar: SuVy8SkAAAAJ
+  
+  - name: "University Hospital Zurich (USZ)"
+    location: "Zurich, Switzerland"
+    logo: "fas fa-hospital-user"
+    coordinates:
+      lat: 47.3763
+      lon: 8.5492
+    people:
+      - name: "Alessandro Mengozzi"
+        role: "Research Assistant / Resident Physician"
+        interests: "Endothelial function, Cardiometabolism, Calorie restriction, Vascular aging"
+        scholar: b00FxN4AAAAJ
+  
+  - name: "University of Maryland"
+    location: "College Park, Maryland, USA"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 38.9904
+      lon: -76.9366
+    people:
+      - name: "Sara Molinari"
+        role: "Assistant Professor"
+        interests: "Synthetic Biology, Engineered Living Materials"
+        scholar: jz4z2zMAAAAJ
+  
+  - name: "University of Eastern Piedmont (UPO)"
+    location: "Alessandria, Italy"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 44.5222
+      lon: 11.3375
+    people:
+      - name: "Marzio Alfio Pennisi"
+        role: "Assistant Professor / Researcher"
+        interests: "Formal Methods, Computational Modeling, Distributed Systems"
+        scholar: yW4KzuoAAAAJ
+  
+  - name: "University of Michigan"
+    location: "Ann Arbor, Michigan, USA"
+    logo: "fas fa-hospital-user"
+    coordinates:
+      lat: 42.2828
+      lon: -83.7289
+    people:
+      - name: "Ana Cristina Perez-Moreno"
+        role: "Postdoctoral Research Fellow"
+        interests: "Cardiology, Internal Medicine, Heart Failure, Inflammation, Aging"
+        scholar: XrNxLgoAAAAJ
+  
+  - name: "Aix-Marseille Université & LIS"
+    location: "Marseille, France"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 43.2312
+      lon: 5.4397
+    people:
+      - name: "Antonio E. Porreca"
+        role: "Associate Professor"
+        interests: "Natural computing, Computational complexity, Computability, Discrete dynamical systems, Theoretical computer science"
+        scholar: b3i-hZ8AAAAJ
+  
+  - name: "University of Porto - Faculty of Sciences"
+    location: "Porto, Portugal"
+    logo: "fas fa-flask"
+    coordinates:
+      lat: 41.1512
+      lon: -8.6408
+    people:
+      - name: "M. Natalia D. S. Cordeiro"
+        role: "Associate Professor"
+        interests: "Theoretical & Computational Chemistry, Machine Learning, Materials & Drug Design, Toxicity"
+        scholar: nsoC2TUAAAAJ
+
+  - name: "Vanderbilt University School of Medicine"
+    location: "Nashville, Tennessee, USA"
+    logo: "fas fa-microscope"
+    coordinates:
+      lat: 36.1430
+      lon: -86.8016
+    people:
+      - name: "Vito Quaranta"
+        role: "Professor & Director of QSBC"
+        interests: "Cancer Systems Biology, Mathematical Modeling, Clonal Evolution, Drug Synergy"
+        scholar: w90_51MAAAAJ
+  
+  - name: "Urmia University of Technology"
+    location: "Urmia, Iran"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 37.5750
+      lon: 45.0275
+    people:
+      - name: "Mustafa Jahangoshai Rezaee"
+        role: "Professor"
+        interests: "AI in Industry & Business, Risk Assessment, Process Safety, AI-based Decision Analytics, Game Theory"
+        scholar: YFm2p6AAAAAJ
+  
+  - name: "Joint Research Centre (JRC)"
+    location: "Ispra, Italy"
+    logo: "fas fa-euro-sign"
+    coordinates:
+      lat: 45.8118
+      lon: 8.6272
+    people:
+      - name: "Stefano Ruberto"
+        role: "Scientific Research Officer / AI Researcher"
+        interests: "Artificial Intelligence, Machine Learning, Evolutionary Computation, Search Based Software Engineering, Software Engineering"
+        scholar: fWJgRNcAAAAJ
+  
+  - name: "University of Catania"
+    location: "Catania, Italy"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 37.5273
+      lon: 15.0745
+    people:
+      - name: "Giulia Russo"
+        role: "Post-doctoral Researcher"
+        interests: "Computational biology, Systems biology, Precision medicine"
+        scholar: RoZW9HkAAAAJ
+  
+  - name: "University of Technology Sydney"
+    location: "Sydney, Australia"
+    logo: "fas fa-university"
+    coordinates:
+      lat: -33.8833
+      lon: 151.2008
+    people:
+      - name: "Morteza Saberi"
+        role: "Senior Lecturer"
+        interests: "Algorithmic Decision-Making, Business Intelligence, Human Computation, Data Mining"
+        scholar: YtNFzwwAAAAJ
+  
+  - name: "RiboPro"
+    location: "Oss, Netherlands"
+    logo: "fas fa-dna"
+    coordinates:
+      lat: 51.7645
+      lon: 5.5195
+    people:
+      - name: "Simone Spolaor"
+        role: "Bioinformatics & Computational Engineer"
+        interests: "Computational Biology, Artificial Intelligence, Machine Learning, Fuzzy Logic"
+        scholar: DCdCKlUAAAAJ
+  
+  - name: "Luiss University"
+    location: "Rome, Italy"
+    logo: "fas fa-university"
+    coordinates:
+      lat: 41.9234
+      lon: 12.4878
+    people:
+      - name: "Giovanni Stilo"
+        role: "Associate Professor"
+        interests: "Artificial Intelligence, Explainable AI, Algorithmic Bias, Machine Unlearning, Data Mining"
+        scholar: uTyaicMAAAAJ
+  
+  - name: "University of Bern"
+    location: "Bern, Switzerland"
+    logo: "fas fa-paw"
+    coordinates:
+      lat: 46.9272
+      lon: 7.4145
+    people:
+      - name: "Bernhard Völkl"
+        role: "Senior Scientist / Statistical Consultant"
+        interests: "Evolution, Behavioural Ecology, Animal Welfare, 3Rs, Reproducibility"
+        scholar: -9z5ixwAAAAJ
+  
+  - name: "Institute of Neuroinformatics (UZH/ETH Zurich)"
+    location: "Zurich, Switzerland"
+    logo: "fas fa-brain"
+    coordinates:
+      lat: 47.3970
+      lon: 8.5475
+    people:
+      - name: "Alexei Vyssotski"
+        role: "Senior Scientist"
+        interests: "Neurophysiology, Animal Communication, Navigation, Songbirds, Advanced neural methods"
+        scholar: jU9rADoAAAAJ
+  

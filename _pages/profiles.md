@@ -23,7 +23,7 @@ profiles:
       scholar: Qd21Ym0AAAAJ
     email: marco.nobile@unive.it
     more_info: >
-      <p>Ca' Foscari University of Venice, Italy</p>
+      <br/><p>Ca' Foscari University of Venice, Italy</p>
       <p>Department of Environmental Sciences, Informatics and Statistics (DAIS)</p>
       <p>Venezia-Mestre, Scientific Campus, Alfa Building, Room 514</p>
 
@@ -68,7 +68,7 @@ profiles:
       scholar: x3aOhPkAAAAJ
     email: daniela.besozzi@unimib.it
     more_info: >
-      <p>Milan-Bicocca University, Italy</p>
+      <br/><p>Milan-Bicocca University, Italy</p>
       <p>Department of Informatics, Systems and Communication (DISCo)</p>
       <p>Milano, Viale Sarca 336, Edificio U14, Room 2004</p>
 
@@ -101,7 +101,7 @@ profiles:
       scholar: x3aOhPkAAAAJ
     email: paolo.cazzaniga@unibg.it
     more_info: >
-      <p>University of Bergamo, Italy</p>
+      <br/><p>University of Bergamo, Italy</p>
       <p>Department of Human and Social Sciences</p>
       <p>Bergamo, Sede di Sant'Agostino, Via Sant'Agostino 2, Room 6</p>
   
