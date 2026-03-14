@@ -4,6 +4,11 @@ title: Optimization & Computational Intelligence
 description: Solving complex mathematical bottlenecks by advancing Swarm Intelligence, Evolutionary Algorithms, and Fuzzy Logic.
 permalink: /research/optimization-CI/
 ---
+<div class="back-nav mb-5" style="text-align: right;">
+    <a href="/research/" class="back-link">
+        <i class="fas fa-chevron-left"></i> All Research Pillars
+    </a>
+</div>
 
 <div class="projects">
   {% assign projects = site.projects | where: "category", "optimization" | sort: "importance" %}
