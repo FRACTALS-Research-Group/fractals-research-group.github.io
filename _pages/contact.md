@@ -44,8 +44,11 @@ nav_order: 6
             <a href="https://github.com/fractals-research-group" target="_blank" style="color: var(--global-text-color); text-decoration: none; display: flex; align-items: center; gap: 8px;">
                 <i class="fab fa-github" style="font-size: 1.5rem;"></i> <span style="font-weight: 700;">GitHub</span>
             </a>
-            <a href="https://linkedin.com/company/fractals-research-group" target="_blank" style="color: var(--global-text-color); text-decoration: none; display: flex; align-items: center; gap: 8px;">
+            <!-- <a href="https://linkedin.com/company/fractals-research-group" target="_blank" style="color: var(--global-text-color); text-decoration: none; display: flex; align-items: center; gap: 8px;">
                 <i class="fab fa-linkedin" style="font-size: 1.5rem;"></i> <span style="font-weight: 700;">LinkedIn</span>
+            </a> -->
+            <a href="https://bsky.app/profile/fractalsgroup.bsky.social" target="_blank" style="color: var(--global-text-color); text-decoration: none; display: flex; align-items: center; gap: 8px;">
+                <i class="fa-brands fa-bluesky" style="font-size: 1.5rem;"></i> <span style="font-weight: 700;">Bluesky</span>
             </a>
         </div>
     </div>
