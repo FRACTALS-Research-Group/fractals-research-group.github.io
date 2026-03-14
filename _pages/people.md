@@ -2,7 +2,7 @@
 layout: profiles_advanced
 permalink: /people/
 title: People
-description: Meet the members of the Fractals Research Group
+description: Meet the members of the FRACTALS Research Group
 nav: true
 nav_order: 1
 

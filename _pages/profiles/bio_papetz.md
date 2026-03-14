@@ -2,11 +2,23 @@
 
 <h4><b>Daniele M. Papetti</b></h4>
 <h6><i>Assistant Professor @ University of Milano-Bicocca</i></h6>
-Daniele M. Papetti is an assistant professor in Computer Science at University of Milano-Bicocca, Italy. His commitment to interdisciplinary research is further highlighted by his affiliation with the university's interdepartmental centre "Bicocca Bioinformatics Biostatistics and Bioimaging Centre – B4". 
 
-Starting with his Bachelor thesis, he conducted research in Computational Intelligence applied to the biomedical domain. His doctoral research focused on two main topics. 
-Firstly, a large part of his work has been dedicated to the field of meta-problems and automated algorithm configuration. This research is centered on developing automatic solutions for problems that must be resolved before the main problem can be tackled, such as the tuning of hyper-parameters, thus allowing for more robust and reproducible approaches across various applications. 
-Secondly, he also worked on the application of machine learning and deep-learning techniques in the bio-medical domain to develop clinical decision support tools to support practitioners in the diagnostic and prognostic process, and to facilitate the technical execution of exams. 
-In particular, he focused on the Cardiac Magnetic Resonance for non-invasive assessment and computational pathology for the automated analysis of tissue samples. Beyond such core topics, he also conducted research on interpretable machine learning via fuzzy logic, he is one of the developers of pyFUME, and on Spiking Neural Networks,a third-generation model of neural networks that more closely mimics biological neural networks. 
-Daniele is chair of the IEEE Computational Intelligence Society Task Force on Advanced Representation in Biological and Medical Search and Optimization and member of the IEEE Bioinformatics and Bioengineering Technical Committee.
+<p>
+Daniele M. Papetti is an <b>assistant professor in Computer Science</b> at <i>University of Milano-Bicocca</i>, Italy. His commitment to interdisciplinary research is further highlighted by his affiliation with the university's interdepartmental centre <b>"Bicocca Bioinformatics Biostatistics and Bioimaging Centre – B4"</b>. 
+</p>
+
+<p>
+Starting with his Bachelor thesis, he conducted research in <b>Computational Intelligence</b> applied to the biomedical domain. His doctoral research focused on two main topics. 
+Firstly, a large part of his work has been dedicated to the field of <b>meta-problems and automated algorithm configuration</b>. This research is centered on developing automatic solutions for problems such as the <b>tuning of hyper-parameters</b>, thus allowing for more <i>robust and reproducible</i> approaches across various applications. 
+Secondly, he also worked on the application of <b>machine learning and deep-learning techniques</b> in the bio-medical domain to develop <b>clinical decision support tools</b> to support practitioners in the diagnostic and prognostic process. 
+</p>
+
+<p>
+In particular, he focused on <b>Cardiac Magnetic Resonance</b> for non-invasive assessment and <b>computational pathology</b> for the automated analysis of tissue samples. Beyond such core topics, he also conducted research on <b>interpretable machine learning via fuzzy logic</b>—he is one of the developers of <i>pyFUME</i>—and on <b>Spiking Neural Networks</b>, a third-generation model of neural networks that more closely mimics biological neural networks. 
+</p>
+
+<p>
+Daniele is <b>chair of the IEEE Computational Intelligence Society Task Force</b> on <i>Advanced Representation in Biological and Medical Search and Optimization</i> and member of the <b>IEEE Bioinformatics and Bioengineering Technical Committee</b>.
+</p>
+
 </div>
