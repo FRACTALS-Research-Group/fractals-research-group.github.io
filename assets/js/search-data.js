@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-people",
           title: "People",
-          description: "Meet the members of the Fractals Research Group",
+          description: "Meet the members of the FRACTALS Research Group",
           section: "Navigation",
           handler: () => {
             window.location.href = "/people/";
@@ -59,6 +59,31 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-02-cibcb2026-special-session/";
+            },},{id: "news-tutorial-ieee-cibcb-2026",
+          title: 'Tutorial @ IEEE CIBCB 2026',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-02-cibcb2026-tutorial/";
+            },},{id: "projects-medga",
+          title: 'MedGA',
+          description: "A novel evolutionary method for image enhancement in medical imaging systems based on Genetic Algorithms.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MedGA/";
+            },},{id: "projects-mithyca",
+          title: 'MiThyCA',
+          description: "Microscopic foci of papillary Thyroid Carcinoma-like nuclear features identification with AI in Whole-Slide Images.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MiThyCA/";
+            },},{id: "projects-thaiti",
+          title: 'THAITI',
+          description: "TrustwortHy Artificial Intelligence for Inversion Time - Patented AI for Cardiac MRI optimization",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/THAITI/";
+            },},{id: "projects-use-net",
+          title: 'USE-Net',
+          description: "Incorporating Squeeze-and-Excitation blocks into U-Net for multi-institutional prostate zonal segmentation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/USE-Net/";
             },},{id: "projects-fanfair",
           title: 'FanFAIR',
           description: "Semi-automatic assessment of dataset fairness using fuzzy logic.",
