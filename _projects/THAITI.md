@@ -29,7 +29,7 @@ related_publications: false
             </div>
         </div>
         <div class="col-md-4 text-center">
-            <img src="{{ site.baseurl }}/assets/img/projects/thaiti.png" alt="THAITI Logo" class="img-fluid" style="max-height: 200px; border-radius: 15px;">
+            <img src="{{ site.baseurl }}/assets/img/projects/THAITI.png" alt="THAITI Logo" class="img-fluid" style="max-height: 200px; border-radius: 15px;">
         </div>
     </div>
 </div>

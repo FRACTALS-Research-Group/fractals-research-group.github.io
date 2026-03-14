@@ -89,6 +89,7 @@ FF.produce_report()
 
 <div class="mt-5 text-center">
 <a href="https://github.com/aresio/FanFAIR" class="btn btn-theme">View on GitHub</a>
+<a href="/contacts/" class="btn btn-outline-secondary ml-2">Request Information</a>
 <!-- <a href="https://www.google.com/search?q=https://fanfair.readthedocs.io/" class="btn btn-outline-secondary ml-2">Read Full Documentation</a> -->
 </div>
 

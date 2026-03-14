@@ -75,7 +75,7 @@ MedGA tackles this as a global optimization problem. It uses a Genetic Algorithm
 
 <div class="mt-5 text-center">
     <!-- <a href="https://doi.org/10.1016/j.eswa.2018.11.013" class="btn btn-theme">View Publication</a> -->
-    <a href="/contact/" class="btn btn-outline-secondary ml-2">Request Information</a>
+    <a href="/contacts/" class="btn btn-outline-secondary ml-2">Request Information</a>
 </div>
 
 <div class="publications">

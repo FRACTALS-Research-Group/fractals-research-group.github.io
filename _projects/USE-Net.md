@@ -74,7 +74,7 @@ We proposed two main variants of the network:
 
 <div class="mt-5 text-center">
     <!-- <a href="https://doi.org/10.1016/j.neucom.2019.07.006" class="btn btn-theme">View Publication</a> -->
-    <a href="/contact/" class="btn btn-outline-secondary ml-2">Request Information</a>
+    <a href="/contacts/" class="btn btn-outline-secondary ml-2">Request Information</a>
 </div>
 
 <div class="publications">

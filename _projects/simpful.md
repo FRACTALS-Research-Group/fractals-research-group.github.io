@@ -108,6 +108,7 @@ print(FS.inference())
 <div class="mt-5 text-center">
 <a href="https://github.com/aresio/simpful" class="btn btn-theme">View on GitHub</a>
 <a href="https://simpful.readthedocs.io/" class="btn btn-outline-secondary ml-2">Read Full Documentation</a>
+<a href="/contacts/" class="btn btn-outline-secondary ml-2">Request Information</a>
 </div>
 
 <div class="publications">

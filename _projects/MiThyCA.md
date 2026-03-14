@@ -75,7 +75,7 @@ The pipeline was validated on a multi-institutional cohort, demonstrating high r
 
 <div class="mt-5 text-center">
     <a href="https://github.com/MonzaComputationalMedicine/MiThyCA" class="btn btn-theme">View GitHub Repo</a>
-    <a href="/contact/" class="btn btn-outline-secondary ml-2">Request Information</a>
+    <a href="/contacts/" class="btn btn-outline-secondary ml-2">Request Information</a>
 </div>
 
 <div class="publications">

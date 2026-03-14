@@ -114,6 +114,7 @@ if __name__ == '__main__':
 <div class="mt-5 text-center">
 <a href="https://github.com/aresio/fst-pso" class="btn btn-theme">View GitHub Repo</a>
 <a href="https://www.google.com/search?q=https://fst-pso.readthedocs.io/" class="btn btn-outline-secondary ml-2">Read the Docs</a>
+<a href="/contacts/" class="btn btn-outline-secondary ml-2">Request Information</a>
 </div>
 
 <div class="publications">

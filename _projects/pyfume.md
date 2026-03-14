@@ -92,6 +92,7 @@ print(model.Sugeno_inference(['OUTPUT']))
 <div class="mt-5 text-center">
 <a href="https://github.com/CaroFuchs/pyFUME" class="btn btn-theme">View on GitHub</a>
 <a href="https://pyfume.readthedocs.io/" class="btn btn-outline-secondary ml-2">Read Full Documentation</a>
+<a href="/contacts/" class="btn btn-outline-secondary ml-2">Request Information</a>
 </div>
 
 <div class="publications">
