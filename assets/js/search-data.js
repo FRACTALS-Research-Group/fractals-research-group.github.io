@@ -64,6 +64,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-02-cibcb2026-tutorial/";
+            },},{id: "projects-hyperbeta",
+          title: 'HyperBeta',
+          description: "Characterizing the structural dynamics of proteins and self-assembling peptides.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/HyperBeta/";
             },},{id: "projects-medga",
           title: 'MedGA',
           description: "A novel evolutionary method for image enhancement in medical imaging systems based on Genetic Algorithms.",
@@ -74,6 +79,11 @@ ninja.data = [{
           description: "Microscopic foci of papillary Thyroid Carcinoma-like nuclear features identification with AI in Whole-Slide Images.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/MiThyCA/";
+            },},{id: "projects-sdegno",
+          title: 'SDEGnO',
+          description: "Optimization and performance testing of CUDA-(multi)GPU-accelerated codes for the automatic parameterization of physical models.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/SDEGNO/";
             },},{id: "projects-thaiti",
           title: 'THAITI',
           description: "TrustwortHy Artificial Intelligence for Inversion Time - Patented AI for Cardiac MRI optimization",
@@ -84,6 +94,11 @@ ninja.data = [{
           description: "Incorporating Squeeze-and-Excitation blocks into U-Net for multi-institutional prostate zonal segmentation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/USE-Net/";
+            },},{id: "projects-alliance",
+          title: 'ALLIANCE',
+          description: "Computational development and characterization of cyclic peptide binders for the precision delivery of RNA/DNA therapeutics.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/alliance/";
             },},{id: "projects-fanfair",
           title: 'FanFAIR',
           description: "Semi-automatic assessment of dataset fairness using fuzzy logic.",
@@ -94,6 +109,11 @@ ninja.data = [{
           description: "Fuzzy Self-Tuning Particle Swarm Optimization - A settings-free global optimization method.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/fstpso/";
+            },},{id: "projects-drug-metabolism-prediction-with-molecular-transformers",
+          title: 'Drug Metabolism Prediction with Molecular Transformers',
+          description: "Optimizing deep learning architectures for accurate and efficient prediction of drug metabolism using SMILES-based sequence-to-sequence models.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/molecular-transformers/";
             },},{id: "projects-pyfume",
           title: 'pyFUME',
           description: "A Python package for automatic Fuzzy Model Estimation from data.",
