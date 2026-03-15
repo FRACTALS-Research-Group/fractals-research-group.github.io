@@ -3,7 +3,7 @@ layout: page
 title: SDEGnO
 description: Optimization and performance testing of CUDA-(multi)GPU-accelerated codes for the automatic parameterization of physical models.
 # img: assets/img/projects/sdegno.png
-importance: 6
+importance: 1
 category: [astrophysics-complex-systems, hpc]
 related_publications: false
 ---
