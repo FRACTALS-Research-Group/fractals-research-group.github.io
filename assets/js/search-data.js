@@ -64,6 +64,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-02-cibcb2026-tutorial/";
+            },},{id: "projects-genhap",
+          title: 'GenHap',
+          description: "A novel computational method based on genetic algorithms for highly efficient haplotype assembly.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/GenHap/";
             },},{id: "projects-hyperbeta",
           title: 'HyperBeta',
           description: "Characterizing the structural dynamics of proteins and self-assembling peptides.",
@@ -99,21 +104,76 @@ ninja.data = [{
           description: "Computational development and characterization of cyclic peptide binders for the precision delivery of RNA/DNA therapeutics.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/alliance/";
+            },},{id: "projects-assessing-cardiac-functionality-via-interpretable-ai",
+          title: 'Assessing Cardiac Functionality via Interpretable AI',
+          description: "A fully interpretable, rule-based machine learning model using myocardial strain data to accurately estimate Left Ventricular Ejection Fraction (LVEF).",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cmrIAI/";
+            },},{id: "projects-automated-cardiac-mr-ischemic-scar-assessment",
+          title: 'Automated Cardiac MR Ischemic Scar Assessment',
+          description: "A deep learning-based system for the accurate, time-efficient segmentation and clinical reporting of left ventricular myocardial infarction scar.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cmrischemic/";
+            },},{id: "projects-cutauleaping",
+          title: 'cuTauLeaping',
+          description: "A GPU-powered tau-leaping stochastic simulator for massive parallel analyses of mass-action kinetics models.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cuTauLeaping/";
+            },},{id: "projects-cupsoda",
+          title: 'cupSODA',
+          description: "A CUDA-powered, coarse-grain deterministic simulator for mass-action kinetics models in systems biology.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cupSODA/";
             },},{id: "projects-fanfair",
           title: 'FanFAIR',
           description: "Semi-automatic assessment of dataset fairness using fuzzy logic.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/fanfair/";
+            },},{id: "projects-fourier-surrogate-models-of-dilated-fitness-landscapes",
+          title: 'Fourier Surrogate Models of Dilated Fitness Landscapes',
+          description: "A novel approach combining dilation functions and Fourier surrogate modeling to smooth noisy, multi-modal fitness landscapes in systems biology.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fouriersurrogate/";
             },},{id: "projects-fst-pso",
           title: 'FST-PSO',
           description: "Fuzzy Self-Tuning Particle Swarm Optimization - A settings-free global optimization method.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/fstpso/";
+            },},{id: "projects-ginsoda",
+          title: 'ginSODA',
+          description: "A Python API for the massively parallel, GPU-powered simulation of stiff Ordinary Differential Equation (ODE) models.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ginSODA/";
+            },},{id: "projects-heresy",
+          title: 'HERESY',
+          description: "A Highly Efficient REaction SYstem simulator equipped with a graphical user interface and GPU-accelerated computation.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/heresy/";
             },},{id: "projects-drug-metabolism-prediction-with-molecular-transformers",
           title: 'Drug Metabolism Prediction with Molecular Transformers',
           description: "Optimizing deep learning architectures for accurate and efficient prediction of drug metabolism using SMILES-based sequence-to-sequence models.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/molecular-transformers/";
+            },},{id: "projects-muscle-mr-characterization-using-unsupervised-learning",
+          title: 'Muscle MR Characterization using Unsupervised Learning',
+          description: "Applying Self-Organizing Maps to radiomic data to automate the identification of fatty replacement and edema in STIM1 tubular aggregate myopathy.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/musclemr/";
+            },},{id: "projects-nutshell",
+          title: 'NUTSHELL',
+          description: "A deep learning model for the multiclass segmentation of nuclei to differentiate follicular thyroid lesions and streamline digital pathology workflows.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/nutshell/";
+            },},{id: "projects-procell",
+          title: 'ProCell',
+          description: "An award-winning stochastic modeling and simulation framework to investigate cell proliferation dynamics using flow cytometry data.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/procell/";
+            },},{id: "projects-spatial-proteomics-amp-maldi-msi",
+          title: 'Spatial Proteomics &amp;amp; MALDI-MSI',
+          description: "Advancing digital pathology and biomarker discovery through Matrix-Assisted Laser Desorption Ionization Mass Spectrometry Imaging (MALDI-MSI) and machine learning.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/proteomics/";
             },},{id: "projects-pyfume",
           title: 'pyFUME',
           description: "A Python package for automatic Fuzzy Model Estimation from data.",
