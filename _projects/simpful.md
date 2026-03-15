@@ -10,7 +10,7 @@ related_publications: false
 
 <div class="project-header mb-5">
     <div class="row align-items-center">
-        <div class="col-md-8">
+        <div class="col-md">
             <p class="lead">
                 <strong>Simpful</strong> is a Python library for fuzzy logic reasoning designed to provide a simple and lightweight API, as close as possible to natural language. 
             </p>
@@ -22,11 +22,20 @@ related_publications: false
                 <a href="https://pypi.org/project/simpful/" target="_blank"><img src="https://img.shields.io/pypi/v/simpful?color=blue" alt="PyPI version"></a>
                 <img src="https://img.shields.io/badge/License-AFL--3.0-orange.svg" alt="License">
             </div>
+            <br/>
+            <div class="repository-badges">
+                <span style="background: #ffc107; color: black; padding: 5px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700;">
+                    <i class="fas fa-cogs"></i> Fuzzy Logic
+                </span>
+                <span style="background: #2196f3; color: white; padding: 5px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700; margin-left: 5px;">
+                    <i class="fas fa-chart-line"></i> Model Estimation
+                </span>
+            </div>
         </div>
-        <div class="col-md-4 text-center">
-            <!-- <i class="fas fa-brain fa-8x" style="color: var(--global-theme-color); opacity: 0.2;"></i> -->
+        <!-- <div class="col-md-4 text-center">
+            <i class="fas fa-brain fa-8x" style="color: var(--global-theme-color); opacity: 0.2;"></i>
             <img src="{{ site.baseurl }}/assets/img/projects/simpful_logo.png" alt="Simpful Logo" class="img-fluid">
-        </div>
+        </div> -->
     </div>
 </div>
 

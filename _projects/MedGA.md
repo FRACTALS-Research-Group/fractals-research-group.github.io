@@ -10,7 +10,7 @@ related_publications: false
 
 <div class="project-header mb-5">
     <div class="row align-items-center">
-        <div class="col-md-8">
+        <div class="col-md">
             <p class="lead">
                 <strong>MedGA</strong> is an intelligent medical image enhancement method that leverages the global optimization capabilities of <strong>Genetic Algorithms (GAs)</strong> to improve the visual quality and interpretability of clinical scans.
             </p>
@@ -22,13 +22,13 @@ related_publications: false
                     <i class="fas fa-dna"></i> Evolutionary Computation
                 </span>
                 <span style="background: #2196f3; color: white; padding: 5px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700; margin-left: 5px;">
-                    <i class="fas fa-adjust"></i> Image Enhancement
+                    <i class="fas fa-adjust"></i> Medical Image Enhancement
                 </span>
             </div>
         </div>
-        <div class="col-md-4 text-center">
+        <!-- <div class="col-md-4 text-center">
             <img src="{{ site.baseurl }}/assets/img/projects/MedGA.png" alt="MedGA Concept" class="img-fluid" style="border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);">
-        </div>
+        </div> -->
     </div>
 </div>
 

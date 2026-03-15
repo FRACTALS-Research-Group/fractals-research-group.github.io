@@ -10,7 +10,7 @@ related_publications: false
 
 <div class="project-header mb-5">
     <div class="row align-items-center">
-        <div class="col-md-8">
+        <div class="col-md">
             <p class="lead">
                 <strong>ALLIANCE</strong> (A novel integrated cyclic peptide-based platform for precision delivery of nucleic acid-based therapeutics) addresses the critical challenge of delivering DNA and RNA therapies precisely to target tissues.
             </p>
@@ -21,10 +21,18 @@ related_publications: false
                 <img src="https://img.shields.io/badge/Domain-Gene%20Therapy-0d47a1.svg" alt="Gene Therapy">
                 <img src="https://img.shields.io/badge/Focus-Computational%20Biochemistry-ff6f00.svg" alt="Computational Biochemistry">
             </div> -->
+            <div class="repository-badges">
+                <span style="background: #ffc107; color: black; padding: 5px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700;">
+                    <i class="fas fa-dna"></i> Gene Therapy
+                </span>
+                <span style="background: #2196f3; color: white; padding: 5px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700; margin-left: 5px;">
+                    <i class="fas fa-adjust"></i> Computational Biochemistry
+                </span>
+            </div>
         </div>
-        <div class="col-md-4 text-center">
+        <!-- <div class="col-md-4 text-center">
             <img src="{{ site.baseurl }}/assets/img/projects/alliance.png" alt="ALLIANCE Logo" class="img-fluid" style="border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);">
-        </div>
+        </div> -->
     </div>
 </div>
 

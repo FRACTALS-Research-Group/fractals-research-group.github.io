@@ -10,7 +10,7 @@ related_publications: false
 
 <div class="project-header mb-5">
     <div class="row align-items-center">
-        <div class="col-md-8">
+        <div class="col-md">
             <p class="lead">
                 <strong>Drug Metabolism Prediction with Molecular Transformers</strong> introduces an optimized sequence-to-sequence architecture designed to predict drug metabolism with high accuracy and low computational overhead.
             </p>
@@ -21,10 +21,21 @@ related_publications: false
                 <img src="https://img.shields.io/badge/Domain-Drug%20Discovery-0d47a1.svg" alt="Drug Discovery">
                 <img src="https://img.shields.io/badge/Framework-TensorFlow-ff6f00.svg?logo=tensorflow" alt="TensorFlow">
             </div> -->
+            <div class="repository-badges">
+                <span style="background: #ffc107; color: black; padding: 5px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700;">
+                    <i class="fas fa-pills"></i> Drug Discovery
+                </span>
+                <span style="background: #2196f3; color: white; padding: 5px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700; margin-left: 5px;">
+                    <i class="fas fa-language"></i> Sequence-to-Sequence
+                </span>
+                <span style="background: #4caf50; color: white; padding: 5px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700; margin-left: 5px;">
+                    <i class="fas fa-stopwatch"></i> Optimized Efficiency
+                </span>
+            </div>
         </div>
-        <div class="col-md-4 text-center">
+        <!-- <div class="col-md-4 text-center">
             <img src="{{ site.baseurl }}/assets/img/projects/drugmeta.png" alt="Drug Metabolism Prediction Concept" class="img-fluid" style="border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);">
-        </div>
+        </div> -->
     </div>
 </div>
 

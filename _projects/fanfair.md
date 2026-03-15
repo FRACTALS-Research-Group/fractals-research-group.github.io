@@ -10,7 +10,7 @@ related_publications: false
 
 <div class="project-header mb-5">
     <div class="row align-items-center">
-        <div class="col-md-8">
+        <div class="col-md">
             <p class="lead">
                 <strong>FanFAIR</strong> is a rule-based approach leveraging <strong>fuzzy logic</strong> to calculate fairness metrics over a dataset and combine them into a single, comprehensive score.
             </p>
@@ -22,11 +22,20 @@ related_publications: false
                 <a href="https://pypi.org/project/fanfair/" target="_blank"><img src="https://img.shields.io/pypi/v/fanfair?color=blue" alt="PyPI version"></a>
                 <img src="https://img.shields.io/badge/License-AFL--3.0-orange.svg" alt="License">
             </div>
+            <br/>
+            <div class="repository-badges">
+                <span style="background: #ffc107; color: black; padding: 5px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700;">
+                    <i class="fas fa-balance-scale"></i> AI Fairness
+                </span>
+                <span style="background: #2196f3; color: white; padding: 5px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700; margin-left: 5px;">
+                    <i class="fas fa-cogs"></i> Fuzzy Logic
+                </span>
+            </div>
         </div>
-        <div class="col-md-4 text-center">
-            <!-- <i class="fas fa-balance-scale fa-8x" style="color: var(--global-theme-color); opacity: 0.2;"></i> -->
+        <!-- <div class="col-md-4 text-center">
+            <i class="fas fa-balance-scale fa-8x" style="color: var(--global-theme-color); opacity: 0.2;"></i>
             <img src="{{ site.baseurl }}/assets/img/projects/fanfair.png" alt="FanFAIR Logo" class="img-fluid">
-        </div>
+        </div> -->
     </div>
 </div>
 

@@ -2,7 +2,7 @@
 layout: page
 title: SDEGnO
 description: Optimization and performance testing of CUDA-(multi)GPU-accelerated codes for the automatic parameterization of physical models.
-img: assets/img/projects/sdegno.png
+# img: assets/img/projects/sdegno.png
 importance: 6
 category: [astrophysics-complex-systems, hpc]
 related_publications: false
@@ -22,9 +22,18 @@ related_publications: false
                 <img src="https://img.shields.io/badge/Platform-CUDA--MultiGPU-76b900.svg?logo=nvidia" alt="CUDA">
                 <!-- <img src="https://img.shields.io/badge/Domain-Astrophysics-0d47a1.svg" alt="Astrophysics"> -->
             </div>
+            <br/>
+            <div class="repository-badges">
+                <span style="background: #ffc107; color: black; padding: 5px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700;">
+                    <i class="fas fa-cogs"></i> High-Performance Computing
+                </span>
+                <span style="background: #2196f3; color: white; padding: 5px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700; margin-left: 5px;">
+                    <i class="fas fa-star"></i> Astrophysics 
+                </span>
+            </div>
         </div>
         <div class="col-md-4 text-center">
-            <img src="{{ site.baseurl }}/assets/img/projects/sdegno.png" alt="SDEGnO Logo" class="img-fluid">
+            <img src="{{ site.baseurl }}/assets/img/projects/SDEGnO.png" alt="SDEGnO Logo" class="img-fluid">
         </div>
     </div>
 </div>

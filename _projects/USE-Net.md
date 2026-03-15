@@ -10,7 +10,7 @@ related_publications: false
 
 <div class="project-header mb-5">
     <div class="row align-items-center">
-        <div class="col-md-8">
+        <div class="col-md">
             <p class="lead">
                 <strong>USE-Net</strong> is a novel Deep Learning architecture that enhances the classic U-Net by incorporating <strong>Squeeze-and-Excitation (SE)</strong> blocks to tackle the challenges of multi-institutional medical imaging.
             </p>
@@ -26,9 +26,9 @@ related_publications: false
                 </span>
             </div>
         </div>
-        <div class="col-md-4 text-center">
+        <!-- <div class="col-md-4 text-center">
             <img src="{{ site.baseurl }}/assets/img/projects/USE-Net.png" alt="USE-Net Architecture" class="img-fluid" style="border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);">
-        </div>
+        </div> -->
     </div>
 </div>
 

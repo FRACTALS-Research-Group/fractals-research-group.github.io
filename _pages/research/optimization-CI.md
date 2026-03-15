@@ -1,37 +1,51 @@
 ---
 layout: page
 title: Optimization & Computational Intelligence
-description: Solving complex mathematical bottlenecks by advancing Swarm Intelligence, Evolutionary Algorithms, and Fuzzy Logic.
 permalink: /research/optimization-CI/
+description: Solving complex mathematical bottlenecks by advancing Swarm Intelligence, Evolutionary Algorithms, and Fuzzy Logic.
 ---
-<div class="back-nav mb-5" style="text-align: right;">
+
+<div class="back-nav mb-5">
     <a href="/research/" class="back-link">
-        <i class="fas fa-chevron-left"></i> All Research Pillars
+        <i class="fas fa-arrow-left"></i> Back to Research Pillars
     </a>
 </div>
 
-<div class="projects">
+<div class="projects-list mb-5">
   {% assign projects = site.projects | where: "category", "optimization" | sort: "importance" %}
-  <div class="row row-cols-1 row-cols-md-2">
-    {% for project in projects %}{% include projects.liquid %}{% endfor %}
-  </div>
+  
+  {% if projects.size > 0 %}
+      {% for project in projects %}
+      <div class="project-text-card">
+          <div class="project-content">
+              <h3 class="project-title">
+                  <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+              </h3>
+              <p class="project-desc">{{ project.description }}</p>
+              
+              <div class="project-actions">
+                  <a href="{{ project.url | relative_url }}" class="read-more-btn">
+                      Explore Project <i class="fas fa-chevron-right"></i>
+                  </a>
+              </div>
+          </div>
+      </div>
+      {% endfor %}
+  {% endif %}
 </div>
 
 <div class="project-wip-card">
     <div class="wip-visual">
-        <div class="icon-stack">
-            <i class="fas fa-person-digging main-worker-icon"></i>
-            <i class="fas fa-microscope secondary-icon"></i>
-        </div>
+        <i class="fas fa-network-wired main-worker-icon"></i>
     </div>
 
     <div class="wip-details">
         <div class="status-tag">
-            <i class="fas fa-sync fa-spin"></i> Under Documentation
+            <i class="fas fa-sync fa-spin"></i> Active Research Area
         </div>
         <p class="area-description">
-            We are currently finalizing the portfolio for this research pillar. 
-            Detailed project descriptions, publications, and software repositories will be available here soon.
+            We are currently finalizing the digital portfolio for this research pillar. 
+            More detailed project descriptions, datasets, and software repositories will be published here soon.
         </p>
         
         <div class="loading-skeleton">
@@ -43,51 +57,122 @@ permalink: /research/optimization-CI/
 </div>
 
 <style>
+    /* Back Navigation */
+    .back-nav {
+        text-align: right;
+    }
+    .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--global-text-color) !important;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 8px 18px;
+        background: var(--global-card-bg-color);
+        border: 1px solid var(--global-divider-color);
+        border-radius: 50px;
+        transition: all 0.2s ease;
+        font-size: 0.9rem;
+    }
+    .back-link:hover {
+        border-color: var(--global-theme-color);
+        color: var(--global-theme-color) !important;
+        transform: translateX(-4px);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    /* Text-Only Project Cards */
+    .project-text-card {
+        background: var(--global-card-bg-color);
+        border: 1px solid var(--global-divider-color);
+        border-left: 4px solid var(--global-theme-color);
+        border-radius: 8px;
+        padding: 25px 30px;
+        margin-bottom: 20px;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .project-text-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 15px rgba(0,0,0,0.05);
+    }
+    .project-title {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+    .project-title a {
+        color: var(--global-text-color);
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+    .project-title a:hover {
+        color: var(--global-theme-color);
+    }
+    .project-desc {
+        font-size: 1rem;
+        line-height: 1.6;
+        opacity: 0.8;
+        margin-bottom: 15px;
+    }
+    .read-more-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: var(--global-theme-color);
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+    .read-more-btn:hover {
+        color: var(--global-hover-color);
+        text-decoration: none;
+    }
+    .read-more-btn i {
+        font-size: 0.8rem;
+        transition: transform 0.2s;
+    }
+    .read-more-btn:hover i {
+        transform: translateX(3px);
+    }
+
+    /* WIP Card Redesign */
     .project-wip-card {
         display: flex;
         flex-direction: row;
         align-items: center;
-        gap: 40px;
-        padding: 40px;
+        gap: 30px;
+        padding: 35px;
         background: var(--global-card-bg-color);
-        border: 1px solid var(--global-divider-color);
-        border-radius: 24px;
+        border: 1px dashed var(--global-divider-color);
+        border-radius: 16px;
         margin: 30px 0;
-        position: relative;
-        overflow: hidden;
     }
-
-    /* Responsive for mobile */
     @media (max-width: 768px) {
-        .project-wip-card { flex-direction: column; text-align: center; }
+        .project-wip-card { 
+            flex-direction: column; 
+            text-align: center; 
+        }
         .loading-skeleton { margin: 0 auto; }
+        .project-text-card { padding: 20px; }
     }
-
-    .icon-stack {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .main-worker-icon {
-        font-size: 5.5rem;
-        color: var(--global-theme-color);
-        filter: drop-shadow(0 0 10px rgba(var(--global-theme-color-rgb), 0.2));
-    }
-
-    .secondary-icon {
-        position: absolute;
-        top: -10px;
-        right: -10px;
-        font-size: 2rem;
-        background: var(--global-bg-color);
-        padding: 5px;
+    .wip-visual {
+        flex-shrink: 0;
+        background: rgba(var(--global-theme-color-rgb), 0.05);
+        height: 100px;
+        width: 100px;
         border-radius: 50%;
-        color: var(--global-text-color);
-        opacity: 0.6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-
+    .main-worker-icon {
+        font-size: 3rem;
+        color: var(--global-theme-color);
+    }
     .status-tag {
         display: inline-flex;
         align-items: center;
@@ -102,18 +187,12 @@ permalink: /research/optimization-CI/
         letter-spacing: 1px;
         margin-bottom: 15px;
     }
-
-    .area-title {
-        font-weight: 900;
-        margin-bottom: 10px;
-        font-size: 1.6rem;
-    }
-
     .area-description {
-        font-size: 1.05rem;
+        font-size: 0.95rem;
         opacity: 0.7;
-        margin-bottom: 25px;
-        max-width: 500px;
+        margin-bottom: 20px;
+        max-width: 600px;
+        line-height: 1.6;
     }
 
     /* Skeleton Loading Animation */
@@ -121,38 +200,21 @@ permalink: /research/optimization-CI/
         display: flex;
         flex-direction: column;
         gap: 10px;
+        max-width: 400px;
     }
-
     .skeleton-line {
-        height: 8px;
+        height: 6px;
         background: linear-gradient(90deg, var(--global-divider-color) 25%, var(--global-code-bg-color) 50%, var(--global-divider-color) 75%);
         background-size: 200% 100%;
         animation: shimmer 1.5s infinite;
         border-radius: 4px;
     }
-    .back-link {
-        display: inline-flex;
-        align-items: center;
-        gap: 10px;
-        color: var(--global-text-color) !important;
-        font-weight: 600;
-        text-decoration: none;
-        padding: 8px 16px;
-        background: var(--global-card-bg-color);
-        border: 1px solid var(--global-divider-color);
-        border-radius: 50px;
-        transition: all 0.2s ease;
-        font-size: 0.9rem;
-    }
+    .skeleton-line.long { width: 100%; }
+    .skeleton-line.medium { width: 75%; }
+    .skeleton-line.short { width: 40%; }
 
-    .back-link:hover {
-        border-color: var(--global-theme-color);
-        color: var(--global-theme-color) !important;
-        transform: translateX(-3px);
-        box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    @keyframes shimmer {
+        0% { background-position: 200% 0; }
+        100% { background-position: -200% 0; }
     }
-
-    .back-link i {
-        color: var(--global-theme-color);
-        font-size: 0.8rem;
-    }
+</style>

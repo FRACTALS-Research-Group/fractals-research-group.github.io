@@ -10,7 +10,7 @@ related_publications: false
 
 <div class="project-header mb-5">
     <div class="row align-items-center">
-        <div class="col-md-8">
+        <div class="col-md">
             <p class="lead">
                 <strong>HyperBeta</strong> is a novel, open-source computational tool designed to analyze and visualize the formation dynamics of β-sheets in <strong>Coarse-Grained Molecular Dynamics (CG-MD)</strong> simulations.
             </p>
@@ -22,10 +22,19 @@ related_publications: false
                 <img src="https://img.shields.io/badge/Platform-C++-00599C.svg?logo=c%2B%2B" alt="C++">
                 <img src="https://img.shields.io/badge/Platform-python-3776AB.svg?logo=python" alt="Python">
             </div>
+            <br/>
+            <div class="repository-badges">
+                <span style="background: #ffc107; color: black; padding: 5px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700;">
+                    <i class="fas fa-microscope"></i> Molecular Dynamics Analysis
+                </span>
+                <span style="background: #2196f3; color: white; padding: 5px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700; margin-left: 5px;">
+                    <i class="fas fa-vr-cardboard"></i> Scientific Visualization
+                </span>
+            </div>
         </div>
-        <div class="col-md-4 text-center">
+        <!-- <div class="col-md-4 text-center">
             <img src="{{ site.baseurl }}/assets/img/projects/HyperBETA.png" alt="HyperBeta Logo" class="img-fluid" style="border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);">
-        </div>
+        </div> -->
     </div>
 </div>
 

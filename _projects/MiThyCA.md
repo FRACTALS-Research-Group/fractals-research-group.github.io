@@ -2,7 +2,7 @@
 layout: page
 title: MiThyCA
 description: Microscopic foci of papillary Thyroid Carcinoma-like nuclear features identification with AI in Whole-Slide Images.
-img: assets/img/projects/MiThyCA.png
+# img: assets/img/projects/MiThyCA.png
 importance: 3
 category: [bio-med]
 related_publications: false
@@ -10,7 +10,7 @@ related_publications: false
 
 <div class="project-header mb-5">
     <div class="row align-items-center">
-        <div class="col-md-8">
+        <div class="col-md">
             <p class="lead">
                 <strong>MiThyCA</strong> is an advanced computational pathology pipeline designed to assist pathologists in the rapid and automated detection of subcentimeter <strong>Papillary Thyroid Carcinoma (PTC)</strong> foci within Whole-Slide Images (WSIs).
             </p>
@@ -20,15 +20,19 @@ related_publications: false
             <div class="repository-badges">
                 <a href="https://github.com/MonzaComputationalMedicine/MiThyCA" target="_blank"><img src="https://img.shields.io/github/stars/MonzaComputationalMedicine/MiThyCA?style=social" alt="GitHub stars"></a>
             </div>
-            <div class="mt-4">
-                <span style="background: #e91e63; color: white; padding: 5px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700;">
-                    <i class="fas fa-microscope"></i> Computational Pathology
+            <br/>
+            <div class="repository-badges">
+                <span style="background: #ffc107; color: black; padding: 5px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700;">
+                    <i class="fas fa-stethoscope"></i> Computational Pathology
+                </span>
+                <span style="background: #2196f3; color: white; padding: 5px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700; margin-left: 5px;">
+                    <i class="fas fa-brain"></i> Deep Learning
                 </span>
             </div>
         </div>
-        <div class="col-md-4 text-center">
+        <!-- <div class="col-md-4 text-center">
             <img src="{{ site.baseurl }}/assets/img/projects/MiThyCA.png" alt="MiThyCA Pipeline" class="img-fluid" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-        </div>
+        </div> -->
     </div>
 </div>
 

@@ -10,7 +10,7 @@ related_publications: false
 
 <div class="project-header mb-5">
     <div class="row align-items-center">
-        <div class="col-md-8">
+        <div class="col-md">
             <p class="lead">
                 <strong>FST-PSO</strong> (Fuzzy Self-Tuning Particle Swarm Optimization) is a swarm intelligence global optimization method based on Particle Swarm Optimization, designed for the optimization of real- or discrete-valued multi-dimensional minimization problems.
             </p>
@@ -22,11 +22,20 @@ related_publications: false
                 <a href="https://pypi.org/project/fst-pso/" target="_blank"><img src="https://img.shields.io/pypi/v/fst-pso?color=blue" alt="PyPI version"></a>
                 <img src="https://img.shields.io/badge/License-LGPL--3.0-blue.svg" alt="License">
             </div>
+            <br/>
+            <div class="repository-badges">
+                <span style="background: #ffc107; color: black; padding: 5px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700;">
+                    <i class="fas fa-cogs"></i> Optimization
+                </span>
+                <span style="background: #2196f3; color: white; padding: 5px 12px; border-radius: 50px; font-size: 0.8rem; font-weight: 700; margin-left: 5px;">
+                    <i class="fas fa-brain"></i> Fuzzy Logic
+                </span>
+            </div>
         </div>
-        <div class="col-md-4 text-center">
-            <!-- <i class="fas fa-project-diagram fa-8x" style="color: var(--global-theme-color); opacity: 0.2;"></i> -->
+        <!-- <div class="col-md-4 text-center">
+            <i class="fas fa-project-diagram fa-8x" style="color: var(--global-theme-color); opacity: 0.2;"></i>
             <img src="{{ site.baseurl }}/assets/img/projects/fst-pso.png" alt="FST-PSO Logo" class="img-fluid">
-        </div>
+        </div> -->
     </div>
 </div>
 
