@@ -1,0 +1,4 @@
+Nicole Inverardi is currently a Data & AI Ethicist at Intesa Sanpaolo, a position she has held since 2022. 
+She completed her studies at the Università Cattolica in Milan, earning a Master's Degree in Philosophy.
+Currently she is also a PhD Student at University of Milano-Bicocca, where her research focuses on the ethical implications of AI in the financial sector, with a particular emphasis on data privacy, algorithmic bias, and the responsible use of AI technologies.
+In addition to her role at Intesa Sanpaolo, Nicole is an active member of the academic community, contributing to the debate on Al ethics through conferences, talks, and publications.
