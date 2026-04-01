@@ -28,6 +28,15 @@ layout: page
                                 <span class="badge badge-light mb-2">{{ profile.role }}</span>
                                 <p class="small text-muted mb-2">{{ profile.institution }}</p>
                                 
+                                {% if profile.research_field %}
+                                    <div class="mb-3">
+                                        <span class="research-badge">
+                                            {% if profile.research_icon %}<i class="{{ profile.research_icon }}"></i> {% endif %}
+                                            {{ profile.research_field }}
+                                        </span>
+                                    </div>
+                                {% endif %}
+                                
                                 <div class="external-links mb-2">
                                     {% if profile.email %}<a href="mailto:{{ profile.email }}"><i class="fa-solid fa-envelope"></i></a>{% endif %}
                                     {% if profile.social.linkedin %}<a href="https://linkedin.com/in/{{ profile.social.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>{% endif %}
@@ -143,6 +152,18 @@ layout: page
     .external-img-box { height: 180px; width: 100%; }
     .external-img-box img { width: 100%; height: 100%; object-fit: cover; }
     
+    /* RESEARCH BADGE */
+    .research-badge {
+        background: var(--global-theme-color);
+        color: white; 
+        padding: 4px 12px; 
+        border-radius: 50px; 
+        font-size: 0.75rem; 
+        font-weight: 700;
+        display: inline-block;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
     /* THE SOLUTION FOR LONG BIOS */
     .external-bio-scrollable { 
         max-height: 200px; /* Limits how much the card can grow */

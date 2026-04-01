@@ -118,10 +118,12 @@ profiles:
   - separator: "External Members"
 
   - name: "Chiara Gallese"
-    category: external # This triggers the new visual style
+    category: external
     image: bio_pics/gallesechiara.png
     institution: "University of Tilburg"
     role: "Postdoctoral Researcher"
+    research_field: "AI and Law"
+    research_icon: "fas fa-balance-scale"
     content: profiles/bio_chiara.md
     website: https://aiandlaw.eu/
     social:
@@ -134,10 +136,40 @@ profiles:
     image: bio_pics/stefano.png
     institution: "National Institute of Nuclear Physics (INFN), Milano-Bicocca Division"
     role: "First Researcher"
-    # content: profiles/bio_chiara.md
-    # website: https://aiandlaw.eu/
+    research_field: "Astronomy and Astrophysics"
+    research_icon: "fas fa-rocket"
+    # content: profiles/bio_stefano.md
+    # website: 
     social:
-      # linkedin: chiaragallesephd
+      # linkedin: 
       scholar: oPeRKBIAAAAJ
-    # email: C.Gallese@tilburguniversity.edu
+    # email: 
+  
+  - name: "Luca Manzoni"
+    category: external # This triggers the new visual style
+    image: bio_pics/luca.png
+    institution: "University of Trieste"
+    role: "Associate Professor"
+    research_field: "Evolutionary Computation, Natural Computing"
+    research_icon: "fas fa-rocket"
+    content: profiles/bio_luca.md
+    # website: 
+    social:
+      # linkedin: 
+      scholar: ufJKQegAAAAJ
+    email: lmanzoni@units.it
+
+  - name: "Nicole Inverardi"
+    category: external # This triggers the new visual style
+    image: bio_pics/nicole.png
+    institution: "Intesa Sanpaolo S.p.A. & University of Milano-Bicocca"
+    role: "PhD Student"
+    research_field: "AI and Data Ethics"
+    research_icon: "fas fa-shield-alt"
+    content: profiles/bio_nicole.md
+    # website: 
+    social:
+      linkedin: nicole-inverardi-a69b57241
+      scholar: t3hs1wwAAAAJ
+    email: n.inverardi@campus.unimib.it
 ---
