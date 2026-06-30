@@ -5,8 +5,6 @@ description: "Un punto di incontro tra chirurghi, clinici, esperti di informatic
 img: assets/img/img18sett.png
 date: 2026-06-30 09:00:00
 inline: false
-permalink: /news/2026-09-convegno-AIMed-Surgery/
-categories: [news]
 ---
 
 <div class="event-hero-container" style="background: var(--global-code-bg-color); border-radius: 20px; padding: 40px; margin-bottom: 40px; border: 1px solid var(--global-divider-color); box-shadow: 0 10px 30px rgba(0,0,0,0.05);">
