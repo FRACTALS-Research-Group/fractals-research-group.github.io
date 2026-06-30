@@ -64,6 +64,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-02-cibcb2026-tutorial/";
+            },},{id: "news-convegno-l-39-intelligenza-artificiale-nelle-decisioni-cliniche-in-medicina-e-chirurgia",
+          title: 'Convegno: L&amp;#39;Intelligenza Artificiale nelle Decisioni Cliniche in Medicina e Chirurgia',
+          description: "Un punto di incontro tra chirurghi, clinici, esperti di informatica e giuristi per tracciare il futuro della sanità digitale, tra opportunità rivoluzionarie e sfide etico-legali.",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-09-convegno-AIMed-Surgery/";
             },},{id: "projects-genhap",
           title: 'GenHap',
           description: "A novel computational method based on genetic algorithms for highly efficient haplotype assembly.",
