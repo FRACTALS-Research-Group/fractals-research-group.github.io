@@ -24,7 +24,7 @@ inline: false
                 <div class="col-sm shadow-xs p-3 text-center" style="background: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); border-radius: 12px; min-width: 140px;">
                     <i class="fas fa-calendar-check mb-2" style="font-size: 1.5rem; color: var(--global-theme-color);"></i>
                     <div class="small font-weight-bold" style="color: var(--global-text-color);">18 Settembre 2026</div>
-                    <div style="color: var(--global-text-color); opacity: 0.6; font-size: 0.75rem;">08:45 – 17:20</div>
+                    <div style="color: var(--global-text-color); opacity: 0.6; font-size: 0.75rem;">08:45 – 17:30</div>
                 </div>
                 <div class="col-sm shadow-xs p-3 text-center" style="background: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); border-radius: 12px; min-width: 140px;">
                     <i class="fas fa-map-marked-alt mb-2" style="font-size: 1.5rem; color: var(--global-theme-color);"></i>
@@ -33,7 +33,7 @@ inline: false
                 </div>
                 <div class="col-sm shadow-xs p-3 text-center" style="background: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); border-radius: 12px; min-width: 140px;">
                     <i class="fas fa-award mb-2" style="font-size: 1.5rem; color: var(--global-theme-color);"></i>
-                    <div class="small font-weight-bold" style="color: var(--global-theme-color);">Crediti ECM</div>
+                    <div class="small font-weight-bold" style="color: var(--global-theme-color);">4,2 Crediti ECM</div>
                     <div style="color: var(--global-text-color); opacity: 0.6; font-size: 0.75rem;">Questionario finale</div>
                 </div>
             </div>
@@ -43,9 +43,13 @@ inline: false
                    style="background-color: var(--global-theme-color); color: var(--global-bg-color) !important; font-weight: 700; border-radius: 30px; padding: 12px 35px; font-size: 1rem; border: none; transition: all 0.3s;">
                    <i class="fas fa-pen-nib mr-2"></i> Form di Registrazione
                 </a>
-                <a href="{{ '/assets/pdf/locandina_ai_medicina_2026.pdf' | relative_url }}" target="_blank" class="btn btn-lg z-depth-0 action-btn-pdf" 
+                <a href="{{ 'https://apps.unive.it/server/eventi/118305/AI_medicina%20e%20chirurgia%2018.9.2026.pdf' | relative_url }}" target="_blank" class="btn btn-lg z-depth-0 action-btn-pdf" 
                    style="background: transparent; color: var(--global-text-color) !important; border: 2px solid var(--global-divider-color); font-weight: 600; border-radius: 30px; padding: 10px 25px; font-size: 0.95rem; transition: all 0.3s;">
                    <i class="fas fa-file-pdf mr-2" style="color: var(--global-theme-color);"></i> Scarica Locandina (PDF)
+                </a>
+                <a href="{{ 'https://www.unive.it/data/agenda/1/118305' | relative_url }}" target="_blank" class="btn btn-lg z-depth-0 action-btn-web"
+                   style="background: transparent; color: var(--global-text-color) !important; border: 2px solid var(--global-divider-color); font-weight: 600; border-radius: 30px; padding: 10px 25px; font-size: 0.95rem; transition: all 0.3s;">
+                   <i class="fas fa-file-pdf mr-2" style="color: var(--global-theme-color);"></i> Vai alla Pagina dell'Evento
                 </a>
             </div>
         </div>
@@ -69,14 +73,26 @@ inline: false
             <div class="timeline-item mb-4" style="position: relative;">
                 <div class="timeline-dot"></div>
                 <div class="card p-4 shadow-xs border-0 backend-card-glow">
-                    <span class="font-weight-bold mb-1 d-block" style="color: var(--global-theme-color);"><i class="fas fa-door-open mr-1"></i> 08:45 – 09:00</span>
+                    <span class="font-weight-bold mb-1 d-block" style="color: var(--global-theme-color);"><i class="fas fa-clipboard-list mr-1"></i> 08:45 – 09:00</span>
+                    <h5 class="font-weight-bold mb-0" style="color: var(--global-text-color);">Accoglienza e Accredito dei Partecipanti</h5>
+                </div>
+            </div>
+
+            <div class="timeline-item mb-4" style="position: relative;">
+                <div class="timeline-dot"></div>
+                <div class="card p-4 shadow-xs border-0 backend-card-glow">
+                    <span class="font-weight-bold mb-1 d-block" style="color: var(--global-theme-color);"><i class="fas fa-door-open mr-1"></i> 09:00 – 09:25</span>
                     <h5 class="font-weight-bold mb-3" style="color: var(--global-text-color);">Saluti Istituzionali</h5>
                     <div class="speaker-list small" style="line-height: 1.7; color: var(--global-text-color); opacity: 0.8;">
-                        <div class="mb-2"><strong>Prof. Salvatore Orlando</strong> <span style="font-style: italic;">— Direttore del Dipartimento di Scienze Ambientali, Informatica e Statistica (DAIS), Università Ca’ Foscari Venezia</span></div>
-                        <div class="mb-2"><strong>Prof. Marco Salvatore Nobile</strong> <span style="font-style: italic;">— DAIS, Università Ca’ Foscari Venezia, Delegato della Rettrice per l'Innovazione Digitale e l'Integrità nella Ricerca</span></div>
-                        <div class="mb-2"><strong>Prof. Fabrizio Marrella</strong> <span style="font-style: italic;">— Dipartimento di Economia, Università Ca’ Foscari Venezia, Componente della Commissione senatoriale</span></div>
-                        <div class="mb-2"><strong>Dott. Maurizio Agnoletto</strong> <span style="font-style: italic;">— Fondazione Ospedale Villa Salus</span></div>
-                        <div><strong>Dott. Franco Cozzi</strong> <span style="font-style: italic;">— Presidente Comitato Scientifico Fondazione Ospedale Villa Salus</span></div>
+                        <div class="mb-2"><strong>Prof.ssa Tiziana Lippiello</strong> <span style="font-style: italic;">— Magnifica Rettrice dell’Università Ca’ Foscari Venezia</span></div>
+                        <div class="mb-2"><strong>Prof. Gino Gerosa</strong> <span style="font-style: italic;">— Assessore alla Sanità e Programmazione sanitaria della Regione Veneto</span></div>
+                        <div class="mb-2"><strong>Prof. Salvatore Orlando</strong> <span style="font-style: italic;">— Direttore del Dipartimento di Scienze Ambientali, Informatica e Statistica dell’Università Ca’ Foscari Venezia</span></div>
+                        <div class="mb-2"><strong>Prof. Marco Salvatore Nobile</strong> <span style="font-style: italic;">— Dipartimento di Scienze Ambientali, Informatica e Statistica Università Ca’ Foscari Venezia, Delegato della Rettrice per l'Innovazione Digitale e l'Integrità nella Ricerca</span></div>
+                        <div class="mb-2"><strong>Prof. Fabrizio Marrella</strong> <span style="font-style: italic;">— Dipartimento di Economia Università Ca’ Foscari Venezia, Componente della Commissione senatoriale per i rapporti istituzionali con i Paesi extra-europei</span></div>
+                        <div class="mb-2"><strong>Dott. Maurizio Agnoletto</strong> <span style="font-style: italic;">— Direttore Sanitario della Fondazione Ospedale Villa Salus</span></div>
+                        <div class="mb-2"><strong>Prof. Franco Cozzi</strong> <span style="font-style: italic;">— Presidente del Comitato Scientifico della Fondazione Ospedale Villa Salus</span></div>
+                        <div class="mb-2"><strong>Dott. Mario Bassano</strong> <span style="font-style: italic;">— Amministratore Delegato della Fondazione Ospedale Villa Salus</span></div>
+                        <div><strong>Dott. Giovanni Leoni</strong> <span style="font-style: italic;">— Presidente dell’Ordine Provinciale dei Medici Chirurghi e degli Odontoiatri di Venezia</span></div>
                     </div>
                 </div>
             </div>
@@ -84,11 +100,11 @@ inline: false
             <div class="timeline-item mb-4" style="position: relative;">
                 <div class="timeline-dot"></div>
                 <div class="card p-4 shadow-xs border-0 backend-card-glow">
-                    <span class="font-weight-bold mb-1 d-block" style="color: var(--global-theme-color);"><i class="fas fa-chalkboard-teacher mr-1"></i> 09:00 – 09:40</span>
+                    <span class="font-weight-bold mb-1 d-block" style="color: var(--global-theme-color);"><i class="fas fa-chalkboard-teacher mr-1"></i> 09:25 – 09:55</span>
                     <h5 class="font-weight-bold mb-2" style="color: var(--global-text-color);">Introduzione al Convegno</h5>
                     <ul class="list-unstyled small mb-0" style="padding-left: 5px; color: var(--global-text-color); opacity: 0.8;">
                         <li class="mb-2"><i class="fas fa-play mr-2" style="font-size: 0.7rem; opacity: 0.5;"></i> <strong>Angelo Gabriele Chiappetta:</strong> Intelligenza Artificiale e Medicina</li>
-                        <li><i class="fas fa-play mr-2" style="font-size: 0.7rem; opacity: 0.5;"></i> <strong>Davide D’Amico:</strong> La Società Triveneta di Chirurgia</li>
+                        <li><i class="fas fa-play mr-2" style="font-size: 0.7rem; opacity: 0.5;"></i> <strong>Claudio Eccher:</strong> La Società Triveneta di Chirurgia</li>
                     </ul>
                 </div>
             </div>
@@ -97,14 +113,14 @@ inline: false
                 <div class="timeline-dot-active"></div>
                 <div class="card p-4 shadow-sm border-0" style="border-left: 5px solid var(--global-theme-color) !important; background: var(--global-card-bg-color);">
                     <div class="d-flex justify-content-between align-items-center mb-2">
-                        <span class="font-weight-bold" style="color: var(--global-theme-color);"><i class="fas fa-user-md mr-1"></i> 09:40 – 10:50</span>
+                        <span class="font-weight-bold" style="color: var(--global-theme-color);"><i class="fas fa-user-md mr-1"></i> 09:55 – 11:00</span>
                         <span class="badge font-weight-bold px-3 py-1" style="border-radius: 4px; background-color: var(--global-theme-color); color: var(--global-bg-color);">I Sessione</span>
                     </div>
                     <h5 class="font-weight-bold" style="color: var(--global-text-color);">Intelligenza Artificiale e Chirurgia (Parte I)</h5>
                     <p class="small font-italic mb-3" style="color: var(--global-text-color); opacity: 0.7;">Esperienze personali tra opportunità e sfide</p>
                     <div class="p-3 rounded small" style="background: var(--global-code-bg-color); color: var(--global-text-color);">
-                        <div class="mb-2"><strong>Moderatori:</strong> Claudio Eccher, Alfredo Guglielmi</div>
-                        <div><strong>Relatori:</strong> Donato Nitti, Mauro Frego, Giuseppe Tirone, Roberto Merenda <span class="badge font-weight-normal border" style="background: var(--global-card-bg-color); color: var(--global-text-color); border-color: var(--global-divider-color) !important;">Past Presidents della Società Triveneta di Chirurgia</span></div>
+                        <div class="mb-2"><strong>Moderatori:</strong> Claudio Eccher e Alfredo Guglielmi</div>
+                        <div><strong>Relatori:</strong> Mauro Frego, Giuseppe Tirone, Roberto Merenda <span class="badge font-weight-normal border" style="background: var(--global-card-bg-color); color: var(--global-text-color); border-color: var(--global-divider-color) !important;">Past Presidents della Società Triveneta di Chirurgia</span></div>
                     </div>
                 </div>
             </div>
@@ -112,7 +128,7 @@ inline: false
             <div class="timeline-item mb-4" style="position: relative;">
                 <div class="timeline-dot-break"><i class="fas fa-coffee"></i></div>
                 <div class="p-2 px-4 rounded d-inline-flex align-items-center" style="background: var(--global-code-bg-color); border: 1px dashed var(--global-divider-color); font-size: 0.85rem; font-weight: 700; color: var(--global-text-color);">
-                    10:50 – 11:20 &nbsp;•&nbsp; Coffee Break
+                    11:00 – 11:30 &nbsp;•&nbsp; Coffee Break
                 </div>
             </div>
 
@@ -120,14 +136,14 @@ inline: false
                 <div class="timeline-dot-active"></div>
                 <div class="card p-4 shadow-sm border-0" style="border-left: 5px solid var(--global-theme-color) !important; background: var(--global-card-bg-color);">
                     <div class="d-flex justify-content-between align-items-center mb-2">
-                        <span class="font-weight-bold" style="color: var(--global-theme-color);"><i class="fas fa-user-md mr-1"></i> 11:20 – 13:00</span>
+                        <span class="font-weight-bold" style="color: var(--global-theme-color);"><i class="fas fa-user-md mr-1"></i> 11:30 – 13:10</span>
                         <span class="badge font-weight-bold px-3 py-1" style="border-radius: 4px; background-color: var(--global-theme-color); color: var(--global-bg-color);">II Sessione</span>
                     </div>
                     <h5 class="font-weight-bold" style="color: var(--global-text-color);">Intelligenza Artificiale e Chirurgia (Parte II)</h5>
                     <p class="small font-italic mb-3" style="color: var(--global-text-color); opacity: 0.7;">Esperienze personali tra opportunità e sfide</p>
                     <div class="p-3 rounded small" style="background: var(--global-code-bg-color); color: var(--global-text-color);">
-                        <div class="mb-2"><strong>Moderatori:</strong> Umberto Cillo, Paolo Ubiali</div>
-                        <div><strong>Relatori:</strong> Fernando Bozza, Andrea Ruzzenente, Gaia Spolverato, Lorenzo Cobianchi, Giuseppe Margani, Rubina Palumbo.</div>
+                        <div class="mb-2"><strong>Moderatori:</strong> Umberto Cillo e Paolo Ubiali</div>
+                        <div><strong>Relatori:</strong> Francesco Mpungu, Andrea Ruzzenente, Gaia Spolverato, Lorenzo Cobianchi, Giuseppe Margani, Rubina Palumbo.</div>
                     </div>
                 </div>
             </div>
@@ -135,7 +151,7 @@ inline: false
             <div class="timeline-item mb-4" style="position: relative;">
                 <div class="timeline-dot-break"><i class="fas fa-utensils"></i></div>
                 <div class="p-2 px-4 rounded d-inline-flex align-items-center" style="background: var(--global-code-bg-color); border: 1px dashed var(--global-divider-color); font-size: 0.85rem; font-weight: 700; color: var(--global-text-color);">
-                    13:00 – 14:00 &nbsp;•&nbsp; Light Lunch
+                    13:10 – 14:10 &nbsp;•&nbsp; Light Lunch
                 </div>
             </div>
 
@@ -143,13 +159,13 @@ inline: false
                 <div class="timeline-dot-active"></div>
                 <div class="card p-4 shadow-sm border-0" style="border-left: 5px solid var(--global-theme-color) !important; background: var(--global-card-bg-color);">
                     <div class="d-flex justify-content-between align-items-center mb-2">
-                        <span class="font-weight-bold" style="color: var(--global-theme-color);"><i class="fas fa-stethoscope mr-1"></i> 14:00 – 15:30</span>
+                        <span class="font-weight-bold" style="color: var(--global-theme-color);"><i class="fas fa-stethoscope mr-1"></i> 14:10 – 15:35</span>
                         <span class="badge font-weight-bold px-3 py-1" style="border-radius: 4px; background-color: var(--global-theme-color); color: var(--global-bg-color);">III Sessione</span>
                     </div>
                     <h5 class="font-weight-bold" style="color: var(--global-text-color);">Intelligenza Artificiale e Medicina</h5>
                     <p class="small font-italic mb-3" style="color: var(--global-text-color); opacity: 0.7;">Esperienze personali tra opportunità e sfide</p>
                     <div class="p-3 rounded small" style="background: var(--global-code-bg-color); color: var(--global-text-color);">
-                        <div class="mb-2"><strong>Moderatori:</strong> Marco Arboit, Franco Cozzi</div>
+                        <div class="mb-2"><strong>Moderatori:</strong> Marco Arboit e Franco Cozzi</div>
                         <div><strong>Relatori:</strong> Marco Arboit, Christian Cugini, Pietro Fontana, Leonardo Punzi, Erica Solimbergo.</div>
                     </div>
                 </div>
@@ -159,7 +175,7 @@ inline: false
                 <div class="timeline-dot-active"></div>
                 <div class="card p-4 shadow-sm border-0" style="border-left: 5px solid var(--global-theme-color) !important; background: var(--global-card-bg-color);">
                     <div class="d-flex justify-content-between align-items-center mb-2">
-                        <span class="font-weight-bold" style="color: var(--global-theme-color);"><i class="fas fa-notes-medical mr-1"></i> 15:30 – 16:10</span>
+                        <span class="font-weight-bold" style="color: var(--global-theme-color);"><i class="fas fa-notes-medical mr-1"></i> 15:35 – 16:15</span>
                         <span class="badge font-weight-bold px-3 py-1" style="border-radius: 4px; background-color: var(--global-theme-color); color: var(--global-bg-color);">IV Sessione</span>
                     </div>
                     <h5 class="font-weight-bold" style="color: var(--global-text-color);">Intelligenza Artificiale e Medicina Generale</h5>
@@ -174,7 +190,7 @@ inline: false
             <div class="timeline-item mb-4" style="position: relative;">
                 <div class="timeline-dot"></div>
                 <div class="card p-4 shadow-xs border-0 backend-card-glow">
-                    <span class="font-weight-bold mb-1 d-block" style="color: var(--global-theme-color);"><i class="fas fa-book-open mr-1"></i> 16:10 – 16:30</span>
+                    <span class="font-weight-bold mb-1 d-block" style="color: var(--global-theme-color);"><i class="fas fa-book-open mr-1"></i> 16:15 – 16:35</span>
                     <h5 class="font-weight-bold" style="color: var(--global-text-color);">Lettura: L’Ospedale virtuale della Medicina Generale</h5>
                     <div class="p-3 rounded small" style="background: var(--global-code-bg-color); color: var(--global-text-color);">
                         <div class="mb-1"><strong>Moderatore:</strong> Alfredo Guglielmi</div>
@@ -187,12 +203,12 @@ inline: false
                 <div class="timeline-dot-active"></div>
                 <div class="card p-4 shadow-sm border-0" style="border-left: 5px solid var(--global-theme-color) !important; background: var(--global-card-bg-color);">
                     <div class="d-flex justify-content-between align-items-center mb-2">
-                        <span class="font-weight-bold" style="color: var(--global-theme-color);"><i class="fas fa-balance-scale mr-1"></i> 16:30 – 17:20</span>
+                        <span class="font-weight-bold" style="color: var(--global-theme-color);"><i class="fas fa-balance-scale mr-1"></i> 16:35 – 17:30</span>
                         <span class="badge font-weight-bold px-3 py-1" style="border-radius: 4px; background-color: var(--global-theme-color); color: var(--global-bg-color);">V Sessione</span>
                     </div>
                     <h5 class="font-weight-bold" style="color: var(--global-text-color);">Intelligenza Artificiale e Medicina: riflessioni di esperti in informatica e diritto</h5>
                     <div class="p-3 rounded small mt-3" style="background: var(--global-code-bg-color); color: var(--global-text-color);">
-                        <div class="mb-2"><strong>Moderatore:</strong> Angelo Gabriele Chiappetta</div>
+                        <div class="mb-2"><strong>Moderatori:</strong> Angelo Gabriele Chiappetta e Matteo Grazioso</div>
                         <div><strong>Relatori:</strong> Marco Salvatore Nobile, Francesca Dal Mas, Chiara Gallese.</div>
                     </div>
                 </div>
@@ -201,9 +217,9 @@ inline: false
             <div class="timeline-item" style="position: relative;">
                 <div class="timeline-dot-active" style="background: var(--global-theme-color); border-color: var(--global-theme-color);"></div>
                 <div class="card p-4 shadow-xs border-0" style="background: var(--global-theme-color); color: var(--global-bg-color);">
-                    <span class="font-weight-bold mb-1 d-block" style="opacity: 0.8;"><i class="fas fa-check-circle mr-1"></i> 17:20</span>
+                    <span class="font-weight-bold mb-1 d-block" style="opacity: 0.8;"><i class="fas fa-check-circle mr-1"></i> 17:30</span>
                     <h5 class="font-weight-bold mb-1" style="color: var(--global-bg-color);">Chiusura del Convegno</h5>
-                    <p class="small mb-0" style="opacity: 0.8;">Compilazione obbligatoria del questionario ECM per il rilascio dei crediti formativi.</p>
+                    <p class="small mb-0" style="opacity: 0.8;">Compilazione obbligatoria del questionario ECM per il rilascio dei <strong>4,2 crediti formativi</strong>.</p>
                 </div>
             </div>
 
