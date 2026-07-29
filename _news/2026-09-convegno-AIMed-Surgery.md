@@ -86,6 +86,7 @@ inline: false
                     <div class="speaker-list small" style="line-height: 1.7; color: var(--global-text-color); opacity: 0.8;">
                         <div class="mb-2"><strong>Prof.ssa Tiziana Lippiello</strong> <span style="font-style: italic;">— Magnifica Rettrice dell’Università Ca’ Foscari Venezia</span></div>
                         <div class="mb-2"><strong>Prof. Gino Gerosa</strong> <span style="font-style: italic;">— Assessore alla Sanità e Programmazione sanitaria della Regione Veneto</span></div>
+                        <div class="mb-2"><strong>Dott. Massimo Zuin</strong> <span style="font-style: italic;">— Direttore Generale di ULSS 3 Serenissima</span></div>
                         <div class="mb-2"><strong>Prof. Salvatore Orlando</strong> <span style="font-style: italic;">— Direttore del Dipartimento di Scienze Ambientali, Informatica e Statistica dell’Università Ca’ Foscari Venezia</span></div>
                         <div class="mb-2"><strong>Prof. Marco Salvatore Nobile</strong> <span style="font-style: italic;">— Dipartimento di Scienze Ambientali, Informatica e Statistica Università Ca’ Foscari Venezia, Delegato della Rettrice per l'Innovazione Digitale e l'Integrità nella Ricerca</span></div>
                         <div class="mb-2"><strong>Prof. Fabrizio Marrella</strong> <span style="font-style: italic;">— Dipartimento di Economia Università Ca’ Foscari Venezia, Componente della Commissione senatoriale per i rapporti istituzionali con i Paesi extra-europei</span></div>
