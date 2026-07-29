@@ -128,16 +128,13 @@ permalink: /
         </p>
     </div>
     <div class="hub-cards" style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
-        <div class="uni-card" style="width: 280px; padding: 30px; border: 1px solid var(--global-divider-color); border-radius: 15px; background-color: rgb(255, 255, 255); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: all 0.3s ease;">
-            <img src="{{ '/assets/img/uni-logos/unive.png' | relative_url }}" alt="Ca' Foscari Logo" style="height: 80px; width: auto; margin-bottom: 20px; opacity: 1; transition: all 0.3s ease;">
+        <div class="uni-card" style="width: 280px; padding: 30px; border: 1px solid var(--global-divider-color); border-radius: 15px; background-color: rgb(255, 255, 255); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: all 0.3s ease; min-height: 140px;">
             <h6 style="font-weight: 800; margin: 0; font-size: 1.2rem; line-height: 1.3; color: var(--global-theme-color);">Ca' Foscari University <br> of Venice</h6>
         </div>
-        <div class="uni-card" style="width: 280px; padding: 30px; border: 1px solid var(--global-divider-color); border-radius: 15px; background-color: rgb(255, 255, 255); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: all 0.3s ease;">
-            <img src="{{ '/assets/img/uni-logos/unimib.png' | relative_url }}" alt="Bicocca Logo" style="height: 80px; width: auto; margin-bottom: 20px; opacity: 1; transition: all 0.3s ease;">
+        <div class="uni-card" style="width: 280px; padding: 30px; border: 1px solid var(--global-divider-color); border-radius: 15px; background-color: rgb(255, 255, 255); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: all 0.3s ease; min-height: 140px;">
             <h6 style="font-weight: 800; margin: 0; font-size: 1.2rem; line-height: 1.3; color: var(--global-theme-color);">University of <br> Milano-Bicocca</h6>
         </div>
-        <div class="uni-card" style="width: 280px; padding: 30px; border: 1px solid var(--global-divider-color); border-radius: 15px; background-color: rgb(255, 255, 255); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: all 0.3s ease;">
-            <img src="{{ '/assets/img/uni-logos/unibg.png' | relative_url }}" alt="Bergamo Logo" style="height: 80px; width: auto; margin-bottom: 20px; opacity: 1; transition: all 0.3s ease;">
+        <div class="uni-card" style="width: 280px; padding: 30px; border: 1px solid var(--global-divider-color); border-radius: 15px; background-color: rgb(255, 255, 255); text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: all 0.3s ease; min-height: 140px;">
             <h6 style="font-weight: 800; margin: 0; font-size: 1.2rem; line-height: 1.3; color: var(--global-theme-color);">University of <br> Bergamo</h6>
         </div>
     </div>
@@ -156,10 +153,6 @@ permalink: /
         background: var(--global-code-bg-color);
         border-color: var(--global-theme-color) !important;
         box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-    }
-    .uni-card:hover img {
-        opacity: 1 !important;
-        transform: scale(1.05);
     }
 </style>
 
