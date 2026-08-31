@@ -4,9 +4,9 @@
 <h6><i>Researcher Tenure Track @ University of Milano-Bicocca</i></h6>
 <h6><i>External Professor @ Ca' Foscari University of Venice</i></h6>
 
-<div style="margin-top: 20px; font-style: italic; color: var(--global-text-color);">
+<!-- <div style="margin-top: 20px; font-style: italic; color: var(--global-text-color);">
     <i class="fas fa-hourglass-half" style="margin-right: 8px;"></i> A detailed short bio will be announced soon.
-</div>
+</div> -->
 
 <p>
 <b>Assistant Professor in Biostatistics</b> at <i>University of Milano-Bicocca</i> and Principal Investigator of a <b>“My First AIRC Grant 2025” (MFAG)</b>, a prestigious five-year project funded with €500,000. Her research focuses on <b>advancing thyroid cancer diagnosis through Artificial Intelligence</b>, integrating <i>medical imaging, molecular biology, and clinical data</i> to improve diagnostic accuracy and reduce unnecessary surgical interventions.

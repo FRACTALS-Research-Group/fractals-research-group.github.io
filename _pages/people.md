@@ -47,14 +47,14 @@ profiles:
     email: matteo.grazioso@unive.it
 
 
-  # - align: left
-  #   image: bio_pics/davide.jpg
-  #   content: profiles/bio_davide.md
-  #   # website: 
-  #   social:
-  #     linkedin: davide-casarin
-  #   email: 895486@stud.unive.it
-  #   image_circular: false # crops the image to make it circular
+  - align: left
+    image: bio_pics/davide.jpg
+    content: profiles/bio_davide.md
+    # website: 
+    social:
+      linkedin: davide-casarin
+    email: davide.casarin@unive.it
+    image_circular: false # crops the image to make it circular
 
   - separator: "University of Milano-Bicocca"
 
