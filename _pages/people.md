@@ -55,6 +55,16 @@ profiles:
       linkedin: davide-casarin
     email: davide.casarin@unive.it
     image_circular: false # crops the image to make it circular
+  
+  - align: left
+    image: bio_pics/dalmas.jpg
+    content: profiles/bio_dalmas.md
+    # website: 
+    social:
+      linkedin: francesca-dal-mas-a16b0a17/
+      scholar: 5jjn1OEAAAAJ
+    email: francesca.dalmas@unive.it
+    image_circular: false # crops the image to make it circular
 
   - separator: "University of Milano-Bicocca"
 
@@ -172,4 +182,18 @@ profiles:
       linkedin: nicole-inverardi-a69b57241
       scholar: t3hs1wwAAAAJ
     email: n.inverardi@campus.unimib.it
+
+  - name: "Andrea Tangherloni"
+    category: external # This triggers the new visual style
+    image: bio_pics/tango.png
+    institution: "Bocconi University"
+    role: "Assistant Professor"
+    research_field: "Computational Intelligence in Biology and Medicine"
+    research_icon: "fas fa-dna"
+    content: profiles/bio_tango.md
+    # website: 
+    social:
+      linkedin: andrea-tangherloni-936146128
+      scholar: YZk27IkAAAAJ
+    email: andrea.tangherloni@unibocconi.it
 ---
