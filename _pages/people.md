@@ -185,7 +185,7 @@ profiles:
 
   - name: "Andrea Tangherloni"
     category: external # This triggers the new visual style
-    image: bio_pics/tango.png
+    image: bio_pics/Tango.png
     institution: "Bocconi University"
     role: "Assistant Professor"
     research_field: "Computational Intelligence in Biology and Medicine"
