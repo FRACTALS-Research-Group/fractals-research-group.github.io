@@ -69,6 +69,11 @@ ninja.data = [{
           description: "Un punto di incontro tra chirurghi, clinici, esperti di informatica e giuristi per tracciare il futuro della sanità digitale, tra opportunità rivoluzionarie e sfide etico-legali.",
           section: "News",handler: () => {
               window.location.href = "/news/2026-09-convegno-AIMed-Surgery/";
+            },},{id: "news-medai-lab-tu-o-il-chatbot",
+          title: 'MedAI Lab: “Tu o il chatbot?”',
+          description: "Usare in modo consapevole l’intelligenza artificiale e i chatbot per studiare medicina.",
+          section: "News",handler: () => {
+              window.location.href = "/MedAILab";
             },},{id: "projects-genhap",
           title: 'GenHap',
           description: "A novel computational method based on genetic algorithms for highly efficient haplotype assembly.",
