@@ -109,7 +109,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }).setView([20, 10], 2);
     
     // Light-aware tiles
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=cb1_49gl_1_7bf44ee9e651e4749644e423', {
         attribution: '&copy; CartoDB'
     }).addTo(map);
 
