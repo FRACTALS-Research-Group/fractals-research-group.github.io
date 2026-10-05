@@ -76,6 +76,75 @@ permalink: /MedAILab
             </p>
         </div>
 
+        <!-- Comitato Scientifico e Organizzativo (Raggruppato per Istituzione) -->
+<div class="card p-4 border-0 shadow-sm mb-5" style="background: var(--global-card-bg-color); border-radius: 16px;">
+    <h4 class="font-weight-bold mb-4 pb-2" style="color: var(--global-text-color); border-bottom: 2px solid var(--global-divider-color);">
+        <i class="fas fa-users mr-2" style="color: var(--global-theme-color);"></i> Comitato Scientifico e Organizzativo
+    </h4>
+    
+    <!-- Università degli Studi di Milano-Bicocca -->
+    <div class="mb-4">
+        <h6 class="font-weight-bold text-uppercase mb-3" style="color: var(--global-theme-color); letter-spacing: 0.5px; font-size: 0.9rem;">
+            <i class="fas fa-university mr-2"></i> Università degli Studi di Milano-Bicocca
+        </h6>
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="list-unstyled mb-0" style="line-height: 1.8;">
+                    <li class="mb-2"><i class="fas fa-user-circle mr-2 text-muted"></i><strong>Prof.ssa Daniela Besozzi</strong></li>
+                    <li class="mb-2"><i class="fas fa-user-circle mr-2 text-muted"></i><strong>Sofia Carmelini</strong></li>
+                    <li class="mb-2"><i class="fas fa-user-circle mr-2 text-muted"></i><strong>Prof. Giuseppe Citerio</strong></li>
+                    <li class="mb-2"><i class="fas fa-user-circle mr-2 text-muted"></i><strong>Dr.ssa Cristina Crocamo</strong></li>
+                    <li class="mb-2"><i class="fas fa-user-circle mr-2 text-muted"></i><strong>Dr.ssa Elisabetta De Bernardi</strong></li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul class="list-unstyled mb-0" style="line-height: 1.8;">
+                    <li class="mb-2"><i class="fas fa-user-circle mr-2 text-muted"></i><strong>Prof.ssa Maria Carla Gilardi</strong></li>
+                    <li class="mb-2"><i class="fas fa-user-circle mr-2 text-muted"></i><strong>Dr. Simone Laguardia</strong></li>
+                    <li class="mb-2"><i class="fas fa-user-circle mr-2 text-muted"></i><strong>Dr. Daniele M. Papetti</strong></li>
+                    <li class="mb-2"><i class="fas fa-user-circle mr-2 text-muted"></i><strong>Nicholas Raccagni</strong></li>
+                    <li class="mb-2"><i class="fas fa-user-circle mr-2 text-muted"></i><strong>Dr.ssa Alessia Vargiolu</strong></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr style="border-top: 1px dashed var(--global-divider-color); margin: 20px 0;">
+
+    <!-- Università Ca' Foscari Venezia -->
+    <div class="mb-4">
+        <h6 class="font-weight-bold text-uppercase mb-3" style="color: var(--global-theme-color); letter-spacing: 0.5px; font-size: 0.9rem;">
+            <i class="fas fa-university mr-2"></i> Università Ca' Foscari Venezia
+        </h6>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="list-unstyled mb-0 row" style="line-height: 1.8;">
+                    <li class="col-md-6 mb-2"><i class="fas fa-user-circle mr-2 text-muted"></i><strong>Prof.ssa Francesca Dal Mas</strong></li>
+                    <li class="col-md-6 mb-2"><i class="fas fa-user-circle mr-2 text-muted"></i><strong>M.Sc. Matteo Grazioso</strong></li>
+                    <li class="col-md-6 mb-2"><i class="fas fa-user-circle mr-2 text-muted"></i><strong>Prof. Marco S. Nobile</strong></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr style="border-top: 1px dashed var(--global-divider-color); margin: 20px 0;">
+
+    <!-- Università degli Studi di Bergamo -->
+    <div>
+        <h6 class="font-weight-bold text-uppercase mb-3" style="color: var(--global-theme-color); letter-spacing: 0.5px; font-size: 0.9rem;">
+            <i class="fas fa-university mr-2"></i> Università degli Studi di Bergamo
+        </h6>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="list-unstyled mb-0 row" style="line-height: 1.8;">
+                    <li class="col-md-6 mb-2"><i class="fas fa-user-circle mr-2 text-muted"></i><strong>B.Sc. Leone Bacciu</strong></li>
+                    <li class="col-md-6 mb-2"><i class="fas fa-user-circle mr-2 text-muted"></i><strong>Prof. Paolo Cazzaniga</strong></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
         <h3 class="mb-4 font-weight-bold" style="letter-spacing: -0.5px; color: var(--global-text-color);">
             <i class="far fa-clock mr-2" style="color: var(--global-theme-color);"></i> Programma Scientifico e Materiali
         </h3>
@@ -124,7 +193,7 @@ permalink: /MedAILab
                         <span class="badge font-weight-bold px-3 py-1" style="border-radius: 4px; background-color: #17a2b8; color: #fff;">Hands-on</span>
                     </div>
                     <h5 class="font-weight-bold mb-1" style="color: var(--global-text-color);">Hands-on Machine Learning</h5>
-                    <p class="small font-weight-bold mb-3" style="color: var(--global-text-color); opacity: 0.7;"><i class="fas fa-user-tie mr-1"></i> Docente: Dott. Matto Grazioso, Dott. Leone Bacciu</p>
+                    <p class="small font-weight-bold mb-3" style="color: var(--global-text-color); opacity: 0.7;"><i class="fas fa-user-tie mr-1"></i> Docente: Dott. Matteo Grazioso, Dott. Leone Bacciu</p>
                     <div class="p-3 rounded small d-flex align-items-center justify-content-between" style="background: var(--global-code-bg-color); color: var(--global-text-color);">
                         <span><i class="fab fa-google-drive mr-2 text-warning"></i> Materiale pratico & notebook</span>
                         <a href="https://drive.google.com/drive/folders/1B0Qz1gkG1wISmNxobeu0ZyEoVV5bg_Ke?usp=sharing
