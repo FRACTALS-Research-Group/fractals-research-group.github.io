@@ -15,53 +15,41 @@ layout: page
                 {% endif %}
 
                 {% if profile.category == 'external' %}
-                    <div class="external-member-card">
-                        <div class="external-card-inner">
+                    <div class="ext-card">
+                        <div class="ext-head">
                             {% if profile.image %}
-                                <div class="external-img-box">
-                                    {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
-                                    <img src="{{ profile_image_path | relative_url }}" alt="{{ profile.name }}">
-                                </div>
+                                {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+                                <img class="ext-avatar" src="{{ profile_image_path | relative_url }}" alt="{{ profile.name }}" loading="lazy">
                             {% endif %}
-                            <div class="external-info p-3 text-center">
-                                <h5 class="mb-1 font-weight-bold">{{ profile.name }}</h5>
-                                <span class="badge badge-light mb-2">{{ profile.role }}</span>
-                                <p class="small text-muted mb-2">{{ profile.institution }}</p>
-                                
-                                {% if profile.research_field %}
-                                    <div class="mb-3">
-                                        <span class="research-badge">
-                                            {% if profile.research_icon %}<i class="{{ profile.research_icon }}"></i> {% endif %}
-                                            {{ profile.research_field }}
-                                        </span>
-                                    </div>
-                                {% endif %}
-                                
-                                <div class="external-links mb-2">
-                                    {% if profile.email %}<a href="mailto:{{ profile.email }}"><i class="fa-solid fa-envelope"></i></a>{% endif %}
-                                    {% if profile.social.linkedin %}<a href="https://linkedin.com/in/{{ profile.social.linkedin }}" target="_blank"><i class="fab fa-linkedin"></i></a>{% endif %}
-                                    {% if profile.social.scholar %}<a href="https://scholar.google.com/citations?user={{ profile.social.scholar }}" target="_blank"><i class="fas fa-graduation-cap"></i></a>{% endif %}
-                                    {% if profile.website %}<a href="{{ profile.website }}" target="_blank"><i class="fa-solid fa-globe"></i></a>{% endif %}
-                                </div>
-
-                                {% if profile.content %}
-                                    <button class="btn btn-sm btn-outline-primary bio-toggle-btn" 
-                                            type="button" 
-                                            data-toggle="collapse" 
-                                            data-target="#bio-{{ forloop.index }}" 
-                                            aria-expanded="false"
-                                            onclick="toggleBtnText(this)">
-                                        View Bio
-                                    </button>
-                                    <div class="collapse mt-3 text-left" id="bio-{{ forloop.index }}">
-                                        <hr class="my-2">
-                                        <div class="external-bio-scrollable">
-                                            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
-                                            {{ profile_content | markdownify }}
-                                        </div>
-                                    </div>
-                                {% endif %}
+                            <div class="ext-id">
+                                <h5 class="ext-name">{{ profile.name }}</h5>
+                                {% if profile.role %}<div class="ext-role">{{ profile.role }}</div>{% endif %}
+                                {% if profile.institution %}<div class="ext-inst">{{ profile.institution }}</div>{% endif %}
                             </div>
+                        </div>
+
+                        {% if profile.research_field %}
+                            <div class="ext-field">
+                                {% if profile.research_icon %}<i class="{{ profile.research_icon }}"></i>{% endif %}
+                                <span>{{ profile.research_field }}</span>
+                            </div>
+                        {% endif %}
+
+                        {% if profile.content %}
+                            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+                            <div class="ext-bio" id="ext-bio-{{ forloop.index }}">{{ profile_content | markdownify }}</div>
+                        {% endif %}
+
+                        <div class="ext-footer">
+                            <div class="ext-links">
+                                {% if profile.email %}<a href="mailto:{{ profile.email }}" title="Email"><i class="fa-solid fa-envelope"></i></a>{% endif %}
+                                {% if profile.website %}<a href="{{ profile.website }}" target="_blank" rel="noopener" title="Website"><i class="fa-solid fa-globe"></i></a>{% endif %}
+                                {% if profile.social.linkedin %}<a href="https://www.linkedin.com/in/{{ profile.social.linkedin }}" target="_blank" rel="noopener" title="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %}
+                                {% if profile.social.scholar %}<a href="https://scholar.google.com/citations?user={{ profile.social.scholar }}" target="_blank" rel="noopener" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>{% endif %}
+                            </div>
+                            {% if profile.content %}
+                                <button type="button" class="ext-more" aria-expanded="false" aria-controls="ext-bio-{{ forloop.index }}" onclick="toggleExtBio(this)">Read more</button>
+                            {% endif %}
                         </div>
                     </div>
 
@@ -125,11 +113,11 @@ layout: page
 </div>
 
 <script>
-    function toggleBtnText(btn) {
-        setTimeout(() => {
-            const isExpanded = btn.getAttribute('aria-expanded') === 'true';
-            btn.innerText = isExpanded ? 'Close Bio' : 'View Bio';
-        }, 50);
+    function toggleExtBio(btn) {
+        const bio = document.getElementById(btn.getAttribute('aria-controls'));
+        const open = bio.classList.toggle('is-open');
+        btn.setAttribute('aria-expanded', open);
+        btn.textContent = open ? 'Show less' : 'Read more';
     }
 </script>
 
@@ -144,48 +132,64 @@ layout: page
     .info-link { font-size: 0.85rem; margin-bottom: 4px; display: flex; align-items: center; gap: 8px; }
     .info-link i { color: var(--global-theme-color); width: 14px; text-align: center; }
 
-    /* EXTERNAL MEMBER GRID & SCROLLABLE BIO */
+    /* EXTERNAL MEMBERS */
     .profiles-container { display: flex; flex-wrap: wrap; gap: 20px; }
-    .external-member-card { width: calc(33.33% - 14px); margin-bottom: 20px; display: flex; }
-    .external-card-inner { background: var(--global-bg-color); border: 1px solid var(--global-divider-color); border-radius: 15px; overflow: hidden; width: 100%; transition: transform 0.3s; display: flex; flex-direction: column; }
-    .external-card-inner:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
-    .external-img-box { height: 180px; width: 100%; }
-    .external-img-box img { width: 100%; height: 100%; object-fit: cover; }
-    
-    /* RESEARCH BADGE */
-    .research-badge {
-        background: var(--global-theme-color);
-        color: white; 
-        padding: 4px 12px; 
-        border-radius: 50px; 
-        font-size: 0.75rem; 
-        font-weight: 700;
-        display: inline-block;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    .profiles-container > .institution-separator,
+    .profiles-container > .core-profile-block { flex: 0 0 100%; }
+    .ext-card {
+        flex: 0 0 calc(50% - 10px);
+        align-self: flex-start;
+        display: flex; flex-direction: column; gap: 14px;
+        padding: 20px;
+        background: var(--global-card-bg-color, var(--global-bg-color));
+        border: 1px solid var(--global-divider-color);
+        border-top: 3px solid var(--global-theme-color);
+        border-radius: 12px;
+        transition: box-shadow 0.2s, border-color 0.2s;
     }
-
-    /* THE SOLUTION FOR LONG BIOS */
-    .external-bio-scrollable { 
-        max-height: 200px; /* Limits how much the card can grow */
-        overflow-y: auto;  /* Adds scrollbar if content exceeds max-height */
-        padding-right: 5px;
-        font-size: 0.85rem;
-        line-height: 1.5;
-        color: var(--global-text-color);
+    .ext-card:hover { box-shadow: 0 6px 18px rgba(0,0,0,0.08); }
+    .ext-head { display: flex; align-items: center; gap: 16px; }
+    .ext-avatar {
+        flex: 0 0 88px; width: 88px; height: 88px;
+        border-radius: 50%; object-fit: cover; object-position: center 20%;
+        border: 2px solid var(--global-divider-color);
     }
-    /* Custom Scrollbar Styling */
-    .external-bio-scrollable::-webkit-scrollbar { width: 4px; }
-    .external-bio-scrollable::-webkit-scrollbar-thumb { background: var(--global-theme-color); border-radius: 10px; }
-
-    .bio-toggle-btn { font-weight: 700; border-radius: 20px; padding: 2px 15px; font-size: 0.75rem; color: var(--global-theme-color); border-color: var(--global-theme-color); transition: 0.2s; }
-    .bio-toggle-btn:hover { background-color: var(--global-theme-color); color: white; }
+    .ext-id { min-width: 0; }
+    .ext-name { margin: 0 0 2px; font-weight: 700; font-size: 1.1rem; color: var(--global-text-color); }
+    .ext-role { font-size: 0.85rem; font-weight: 600; color: var(--global-theme-color); }
+    .ext-inst { font-size: 0.8rem; color: var(--global-text-color-light); line-height: 1.35; margin-top: 2px; }
+    .ext-field {
+        display: flex; align-items: center; gap: 8px;
+        font-size: 0.8rem; color: var(--global-text-color);
+        padding: 6px 10px; border-radius: 6px;
+        background: color-mix(in srgb, var(--global-theme-color) 8%, transparent);
+    }
+    .ext-field i { color: var(--global-theme-color); width: 14px; text-align: center; }
+    .ext-bio {
+        font-size: 0.85rem; line-height: 1.55; color: var(--global-text-color);
+        display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .ext-bio p { margin-bottom: 0.6em; }
+    .ext-bio.is-open { display: block; -webkit-line-clamp: unset; }
+    .ext-footer {
+        display: flex; align-items: center; justify-content: space-between;
+        margin-top: auto; padding-top: 10px; border-top: 1px solid var(--global-divider-color);
+    }
+    .ext-links { display: flex; gap: 14px; font-size: 1.05rem; }
+    .ext-links a { color: var(--global-text-color-light); transition: color 0.15s; }
+    .ext-links a:hover { color: var(--global-theme-color); }
+    .ext-more {
+        background: none; border: none; padding: 0; cursor: pointer;
+        font-size: 0.8rem; font-weight: 600; color: var(--global-theme-color);
+    }
+    .ext-more:hover { text-decoration: underline; }
 
     /* FLOATING OVERRIDES */
     .profile.float-right { margin-left: 2rem; width: 30%; min-width: 250px; }
     .profile.float-left { margin-right: 2rem; width: 30%; min-width: 250px; }
 
     @media (max-width: 768px) {
-        .external-member-card { width: 100%; }
+        .ext-card { flex-basis: 100%; }
         .profile { float: none !important; width: 100% !important; margin: 0 0 20px 0 !important; }
     }
 </style>
